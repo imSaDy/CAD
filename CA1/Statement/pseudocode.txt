@@ -1,0 +1,38 @@
+Initialize:
+    a0 := 0x67452301
+    b0 := 0xefcdab89
+    c0 := 0x98badcfe
+    d0 := 0x10325476
+
+Break 128-bit message into four 32-bit words M[0..3]
+
+A := a0
+B := b0
+C := c0
+D := d0
+
+for i from 0 to 63 do
+    if 0 ≤ i ≤ 15 then
+        F := (B and C) or ((not B) and D)
+    else if 16 ≤ i ≤ 31 then
+        F := (D and B) or ((not D) and C)
+    else if 32 ≤ i ≤ 47 then
+        F := B xor C xor D
+    else if 48 ≤ i ≤ 63 then
+        F := C xor (B or (not D))
+
+    x := i
+    repeat 6 times:
+        fb := (bit5 of x) xor (bit3 of x) xor (bit1 of x)
+        x := (x << 1) or fb
+    rnd := (bit5 of x shifted left by 1) OR (bit4 of x)
+
+    F := F + A + constant[i] + M[rnd]
+
+    A := D
+    D := C
+    C := B
+    B := B + leftrotate(F, step[i])
+end for
+
+digest := A || B || C || D
