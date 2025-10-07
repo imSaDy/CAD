@@ -3,10 +3,10 @@ module HashGenDataPath #(
     parameter RND_WIDTH = 2,
     parameter MESSAGE_WIDTH = 128,
     parameter WORD_WIDTH = 32,
-    parameter [WORD_WIDTH-1:0] A0 = 32'h67452301;
-    parameter [WORD_WIDTH-1:0] B0 = 32'hefcdab89;
-    parameter [WORD_WIDTH-1:0] C0 = 32'h98badcfe;
-    parameter [WORD_WIDTH-1:0] D0 = 32'h10325476;
+    parameter [WORD_WIDTH-1:0] A0 = 32'h67452301,
+    parameter [WORD_WIDTH-1:0] B0 = 32'hefcdab89,
+    parameter [WORD_WIDTH-1:0] C0 = 32'h98badcfe,
+    parameter [WORD_WIDTH-1:0] D0 = 32'h10325476
 
 )(
     input clk,
@@ -23,7 +23,7 @@ module HashGenDataPath #(
 );
 
     reg [COUNTER_WIDTH-1:0] i;
-    reg [RND_WIDTH-1] rnd;
+    reg [RND_WIDTH-1: 0] rnd;
     reg [WORD_WIDTH-1:0] M_rand, const_i;
     reg [WORD_WIDTH-1:0] A, B, C, D, F;
     wire [WORD_WIDTH-1:0] f1, f2, f3, f4;
@@ -81,7 +81,7 @@ module HashGenDataPath #(
     Register #(32) Areg(
         .clk(clk),
         .rst(rst),
-        .load(loadA)
+        .load(loadA),
         .data(outMux1),
         .register(A)
     );
@@ -89,7 +89,7 @@ module HashGenDataPath #(
     Register #(32) Breg(
         .clk(clk),
         .rst(rst),
-        .load(loadB)
+        .load(loadB),
         .data(outMux2),
         .register(B)
     );
@@ -98,7 +98,7 @@ module HashGenDataPath #(
     Register #(32) Creg(
         .clk(clk),
         .rst(rst),
-        .load(loadC)
+        .load(loadC),
         .data(outMux3),
         .register(C)
     );
@@ -106,7 +106,7 @@ module HashGenDataPath #(
     Register #(32) Dreg(
         .clk(clk),
         .rst(rst),
-        .load(loadD)
+        .load(loadD),
         .data(outMux4),
         .register(D)
     );
@@ -119,7 +119,7 @@ module HashGenDataPath #(
         .rst(rst),
         .load(1'b0),
         .en(countEn),
-        .PI(COUNTER_WIDTH{1'b0}),
+        .PI({COUNTER_WIDTH{1'b0}}),
         .count(i)
     );
 
@@ -131,8 +131,8 @@ module HashGenDataPath #(
         .rst(rst),
         .shiftRegPI(i),
         .start_rnd(start_rnd),
-        rnd(rnd),
-        done_rnd(done_rnd)
+        .rnd(rnd),
+        .done_rnd(done_rnd)
     );
 
     MFile mfile(
@@ -167,7 +167,7 @@ module HashGenDataPath #(
         .Res(f3)
     );
 
-    Function3 #(WORD_WIDTH) func4(outMux5
+    Function3 #(WORD_WIDTH) func4(
         .X(C),
         .Y(B),
         .Z(D),
@@ -216,7 +216,7 @@ module HashGenDataPath #(
     Register #(32) Freg(
         .clk(clk),
         .rst(rst),
-        .load(loadF)
+        .load(loadF),
         .data(outMux6),
         .register(F)
     );

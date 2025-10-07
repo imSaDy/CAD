@@ -5,7 +5,7 @@ module Register #(
     input rst,
     input load,
     input [WIDTH-1:0] data,
-    output [WIDTH-1:0] register
+    output reg [WIDTH-1:0] register
 );
     always @(posedge clk or posedge rst) begin
         if (rst)

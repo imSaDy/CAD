@@ -1,13 +1,13 @@
 module rndGenerator(
     input clk,
     input rst,
-    input [5:0] shiftRegPI,
+    input shiftRegPI,
     input start_rnd,
     output [1:0] rnd,
     output done_rnd
 );
 
-    wire cout, loadC, loadR, countEn, shiftEn;
+    wire cout, loadC, loadR, countEn, shiftEn, enBuffer;
 
     RandGenController controller(
         .clk(clk),
@@ -15,6 +15,7 @@ module rndGenerator(
         .start_rnd(start_rnd),
         .co(cout),
         .done_rnd(done_rnd),
+        .enBuffer(enBuffer),
         .loadC(loadC),
         .loadR(loadR),
         .countEn(countEn),

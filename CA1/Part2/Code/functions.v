@@ -1,5 +1,5 @@
 module Function1 #(
-    parameter WIDTH = 32;
+    parameter WIDTH = 32
 )(
     input [WIDTH-1:0] X,
     input [WIDTH-1:0] Y,
@@ -13,7 +13,7 @@ module Function1 #(
 endmodule
 
 module Function2 #(
-    parameter WIDTH = 32;
+    parameter WIDTH = 32
 )(
     input [WIDTH-1:0] X,
     input [WIDTH-1:0] Y,
@@ -26,7 +26,7 @@ module Function2 #(
 endmodule
 
 module Function3 #(
-    parameter WIDTH = 32;
+    parameter WIDTH = 32
 )(
     input [WIDTH-1:0] X,
     input [WIDTH-1:0] Y,
