@@ -24,6 +24,6 @@ module LeftRotation #(
        (index % 4 == 1) ? 5'd10 :
        (index % 4 == 2) ? 5'd15 : 5'd21;
     
-    assign data_out = (data_in << step) | (data_in >> (INPUT_WIDTH - step));
+    assign data_out = (data_in[step-1:0] >> (INPUT_WIDTH - step) | (data_in >> step));
 
 endmodule

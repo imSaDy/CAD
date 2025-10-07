@@ -25,7 +25,8 @@ module HashGenController (
                     INIT = 2, 
                     GENRAND = 3, 
                     CALCULATEF = 4, 
-                    UPDATE = 5;
+                    UPDATE = 5,
+                    DONE = 6; 
     
     always @(posedge clk, posedge rst) begin
         if (rst == 1'b1)
@@ -41,17 +42,18 @@ module HashGenController (
             INIT: ns = GENRAND;
             GENRAND: ns = (done_rnd ? CALCULATEF : GENRAND);
             CALCULATEF: ns = UPDATE;
-            UPDATE: ns = (co ? IDLE : INIT);
+            UPDATE: ns = (co ? DONE : INIT);
+            DONE: ns = IDLE; 
         endcase
     end
     always @(ps, start, done_rnd, co) begin
         {countEn, loadA, loadB, loadC, loadD, loadM, loadF, selF, selA, selB, selC, selD, done, start_rnd} = 14'b0;
         case (ps) 
-            IDLE: done = 1'b1;
             INIT: begin loadA = 1'b1; loadB = 1'b1; loadC = 1'b1; loadD = 1'b1; loadM = 1'b1; start_rnd = 1'b1; end
             GENRAND: loadF = 1'b1; 
             CALCULATEF: begin loadF = 1'b1; selF = 1'b1; end
             UPDATE: begin countEn = 1'b1; loadA = 1'b1; loadB = 1'b1; loadC = 1'b1; loadD = 1'b1; selA = 1'b1; selB = 1'b1; selC = 1'b1; selD = 1'b1; end
+            DONE: done = 1'b1; 
         endcase
     end
 endmodule
