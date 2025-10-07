@@ -6,7 +6,7 @@ module ShiftRegister #(
     input load,
     input shiftEn,
     input [WIDTH-1:0] PI,
-    output [1:0] twoMSB;
+    output [1:0] twoMSB
 );
     reg [WIDTH-1:0] shiftReg;
     always @(posedge clk or posedge rst) begin

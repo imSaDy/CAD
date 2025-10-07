@@ -1,17 +1,26 @@
 `timescale 1ns/1ns
-module tb_rndGenerator
+module tb_rndGenerator();
     reg clk;
     reg rst;
     reg [5:0] seed; 
-    reg start_rnd
+    reg start_rnd;
     wire done_rnd; 
     wire [1:0] twoMSB; 
     
     initial clk = 0;
     always #5 clk = ~clk; 
-    
+
+    rndGenerator rndGen(
+        .clk(clk),
+        .rst(rst),
+        .shiftRegPI(seed),
+        .start_rnd(start_rnd),
+        .rnd(twoMSB),
+        .done_rnd(done_rnd)
+    );
+
     initial begin
-        shift_en = 0; par_load = 0; seed = 6'b0; rst = 1;
+        seed = 6'b0; rst = 1;
         #10 rst = 0;
         #10 start_rnd = 1; seed = 000111; 
         #10 start_rnd = 0; 
@@ -28,5 +37,6 @@ module tb_rndGenerator
         #10 start_rnd = 1; seed = 100101; // 001011 010110 101101 011010 110100 101001
         #10 start_rnd = 0; 
         #150;
+        $stop;
     end
 endmodule

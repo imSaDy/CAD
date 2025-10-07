@@ -2,10 +2,10 @@
 `define Pulse 2'b01
 `define CountAndShift 2'b10
 
-module RandGenController(clk, rst, start_rnd, co, done_rnd, enBuffer, ldC, ldR, cen, shen);
+module RandGenController(clk, rst, start_rnd, co, done_rnd, enBuffer, loadC, loadR, countEn, shiftEn);
 
     input clk, rst, start_rnd, co;
-    output reg done_rnd, enBuffer, ldC, ldR, cen, shen;
+    output reg done_rnd, enBuffer, loadC, loadR, countEn, shiftEn;
 
     reg [1:0] ps, ns;
     always @(posedge clk or posedge rst) begin
@@ -25,11 +25,11 @@ module RandGenController(clk, rst, start_rnd, co, done_rnd, enBuffer, ldC, ldR, 
     end
 
     always @(ps, start_rnd, co) begin
-        {done_rnd, enBuffer, ldC, ldR, shen, cen} = 6'b0;
+        {done_rnd, enBuffer, loadC, loadR, shiftEn, countEn} = 6'b0;
         case(ps)
             `Idle: begin done_rnd = 1'b1; enBuffer = 1'b1; end
-            `Pulse: begin ldC = 1'b1; ldR = 1'b1; end 
-            `CountAndShift: begin shen = 1'b1; cen = 1'b1; end 
+            `Pulse: begin loadC = 1'b1; loadR = 1'b1; end 
+            `CountAndShift: begin shiftEn = 1'b1; countEn = 1'b1; end 
         endcase
     end
 
