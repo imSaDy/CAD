@@ -10,10 +10,9 @@ module RandGenDataPath #(
     input counterLoad,
     input countEn,
     output [RND_WIDTH-1:0] rnd,
-    output co; 
+    output co
 );
     wire serin; 
-    wire [RND_WIDTH-1:0] rnd; 
     wire [2:0] count;
 
     ShiftRegister #(INPUT_WIDTH) shiftreg(

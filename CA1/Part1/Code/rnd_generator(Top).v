@@ -3,17 +3,23 @@ module rndGenerator(
     input rst,
     input shiftRegPI,
     input start_rnd,
-    output rnd,
+    output [1:0] rnd,
     output done_rnd
 );
 
-    wire cout;
+    wire cout, loadC, loadR, countEn, shiftEn, enBuffer;
 
     RandGenController controller(
         .clk(clk),
         .rst(rst),
         .start_rnd(start_rnd),
-        .co(cout)
+        .co(cout),
+        .done_rnd(done_rnd),
+        .enBuffer(enBuffer),
+        .loadC(loadC),
+        .loadR(loadR),
+        .countEn(countEn),
+        .shiftEn(shiftEn)
     );
 
     RandGenDataPath #(
@@ -22,13 +28,13 @@ module rndGenerator(
     ) datapath(
         .clk(clk), 
         .rst(rst),
-        .shiftRegLoad(),
-        .shiftEn(), 
-        .shiftRegPI(),
-        .counterLoad(),
-        .countEn(),
-        .rnd(),
-        .co() 
+        .shiftRegLoad(loadR),
+        .shiftEn(shiftEn), 
+        .shiftRegPI(shiftRegPI),
+        .counterLoad(loadC),
+        .countEn(countEn),
+        .rnd(rnd),
+        .co(cout)
     );
 
 endmodule
