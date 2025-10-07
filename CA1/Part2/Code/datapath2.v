@@ -3,12 +3,12 @@ module HashGenDataPath #(
     parameter RND_WIDTH = 2,
     parameter MESSAGE_WIDTH = 128,
     parameter WORD_WIDTH = 32,
-    parameter [WORD_WIDTH-1:0] A0 = 32'h67452301,
-    parameter [WORD_WIDTH-1:0] B0 = 32'hefcdab89,
-    parameter [WORD_WIDTH-1:0] C0 = 32'h98badcfe,
-    parameter [WORD_WIDTH-1:0] D0 = 32'h10325476
 
 )(
+    input [WORD_WIDTH-1:0] A0,
+    input [WORD_WIDTH-1:0] B0,
+    input [WORD_WIDTH-1:0] C0,
+    input [WORD_WIDTH-1:0] D0,
     input clk,
     input rst,
     input countEn,
@@ -16,7 +16,7 @@ module HashGenDataPath #(
     input loadM,
     input [MESSAGE_WIDTH - 1:0] message,
     input selA, selB, selC, selD, selF,
-    input loadA, loadB, loadC, loadD,
+    input loadA, loadB, loadC, loadD, loadF,
     output co,
     output done_rnd,
     output [MESSAGE_WIDTH-1:0] digest

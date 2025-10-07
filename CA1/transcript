@@ -201,3 +201,27 @@ run -all
 # ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
 #    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
 # Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# 7 compiles, 0 failed with no errors.
