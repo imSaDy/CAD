@@ -33,5 +33,5 @@ module RandGenDataPath #(
         .count(count)
     );
     
-    assign co = &count;
+    assign co = &{count};
 endmodule

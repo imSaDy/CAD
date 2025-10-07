@@ -1,5 +1,5 @@
 module Register #(
-    parameter WIDTH
+    parameter WIDTH = 32
 ) (
     input clk,
     input rst,
