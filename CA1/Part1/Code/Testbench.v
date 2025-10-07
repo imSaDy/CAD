@@ -11,7 +11,7 @@ module tb_rndGenerator
     always #5 clk = ~clk; 
     
     initial begin
-        shift_en = 0; par_load = 0; seed = 80'b0; rst = 1;
+        shift_en = 0; par_load = 0; seed = 6'b0; rst = 1;
         #10 rst = 0;
         #10 start_rnd = 1; seed = 000111; 
         #10 start_rnd = 0; 
@@ -25,7 +25,7 @@ module tb_rndGenerator
         #10 start_rnd = 1; seed = 111111;
         #10 start_rnd = 0; 
         #150;
-        #10 start_rnd = 1; seed = 100101;
+        #10 start_rnd = 1; seed = 100101; // 001011 010110 101101 011010 110100 101001
         #10 start_rnd = 0; 
         #150;
     end
