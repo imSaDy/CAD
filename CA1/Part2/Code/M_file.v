@@ -7,7 +7,7 @@ module MFile (
     output reg [31:0] out
 );
 
-    reg [127:0] outReg;
+    wire [127:0] outReg;
 
     Register #(128) reg1(
         .clk(clk),

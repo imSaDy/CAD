@@ -2,8 +2,7 @@ module HashGenDataPath #(
     parameter COUNTER_WIDTH = 6,
     parameter RND_WIDTH = 2,
     parameter MESSAGE_WIDTH = 128,
-    parameter WORD_WIDTH = 32,
-
+    parameter WORD_WIDTH = 32
 )(
     input [WORD_WIDTH-1:0] A0,
     input [WORD_WIDTH-1:0] B0,
@@ -22,10 +21,10 @@ module HashGenDataPath #(
     output [MESSAGE_WIDTH-1:0] digest
 );
 
-    reg [COUNTER_WIDTH-1:0] i;
-    reg [RND_WIDTH-1: 0] rnd;
-    reg [WORD_WIDTH-1:0] M_rand, const_i;
-    reg [WORD_WIDTH-1:0] A, B, C, D, F;
+    wire [COUNTER_WIDTH-1:0] i;
+    wire [RND_WIDTH-1: 0] rnd;
+    wire [WORD_WIDTH-1:0] M_rand, const_i;
+    wire [WORD_WIDTH-1:0] A, B, C, D, F;
     wire [WORD_WIDTH-1:0] f1, f2, f3, f4;
     wire [WORD_WIDTH-1:0] outMux1, outMux2, outMux3, outMux4, outMux5, outMux6,
                              outLeftR, outAdder, outAdder2;
@@ -35,12 +34,12 @@ module HashGenDataPath #(
         .INPUT_WIDTH(32),
         .INDEX_WIDTH(6)
     ) leftR (
-        data_in(F),
-        index(i),
-        data_out(outLeftR)
+        .data_in(F),
+        .index(i),
+        .data_out(outLeftR)
     );
 
-    Adder #(32) adder(
+    Adder_twoOpr #(32) adder(
         .cin(1'b0),
         .A(outLeftR),
         .B(B),

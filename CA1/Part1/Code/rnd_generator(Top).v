@@ -1,7 +1,7 @@
 module rndGenerator(
     input clk,
     input rst,
-    input shiftRegPI,
+    input [5:0] shiftRegPI,
     input start_rnd,
     output [1:0] rnd,
     output done_rnd
@@ -15,7 +15,6 @@ module rndGenerator(
         .start_rnd(start_rnd),
         .co(cout),
         .done_rnd(done_rnd),
-        .enBuffer(enBuffer),
         .loadC(loadC),
         .loadR(loadR),
         .countEn(countEn),

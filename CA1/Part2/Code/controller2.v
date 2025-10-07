@@ -44,8 +44,8 @@ module HashGenController (
             UPDATE: ns = (co ? IDLE : INIT);
         endcase
     end
-    always @(ps, start) begin
-        {countEn, loadA, loadB, loadC, loadD, loadM, loadF, selF, selA, selB, selC, selD, done} = 13'b0;
+    always @(ps, start, done_rnd, co) begin
+        {countEn, loadA, loadB, loadC, loadD, loadM, loadF, selF, selA, selB, selC, selD, done, start_rnd} = 14'b0;
         case (ps) 
             IDLE: done = 1'b1;
             INIT: begin loadA = 1'b1; loadB = 1'b1; loadC = 1'b1; loadD = 1'b1; loadM = 1'b1; start_rnd = 1'b1; end

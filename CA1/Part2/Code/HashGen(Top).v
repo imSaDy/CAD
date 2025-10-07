@@ -45,7 +45,7 @@ module HashGenerator#(
         .done_rnd(done_rnd),
         .digest(digest)
     );
-    HashGenController (
+    HashGenController hashGenController(
         .clk(clk),
         .rst(rst),
         .start(start),

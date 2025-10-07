@@ -225,3 +225,616 @@ run -all
 # Compile of Testbench.v was successful.
 # Compile of HashGen(Top).v was successful.
 # 7 compiles, 0 failed with no errors.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+# Compile of datapath2.v failed with 1 errors.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v was successful.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 1 failed with 1 error.
+# Compile of datapath2.v was successful.
+quit -sim
+# End time: 14:56:48 on Oct 07,2025, Elapsed time: 1:45:39
+# Errors: 0, Warnings: 8
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 14:57:01 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# ** Error: (vsim-3033) Instantiation of 'Adder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 42
+#         Searched libraries:
+#             C:/Users/ASUS/Desktop/CAD/CA1/work
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'HashGenController'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/HashGen(Top).v Line: 68
+# Error loading design
+# End time: 14:57:02 on Oct 07,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# Load canceled
+# Compile of HashGen(Top).v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 14:58:08 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# ** Error: (vsim-3033) Instantiation of 'Adder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 42
+#         Searched libraries:
+#             C:/Users/ASUS/Desktop/CAD/CA1/work
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# Error loading design
+# End time: 14:58:09 on Oct 07,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Adder.v was successful.
+# Compile of datapath2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 14:59:19 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# ** Error: (vsim-3043) Unresolved reference to 'data_in'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 37
+# ** Error: (vsim-3043) Unresolved reference to 'data_in'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 37
+# ** Error: (vsim-3043) Unresolved reference to 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 39
+# ** Error: (vsim-3043) Unresolved reference to 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 39
+# ** Error: (vsim-3043) Unresolved reference to 'index'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 38
+# ** Error: (vsim-3043) Unresolved reference to 'index'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_in'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/left_rotation.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/leftR File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'index'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/left_rotation.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/leftR File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 36
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/leftR File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_out'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/left_rotation.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/leftR File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 36
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Areg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 80
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Breg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 88
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Creg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 97
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Dreg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 105
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/counter_6bit File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 116
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rnd'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3389) Port 'enBuffer' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/controller File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 137
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile/reg1 File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/M_file.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 191
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Freg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 215
+# Error loading design
+# End time: 14:59:19 on Oct 07,2025, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 7
+# Compile of datapath2.v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 15:01:27 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Areg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 80
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Breg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 88
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Creg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 97
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Dreg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 105
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/counter_6bit File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 116
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rnd'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3389) Port 'enBuffer' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/controller File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 137
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile/reg1 File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/M_file.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 191
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/Freg File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 215
+# Error loading design
+# End time: 15:01:27 on Oct 07,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 4
+# Compile of datapath2.v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 15:02:43 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/counter_6bit File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 116
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rnd'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3389) Port 'enBuffer' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/controller File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 137
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile/reg1 File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/M_file.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'data_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 191
+# Error loading design
+# End time: 15:02:43 on Oct 07,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 4
+# Compile of datapath2.v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 15:03:52 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/datapath2.v Line: 128
+# ** Error (suppressible): (vsim-3389) Port 'enBuffer' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/controller File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile/reg1 File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/M_file.v Line: 12
+# Error loading design
+# End time: 15:03:53 on Oct 07,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 4
+# Compile of rnd_generator(Top).v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 15:05:02 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# ** Error (suppressible): (vsim-3389) Port 'enBuffer' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd_generator/controller File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'register'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/mfile/reg1 File: C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/M_file.v Line: 12
+# Error loading design
+# End time: 15:05:02 on Oct 07,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of rnd_generator(Top).v was successful.
+# Compile of M_file.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 15:06:16 on Oct 07,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done \
+sim:/tb_hashGeneratopr/message \
+sim:/tb_hashGeneratopr/digest
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(31)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 31
+# Compile of Testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(31)
+#    Time: 5020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 31
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenController/ps \
+sim:/tb_hashGeneratopr/hash_generator/hashGenController/ns
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/i
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(31)
+#    Time: 5020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 31
+# Compile of Testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 5030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenController/countEn
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 5030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenController/done_rnd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 5030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller2.v was successful.
+# Compile of Testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 830 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+# Compile of datapath2.v was successful.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v was successful.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenController/start_rnd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 830 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller2.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 830 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of Testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 5030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of Testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/A \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/B \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/C \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/D
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/A \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/B \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/C \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/D \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/F
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/const_i
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.Adder_twoOpr
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+# Compile of datapath2.v was successful.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v was successful.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
