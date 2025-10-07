@@ -19,10 +19,10 @@ module MFile (
     
     always @(*) begin
         case (index)
-            2'b00: out = outReg[31:0];
-            2'b01: out = outReg[63:32];
-            2'b10: out = outReg[95:64];
-            2'b11: out = outReg[127:96];
+            2'b11: out = outReg[31:0];
+            2'b10: out = outReg[63:32];
+            2'b01: out = outReg[95:64];
+            2'b00: out = outReg[127:96];
             default: out = 32'b0;
         endcase
     end

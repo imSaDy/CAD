@@ -13,8 +13,8 @@ module ConstMem #(
         $readmemh(MEM_FILE, rom);
     end
 
-    always @(*) begin
-        data_out = rom[index];
-    end
+    
+    assign data_out = rom[index];
+    
 
 endmodule

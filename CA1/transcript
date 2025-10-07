@@ -838,3 +838,207 @@ run -all
 # ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
 #    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
 # Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of constant_memory.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.LeftRotation
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "const.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/constant_memory.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/hash_generator/hashGenDataPath/const_mem
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+# Compile of datapath2.v was successful.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v was successful.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/M_rand
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/rnd
+restart
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+# Compile of datapath2.v was successful.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v was successful.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/hash_generator/hashGenDataPath/outLeftR
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32
+# Compile of left_rotation.v failed with 2 errors.
+# Compile of left_rotation.v failed with 1 errors.
+# Compile of left_rotation.v failed with 1 errors.
+# Compile of left_rotation.v failed with 1 errors.
+# Compile of left_rotation.v failed with 1 errors.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# Compile of HashGen(Top).v was successful.
+# Compile of Adder.v was successful.
+# Compile of constant_memory.v was successful.
+# Compile of controller2.v was successful.
+# Compile of datapath2.v was successful.
+# Compile of functions.v was successful.
+# Compile of left_rotation.v failed with 1 errors.
+# Compile of M_file.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of register.v was successful.
+# Compile of Testbench.v was successful.
+# 18 compiles, 1 failed with 1 error.
+# Compile of left_rotation.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.LeftRotation
+# Loading work.Adder_twoOpr
+# Loading work.Mux2
+# Loading work.Register
+# Loading work.Counter
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.MFile
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+# Loading work.Mux4
+# Loading work.ConstMem
+# Loading work.Adder_fourOpr
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v(32)
+#    Time: 10030 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA1/Part2/Code/Testbench.v line 32

@@ -187,7 +187,7 @@ module HashGenDataPath #(
     ConstMem #(
         .INPUT_WIDTH(6),
         .OUTPUT_WIDTH(32),
-        .MEM_FILE("const.mem")
+        .MEM_FILE("constant.mem")
     ) const_mem (
         .index(i),
         .data_out(const_i)
