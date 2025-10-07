@@ -1,0 +1,203 @@
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_rndGenerator
+# vsim -gui work.tb_rndGenerator 
+# Start time: 13:11:09 on Oct 07,2025
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rndGenerator/rndGen File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rndGenerator/rndGen/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/clk \
+sim:/tb_rndGenerator/rndGen/rst \
+sim:/tb_rndGenerator/rndGen/shiftRegPI \
+sim:/tb_rndGenerator/rndGen/start_rnd \
+sim:/tb_rndGenerator/rndGen/rnd \
+sim:/tb_rndGenerator/rndGen/done_rnd \
+sim:/tb_rndGenerator/rndGen/cout \
+sim:/tb_rndGenerator/rndGen/loadC \
+sim:/tb_rndGenerator/rndGen/loadR \
+sim:/tb_rndGenerator/rndGen/countEn \
+sim:/tb_rndGenerator/rndGen/shiftEn \
+sim:/tb_rndGenerator/rndGen/enBuffer
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/controller/ps \
+sim:/tb_rndGenerator/rndGen/controller/ns
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rndGenerator/rndGen File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'shiftRegPI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/datapath.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rndGenerator/rndGen/datapath File: C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/rnd_generator(Top).v Line: 28
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v failed with 1 errors.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 1 failed with 1 error.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v failed with 1 errors.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_rndGenerator/rndGen/enBuffer'. 
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of rnd_generator(Top).v was successful.
+# Compile of shiftRegister.v was successful.
+# Compile of Testbench.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v(40)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CA1/Part1/Code/Testbench.v line 40

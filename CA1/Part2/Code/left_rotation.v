@@ -31,7 +31,7 @@ module LeftRotation #(
     end
 
 
-    assign data_out = (data_in << step[index]) | (data_in >> (WIDTH - step[index]));
+    assign data_out = (data_in << step[index]) | (data_in >> (INPUT_WIDTH - step[index]));
 
 
 endmodule

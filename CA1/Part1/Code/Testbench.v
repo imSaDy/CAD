@@ -20,21 +20,21 @@ module tb_rndGenerator();
     );
 
     initial begin
-        seed = 6'b0; rst = 1;
+        seed = 6'b0; rst = 1; start_rnd = 1'b0;
         #10 rst = 0;
-        #10 start_rnd = 1; seed = 000111; 
+        #10 start_rnd = 1; seed = 6'b000111; 
         #10 start_rnd = 0; 
         #150;
-        #10 start_rnd = 1; seed = 000000; 
+        #10 start_rnd = 1; seed = 6'b000000; 
         #10 start_rnd = 0; 
         #150;
-        #10 start_rnd = 1; seed = 000001; // 000010 000101 001010 010100 101000 010000  
+        #10 start_rnd = 1; seed = 6'b000001; // 000010 000101 001010 010100 101000 010000  
         #10 start_rnd = 0; 
         #150;
-        #10 start_rnd = 1; seed = 111111;
+        #10 start_rnd = 1; seed = 6'b111111;
         #10 start_rnd = 0; 
         #150;
-        #10 start_rnd = 1; seed = 100101; // 001011 010110 101101 011010 110100 101001
+        #10 start_rnd = 1; seed = 6'b100101; // 001011 010110 101101 011010 110100 101001
         #10 start_rnd = 0; 
         #150;
         $stop;

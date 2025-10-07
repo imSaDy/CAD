@@ -1,2 +1,15 @@
 CA1/modelsim/
 modelsim/
+*.vsim
+*.wpf
+*.pdf
+*.xoj
+*.mpf
+*.vcd
+*.mti
+*.mpf
+*.wlf
+*.bak
+*.xopp
+work
+.prettierrc
