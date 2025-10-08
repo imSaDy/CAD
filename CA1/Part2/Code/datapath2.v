@@ -64,7 +64,7 @@ module HashGenDataPath #(
 
     Mux2  #(32) mux3(
         .in0(C0),
-        .in1(D),
+        .in1(B),
         .sel(selC),
         .out(outMux3)
     );
