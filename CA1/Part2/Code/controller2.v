@@ -20,7 +20,7 @@ module HashGenController (
     output reg done
 );
     reg [2:0] ps, ns;
-    parameter [3:0] IDLE = 0,
+    parameter [2:0] IDLE = 0,
                     PULSE = 1,
                     INIT = 2, 
                     GENRAND = 3, 
