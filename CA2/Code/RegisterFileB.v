@@ -7,7 +7,7 @@ module RegisterFileB #(
     input clk,
     input load,
     input [DATA_WIDTH-1:0] data_in,
-    input address, 
+    input [$clog2(SIZE) - 1 : 0] address, 
     output reg [OUTPUT_WIDTH-1:0] B1, B2
 );
     reg [DATA_WIDTH-1:0] register [0:SIZE-1]; 
