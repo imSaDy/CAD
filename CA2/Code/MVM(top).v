@@ -1,7 +1,7 @@
 module Martrix_Vector_multiplication #(
-    parameter  DATA_WIDTH = 34;
-    parameter ADDR_WIDTH = 7;
-    parameter DIMENSION = 8;
+    parameter  DATA_WIDTH = 34,
+    parameter ADDR_WIDTH = 7,
+    parameter DIMENSION = 8
 )(
     input clk,
     input rst,
@@ -26,7 +26,7 @@ module Martrix_Vector_multiplication #(
         .DATA_WIDTH(34),
         .ADDR_WIDTH(7),
         .DIMENSION(8),
-        .Write_ADDR_LOAD_VALUE(72);
+        .Write_ADDR_LOAD_VALUE(72)
     ) mvp (
         .clk(clk),
         .rst(rstDataPath),
@@ -50,7 +50,7 @@ module Martrix_Vector_multiplication #(
         .coutBread(coutBread),
         .coutARead(coutARead),
         .address(address),
-        .w_data(w_data),
+        .w_data(w_data)
     );
 
     Controller  controller(
@@ -76,6 +76,7 @@ module Martrix_Vector_multiplication #(
         .write(write), 
         .countEnWrite(countEnWrite), 
         .countEnWriteAddr(countEnWriteAddr), 
+        .selAddr(selAddr),
         .done(done)
     );
         

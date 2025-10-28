@@ -20,7 +20,8 @@ module Controller (
     output reg shiftEnA, 
     output reg write, 
     output reg countEnWrite, 
-    output reg countEnWriteAddr, 
+    output reg countEnWriteAddr,
+    output reg selAddr, 
     output reg done
 );
     reg [2:0] ps, ns;

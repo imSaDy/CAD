@@ -1,8 +1,8 @@
 module Martrix_Vector_multiplication #(
-    parameter  DATA_WIDTH = 34;
-    parameter ADDR_WIDTH = 7;
-    parameter DIMENSION = 8;
-    parameter [ADDR_WIDTH-1:0] Write_ADDR_LOAD_VALUE = 72;
+    parameter  DATA_WIDTH = 34,
+    parameter ADDR_WIDTH = 7,
+    parameter DIMENSION = 8,
+    parameter [ADDR_WIDTH-1:0] Write_ADDR_LOAD_VALUE = 72
 )(
     input clk,
     input rst,
@@ -16,7 +16,7 @@ module Martrix_Vector_multiplication #(
     input [DATA_WIDTH-1: 0] r_data,
     output coutWrite, coutPE, coutBread, coutARead,
     output [ADDR_WIDTH-1: 0] address,
-    output [DATA_WIDTH-1: 0] w_data,
+    output [DATA_WIDTH-1: 0] w_data
 );
 
 
@@ -34,7 +34,7 @@ module Martrix_Vector_multiplication #(
         .rst(rst),
         .load(1'b0),
         .en(countEnAddr),
-        .PI(ADDR_WIDTH{1'b0}),
+        .PI({ADDR_WIDTH{1'b0}}),
         .count(countAddr)
     );
 
@@ -52,7 +52,7 @@ module Martrix_Vector_multiplication #(
         .rst(rst),
         .load(1'b0),
         .en(countEnWrite),
-        .PI(($clog2(DIMENSION)){1'b0}),
+        .PI({($clog2(DIMENSION)){1'b0}}),
         .count(countWrite)
     );
 
@@ -93,7 +93,7 @@ module Martrix_Vector_multiplication #(
         .in0(countAddr),
         .in1(countWriteAddr),
         .sel(selAddr),
-        .out(address),
+        .out(address)
     );
 
     shiftRegFile #(
@@ -111,8 +111,6 @@ module Martrix_Vector_multiplication #(
         .A7to4(A7to4)
     );
 
-    RegisterFileB #
-
     RegisterFileB #(
         .DATA_WIDTH(34),
         .SIZE(3),
@@ -129,7 +127,7 @@ module Martrix_Vector_multiplication #(
 
 
     PE pe_lsb(
-        clk(clk),
+        .clk(clk),
         .rst(rst),
         .i_is_msb(i_is_msb),
         .a(A3to0),
@@ -141,7 +139,7 @@ module Martrix_Vector_multiplication #(
     );
 
     PE pe_msb(
-        clk(clk),
+        .clk(clk),
         .rst(rst),
         .i_is_msb(i_is_msb),
         .a(A7to4),

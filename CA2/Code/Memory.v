@@ -19,9 +19,8 @@ module Memory #(
     always @(posedge clk) begin
         if (rst)
             $readmemh(MEM_FILE, rom);
-        else if (write){
+        else if (write) 
             rom[address] <= data_in; 
-        } 
     end
 
     assign data_out = rom[address];

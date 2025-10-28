@@ -105,7 +105,7 @@ module PE(
         .S(outAdder1)
     );
 
-    assign inputAccumulator = {(34-16){coutAdder1}, outAdder1};
+    assign inputAccumulator = {{(34-16){coutAdder1}}, outAdder1};
 
     Accumulator #(34) accumulator(
         .clk(clk),
