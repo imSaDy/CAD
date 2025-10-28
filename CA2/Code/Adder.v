@@ -7,7 +7,7 @@ module Adder_twoOpr #(
     output [WIDTH - 1:0] S
 );
 
-    assign {cout,S} = $unsigned(A) + $unsigned(B) + $unsigned(cin);
+    assign {cout,S} = A + B + cin;
 
 endmodule
 
@@ -20,6 +20,6 @@ module Adder_fourOpr #(
     output [WIDTH - 1:0] S
 );
 
-    assign {cout,S} = $unsigned(A) + $unsigned(B) + $unsigned(C) + $unsigned(D) + $unsigned(cin);
+    assign {cout, S} = A + B + C + D + cin;
 
 endmodule
