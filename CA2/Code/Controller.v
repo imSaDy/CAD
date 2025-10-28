@@ -13,6 +13,7 @@ module Controller (
     output reg countEnARead,
     output reg loadBReg,
     output reg i_is_lsb,
+    output reg i_is_msb,
     output reg countEnBRead, 
     output reg countEnPE, 
     output reg i_valid, 
@@ -27,9 +28,10 @@ module Controller (
                     PULSE = 1,
                     READ_A = 2, 
                     READ_B = 3, 
-                    MULTIPLY = 4, 
-                    WRITE = 5,
-                    DONE = 6; 
+                    SEND_MSB = 4,
+                    MULTIPLY = 5, 
+                    WRITE = 6,
+                    DONE = 7; 
     
     always @(posedge clk, posedge rst) begin
         if (rst == 1'b1)
@@ -43,7 +45,8 @@ module Controller (
             IDLE: ns = (start ? PULSE : IDLE);
             PULSE: ns = (start ? PULSE : READ_A);
             READ_A: ns = (coutARead ? READ_B : READ_A);
-            READ_B: ns = (coutBRead ? MULTIPLY : READ_B);
+            READ_B: ns = (coutBRead ? SEND_MSB : READ_B);
+            SEND_MSB: ns = MULTIPLY;
             MULTIPLY: ns = (coutPE ? WRITE : MULTIPLY);
             WRITE: ns = (coutWrite ? DONE : READ_B);
             DONE: ns = IDLE; 
@@ -51,13 +54,14 @@ module Controller (
         endcase
     end
     always @(*) begin
-        {rstOut, countEnAddr, loadAReg, loadCounterWriteAddr, countEnARead, loadBReg, i_is_lsb, countEnBRead, countEnPE, i_valid, shiftEnA, write, countEnWrite, countEnWriteAddr, done} = 15'b0; 
+        {rstOut, countEnAddr, loadAReg, loadCounterWriteAddr, countEnARead, loadBReg, i_is_lsb, i_is_msb, countEnBRead, countEnPE, i_valid, shiftEnA, write, countEnWrite, countEnWriteAddr, selAddr, done} = 17'b0;
         case (ps)
             PULSE: begin rstOut = 1'b1; end 
             READ_A: begin countEnAddr = 1'b1; loadAReg = 1'b1; loadCounterWriteAddr = 1'b1; countEnARead = 1'b1; end
             READ_B: begin countEnAddr = 1'b1; loadBReg = 1'b1; i_is_lsb = 1'b1; countEnBRead = 1'b1; end
+            SEND_MSB: begin i_is_msb = 1'b1; countEnPE = 1'b1; i_valid = 1'b1; shiftEnA = 1'b1; end
             MULTIPLY: begin countEnPE = 1'b1; i_valid = 1'b1; shiftEnA = 1'b1; end
-            WRITE: begin write = 1'b1; countEnWrite = 1'b1; countEnWriteAddr = 1'b1; end
+            WRITE: begin write = 1'b1; countEnWrite = 1'b1; countEnWriteAddr = 1'b1; selAddr = 1'b1; end
             DONE: done = 1'b1; 
         endcase
     end
