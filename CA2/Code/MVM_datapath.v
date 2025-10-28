@@ -22,7 +22,7 @@ module Martrix_Vector_multiplication #(
 
     wire [ADDR_WIDTH-1: 0] countAddr, countWriteAddr;
     wire [2:0] countWrite, countAread, countBread;
-    wire [1:0] countPE;
+    wire [3:0] countPE;
 
     wire [3:0] A7to4, A3to0;
     wire [63:0] B7to4, B3to0;
@@ -58,12 +58,12 @@ module Martrix_Vector_multiplication #(
 
     assign coutWrite = &{countWrite};
 
-    Counter #(2) counter_pe(
+    Counter #(4) counter_pe(
         .clk(clk),
         .rst(rst),
         .load(1'b0),
         .en(countEnPE),
-        .PI(2'b0),
+        .PI(4'b0),
         .count(countPE)
     );
     assign coutPE = &{countPE};
@@ -97,7 +97,7 @@ module Martrix_Vector_multiplication #(
     );
 
     shiftRegFile #(
-        .WIDTH(34),
+        .WIDTH(16),
         .INPUT_ADDRESS_WIDTH(3),
         .NUM_SR(8)
     ) A_shift_reg_file(
@@ -106,20 +106,20 @@ module Martrix_Vector_multiplication #(
         .load(loadAreg),
         .shiftEn(shiftEnA),
         .addr(countAread),
-        .PI(r_data),
+        .PI(r_data[15:0]),
         .A3to0(A3to0),
         .A7to4(A7to4)
     );
 
     RegisterFileB #(
-        .DATA_WIDTH(34),
-        .SIZE(3),
-        .HALF_SIZE(8),
+        .DATA_WIDTH(16),
+        .SIZE(8),
+        .HALF_SIZE(4),
         .OUTPUT_WIDTH(64)
     ) B_reg_file(
         .clk(clk),
         .load(loadBreg),
-        .data_in(r_data),
+        .data_in(r_data[15:0]),
         .address(countBread),
         .B1(B3to0),
         .B2(B7to4)

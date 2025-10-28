@@ -1,4 +1,6 @@
-module Matrix_Multiplier(
+module Matrix_Multiplier #(
+    parameter MEMORY_NAME
+)(
     input clk,
     input rst,
     input start,
@@ -8,7 +10,7 @@ module Matrix_Multiplier(
     wire [33:0] w_data, r_data;
     wire [6:0] address;
 
-    Martrix_Vector_multiplication #(
+    MVM #(
         .DATA_WIDTH(34),
         .ADDR_WIDTH(7),
         .DIMENSION(8)
@@ -27,7 +29,7 @@ module Matrix_Multiplier(
         .DATA_WIDTH(34),
         .INPUT_ADDRESS_WIDTH(7),
         .MEMORY_SIZE(128),
-        .MEM_FILE("input_memory (1).txt")
+        .MEM_FILE(MEMORY_NAME)
     ) memory (
         .clk(clk),
         .rst(rst),

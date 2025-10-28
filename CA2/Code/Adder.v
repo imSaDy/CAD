@@ -16,7 +16,7 @@ module Adder_fourOpr #(
 )(
     input cin,
     input [WIDTH - 1:0] A, B, C, D, 
-    output cout,
+    output [1:0] cout,
     output [WIDTH - 1:0] S
 );
 

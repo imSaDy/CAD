@@ -1,0 +1,944 @@
+# Load canceled
+# Compile of 2's_complement.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Memory.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of MVM(top).v was successful.
+# Compile of MVM_datapath.v was successful.
+# Compile of pe.v was successful.
+# Compile of RegisterFileB.v was successful.
+# Compile of shift_reg_file.v was successful.
+# Compile of testbench.v failed with 1 errors.
+# Compile of top.v was successful.
+# 15 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 17:39:04 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Memory
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mvm'.  Expected 23, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm File: C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v Line: 17
+# ** Error: (vsim-3063) Port 'start' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm File: C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v Line: 17
+# ** Error: (vsim-3063) Port 'write' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm File: C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v Line: 17
+# ** Error: (vsim-3063) Port 'done' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm File: C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v Line: 17
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnAddr'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnWriteAddr'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnWrite'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnPE'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnBRead'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'countEnARead'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'loadCounterWriteAddr'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'selAddr'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'loadAreg'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'shiftEnA'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'loadBreg'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'i_is_lsb'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'i_is_msb'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'i_valid'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'coutWrite'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'coutPE'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'coutBread'.
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/CAD/CA2/Code/top.v(17): [TFMPC] - Missing connection for port 'coutARead'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+# Error loading design
+# End time: 17:39:04 on Oct 28,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 26
+# Compile of MVM(top).v was successful.
+# Compile of top.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 17:41:18 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+# Error opening C:/Users/ASUS/Desktop/CAD/CA2/(vsim-3015) [PCDPC] - Port size (2) does not match connection size 
+# Path name 'C:/Users/ASUS/Desktop/CAD/CA2/(vsim-3015) [PCDPC] - Port size (2) does not match connection size ' doesn't exist.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+# Compile of RegisterFileB.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RegisterFileB
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 17:43:28 on Oct 28,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 17:43:38 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/register
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/sr
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/WIDTH \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/INPUT_ADDRESS_WIDTH \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/NUM_SR \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/clk \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/rst \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/load \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/shiftEn \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/addr \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/PI \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/A3to0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/A7to4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/sr \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/serout \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/serin \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/j
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/loadAReg
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/ps
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM(top).v was successful.
+restart
+# Compile of MVM(top).v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.MVM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/DATA_WIDTH \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/SIZE \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/HALF_SIZE \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/OUTPUT_WIDTH \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/clk \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/load \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/data_in \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/address \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/B1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/B2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/register
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM(top).v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.MVM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/B1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/B2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/register
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM_datapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Martrix_Vector_multiplication
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (34) for port 'data_in'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A7to4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A3to0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B7to4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B3to0
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/outPeLSB
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/sr
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (34) for port 'data_in'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM_datapath.v was successful.
+# Compile of shift_reg_file.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of MVM_datapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Martrix_Vector_multiplication
+# Loading work.shiftRegFile
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (34) for port 'data_in'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/RegisterFileB.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 119
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM_datapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Martrix_Vector_multiplication
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/o_dot_product
+# Compile of RegisterFileB.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RegisterFileB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+quit -sim
+# End time: 19:04:17 on Oct 28,2025, Elapsed time: 1:20:39
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 19:04:56 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/is_valid
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/i_is_lsb
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/initial_sum
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/o_dot_product
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outAccumulator
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b3
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/i_is_msb
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/counter_pe/count
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of MVM_datapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Martrix_Vector_multiplication
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 1420 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/register
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/sr
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/write
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/ps
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of shift_reg_file.v failed with 2 errors.
+# Compile of shift_reg_file.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shiftRegFile
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+quit -sim
+# End time: 19:40:27 on Oct 28,2025, Elapsed time: 0:35:31
+# Errors: 0, Warnings: 6
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 19:40:36 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of top.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Matrix_Multiplier
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/i_is_lsb \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/i_is_msb
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/i_valid
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/write
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/ps
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/initial_sum
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/o_dot_product
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b3
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a3
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outAdder1
+run -all
+# Break key hit
+# Break in Module Counter at C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v line 11
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of Adder.v was successful.
+# Compile of pe.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PE
+# Loading work.Adder_fourOpr
+# Loading work.Adder_twoOpr
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of pe.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PE
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of pe.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PE
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of 2's_complement.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Memory.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of MVM(top).v was successful.
+# Compile of MVM_datapath.v was successful.
+# Compile of pe.v was successful.
+# Compile of RegisterFileB.v was successful.
+# Compile of shift_reg_file.v was successful.
+# Compile of testbench.v was successful.
+# Compile of top.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# Compile of 2's_complement.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Memory.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of MVM(top).v was successful.
+# Compile of MVM_datapath.v was successful.
+# Compile of pe.v was successful.
+# Compile of RegisterFileB.v was successful.
+# Compile of shift_reg_file.v was successful.
+# Compile of testbench.v was successful.
+# Compile of top.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+run -all
+# Break key hit
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 8
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+run -all
+# Break key hit
+# Break in Module Accumulator at C:/Users/ASUS/Desktop/CAD/CA2/Code/Accumulator.v line 10
+quit -sim
+# End time: 20:27:13 on Oct 28,2025, Elapsed time: 0:46:37
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 20:27:31 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'PI'. The port definition is at: C:/Users/ASUS/Desktop/CAD/CA2/Code/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hashGeneratopr/UUT/mvm/mvp/counter_pe File: C:/Users/ASUS/Desktop/CAD/CA2/Code/MVM_datapath.v Line: 61
+# Compile of 2's_complement.v was successful.
+# Compile of Accumulator.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Memory.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of MVM(top).v was successful.
+# Compile of MVM_datapath.v was successful.
+# Compile of pe.v was successful.
+# Compile of RegisterFileB.v was successful.
+# Compile of shift_reg_file.v was successful.
+# Compile of testbench.v was successful.
+# Compile of top.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb_hashGeneratopr
+# End time: 20:29:10 on Oct 28,2025, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 20:29:10 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+# Load canceled
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+quit -sim
+# End time: 20:31:04 on Oct 28,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_hashGeneratopr
+# vsim -gui work.tb_hashGeneratopr 
+# Start time: 20:31:14 on Oct 28,2025
+# Loading work.tb_hashGeneratopr
+# Loading work.Matrix_Multiplier
+# Loading work.MVM
+# Loading work.Martrix_Vector_multiplication
+# Loading work.Counter
+# Loading work.Mux2
+# Loading work.shiftRegFile
+# Loading work.RegisterFileB
+# Loading work.PE
+# Loading work.TwosComplement
+# Loading work.Adder_fourOpr
+# Loading work.Accumulator
+# Loading work.Adder_twoOpr
+# Loading work.Controller
+# Loading work.Memory
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/clk \
+sim:/tb_hashGeneratopr/rst \
+sim:/tb_hashGeneratopr/start \
+sim:/tb_hashGeneratopr/done
+run -continue
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/clk \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/rst \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/i_is_msb \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/is_valid \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/i_is_lsb \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/initial_sum \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/o_dot_product \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outTwosComp1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outTwosComp2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outTwosComp3 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outTwosComp4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux3 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux5 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux6 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux7 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outMux8 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/inputAccumulator \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outAccumulator \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/b3 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/outAdder1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a0 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a1 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/a3 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/selMux2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/selMux4 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/selMux6 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/selMux8 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/coutAdder2 \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/pe_lsb/coutAdder1
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/controller/ps
+# Compile of MVM_datapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Martrix_Vector_multiplication
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/A_shift_reg_file/sr
+add wave -position insertpoint sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/*
+add wave -position insertpoint  \
+sim:/tb_hashGeneratopr/UUT/mvm/mvp/B_reg_file/register
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# WARNING: No extended dataflow license exists
+# Compile of pe.v failed with 4 errors.
+# Compile of pe.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PE
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
+# Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26

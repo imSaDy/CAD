@@ -1,4 +1,4 @@
-module Martrix_Vector_multiplication #(
+module MVM #(
     parameter  DATA_WIDTH = 34,
     parameter ADDR_WIDTH = 7,
     parameter DIMENSION = 8
@@ -16,8 +16,8 @@ module Martrix_Vector_multiplication #(
     wire countEnAddr, countEnWriteAddr, countEnWrite,
             countEnPE, countEnBRead, countEnARead;
 
-    wire loadCounterWriteAddr, selAddr, loadAreg, shiftEnA,
-            loadBreg, i_is_msb, i_is_lsb, i_valid;
+    wire loadCounterWriteAddr, selAddr, loadAReg, shiftEnA,
+            loadBReg, i_is_msb, i_is_lsb, i_valid;
 
     wire coutWrite, coutPE, coutBread, coutARead;
     wire rstDataPath;
@@ -38,9 +38,9 @@ module Martrix_Vector_multiplication #(
         .countEnARead(countEnARead),
         .loadCounterWriteAddr(loadCounterWriteAddr),
         .selAddr(selAddr),
-        .loadAreg(loadAreg),
+        .loadAreg(loadAReg),
         .shiftEnA(shiftEnA),
-        .loadBreg(loadBreg),
+        .loadBreg(loadBReg),
         .i_is_lsb(i_is_lsb),
         .i_is_msb(i_is_msb),
         .i_valid(i_valid),

@@ -1,5 +1,5 @@
 module shiftRegFile #(
-    parameter WIDTH = 34,
+    parameter WIDTH = 16,
     parameter INPUT_ADDRESS_WIDTH = 3,
     parameter NUM_SR = 8   // you can change this but keep INPUT_ADDRESS_WIDTH wide enough
 )(
@@ -32,11 +32,12 @@ module shiftRegFile #(
     // circular chain: serin[0] = serout[NUM_SR-1]; serin[i] = serout[i-1]
     generate
         for (i = 0; i < NUM_SR; i = i + 1) begin : GEN_SERIN
-            if (i == 0) begin
-                assign serin[0] = serout[NUM_SR-1];
-            end else begin
-                assign serin[i] = serout[i-1];
-            end
+            assign serin[i] = serout[i];
+            // if (i == 0) begin
+            //     assign serin[0] = serout[NUM_SR-1];
+            // end else begin
+            //     assign serin[i] = serout[i-1];
+            // end
         end
     endgenerate
 
