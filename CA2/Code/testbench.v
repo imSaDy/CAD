@@ -33,8 +33,10 @@ module TestBenchMVM();
         rst = 1'b0; start = 1'b1; 
         #10;
         start = 1'b0; 
-        #10000;
+        #5000;
         $stop;
     end
 
 endmodule
+
+
