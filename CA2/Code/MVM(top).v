@@ -1,7 +1,14 @@
 module MVM #(
     parameter  DATA_WIDTH = 34,
     parameter ADDR_WIDTH = 7,
-    parameter DIMENSION = 8
+    parameter DIMENSION = 8,
+    parameter WRITE_ADDR_START = 72,
+    parameter A_WIDTH = 16,
+    parameter B_WIDTH = 16,
+    parameter A_VEC_SIZE = 8, 
+    parameter B_VEC_SIZE = 8,
+    parameter B_HALF_SIZE = 4,
+    parameter B_CONCAT_WIDTH = 64
 )(
     input clk,
     input rst,
@@ -23,10 +30,16 @@ module MVM #(
     wire rstDataPath;
 
     Martrix_Vector_multiplication #(
-        .DATA_WIDTH(34),
-        .ADDR_WIDTH(7),
-        .DIMENSION(8),
-        .Write_ADDR_LOAD_VALUE(72)
+        .DATA_WIDTH(DATA_WIDTH),
+        .ADDR_WIDTH(ADDR_WIDTH),
+        .DIMENSION(DIMENSION),
+        .Write_ADDR_LOAD_VALUE(WRITE_ADDR_START),
+        .A_WIDTH(A_WIDTH),
+        .B_WIDTH(B_WIDTH),
+        .A_VEC_SIZE(A_VEC_SIZE), 
+        .B_VEC_SIZE(B_VEC_SIZE),
+        .B_HALF_SIZE(B_HALF_SIZE),
+        .B_CONCAT_WIDTH(B_CONCAT_WIDTH)
     ) mvp (
         .clk(clk),
         .rst(rstDataPath),

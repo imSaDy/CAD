@@ -2,7 +2,13 @@ module Martrix_Vector_multiplication #(
     parameter  DATA_WIDTH = 34,
     parameter ADDR_WIDTH = 7,
     parameter DIMENSION = 8,
-    parameter [ADDR_WIDTH-1:0] Write_ADDR_LOAD_VALUE = 72
+    parameter [ADDR_WIDTH-1:0] Write_ADDR_LOAD_VALUE = 72,
+    parameter A_WIDTH = 16,
+    parameter B_WIDTH = 16,
+    parameter A_VEC_SIZE = 8, 
+    parameter B_VEC_SIZE = 8,
+    parameter B_HALF_SIZE = 4,
+    parameter B_CONCAT_WIDTH = 64
 )(
     input clk,
     input rst,
@@ -13,17 +19,19 @@ module Martrix_Vector_multiplication #(
     input loadAreg, shiftEnA,
     input loadBreg,
     input i_is_lsb, i_is_msb, i_valid,
-    input [DATA_WIDTH-1: 0] r_data,
+    input [DATA_WIDTH-1:0] r_data,
     output coutWrite, coutPE, coutBread, coutARead,
-    output [ADDR_WIDTH-1: 0] address,
-    output [DATA_WIDTH-1: 0] w_data
+    output [ADDR_WIDTH-1:0] address,
+    output [DATA_WIDTH-1:0] w_data
 );
-    wire [ADDR_WIDTH-1: 0] countAddr, countWriteAddr;
-    wire [2:0] countWrite, countAread, countBread;
-    wire [3:0] countPE;
-    wire [3:0] A7to4, A3to0;
-    wire [63:0] B7to4, B3to0;
-    wire [33:0] outPeLSB;
+    wire [ADDR_WIDTH-1:0] countAddr, countWriteAddr;
+    wire [$clog2(A_VEC_SIZE)-1:0] countWrite; 
+    wire [$clog2(A_VEC_SIZE)-1:0] countAread;
+    wire [$clog2(B_VEC_SIZE)-1:0] countBread;
+    wire [$clog2(A_WIDTH)-1:0] countPE;
+    wire [(A_VEC_SIZE/2)-1:0] A7to4, A3to0;
+    wire [B_CONCAT_WIDTH-1:0] B7to4, B3to0;
+    wire [DATA_WIDTH-1:0] outPeLSB;
 
     Counter #(ADDR_WIDTH) counter_addr(
         .clk(clk),
@@ -53,37 +61,37 @@ module Martrix_Vector_multiplication #(
     );
     assign coutWrite = &{countWrite};
 
-    Counter #(4) counter_pe(
+    Counter #($clog2(A_WIDTH)) counter_pe(
         .clk(clk),
         .rst(rst),
         .load(1'b0),
         .en(countEnPE),
-        .PI(4'b0),
+        .PI({($clog2(A_WIDTH)){1'b0}}),
         .count(countPE)
     );
     assign coutPE = &{countPE};
 
-    Counter #(3) counter_BRead(
+    Counter #($clog2(B_VEC_SIZE)) counter_BRead(
         .clk(clk),
         .rst(rst),
         .load(1'b0),
         .en(countEnBRead),
-        .PI(3'b0),
+        .PI({($clog2(B_VEC_SIZE)){1'b0}}),
         .count(countBread)
     );
     assign coutBread = &{countBread};
 
-    Counter #(3) counter_ARead(
+    Counter #($clog2(A_VEC_SIZE)) counter_ARead(
         .clk(clk),
         .rst(rst),
         .load(1'b0),
         .en(countEnARead),
-        .PI(3'b0),
+        .PI({($clog2(A_VEC_SIZE)){1'b0}}),
         .count(countAread)
     );
     assign coutARead = &{countAread};
 
-    Mux2 #(7) mux1(
+    Mux2 #(ADDR_WIDTH) mux1(
         .in0(countAddr),
         .in1(countWriteAddr),
         .sel(selAddr),
@@ -91,35 +99,40 @@ module Martrix_Vector_multiplication #(
     );
 
     shiftRegFile #(
-        .WIDTH(16),
-        .INPUT_ADDRESS_WIDTH(3),
-        .NUM_SR(8)
+        .WIDTH(A_WIDTH),
+        .INPUT_ADDRESS_WIDTH($clog2(A_VEC_SIZE)),
+        .NUM_SR(A_VEC_SIZE)
     ) A_shift_reg_file(
         .clk(clk),
         .rst(rst),
         .load(loadAreg),
         .shiftEn(shiftEnA),
         .addr(countAread),
-        .PI(r_data[15:0]),
+        .PI(r_data[A_WIDTH-1:0]),
         .A3to0(A3to0),
         .A7to4(A7to4)
     );
 
     RegisterFileB #(
-        .DATA_WIDTH(16),
-        .SIZE(8),
-        .HALF_SIZE(4),
-        .OUTPUT_WIDTH(64)
+        .DATA_WIDTH(B_WIDTH),
+        .SIZE(B_VEC_SIZE),
+        .HALF_SIZE(B_HALF_SIZE),
+        .OUTPUT_WIDTH(B_CONCAT_WIDTH)
     ) B_reg_file(
         .clk(clk),
         .load(loadBreg),
-        .data_in(r_data[15:0]),
+        .data_in(r_data[B_WIDTH-1:0]),
         .address(countBread),
         .B1(B3to0),
         .B2(B7to4)
     );
 
-    PE pe_lsb(
+    PE #(
+        .B_CONCAT_WIDTH(B_CONCAT_WIDTH),
+        .DATA_WIDTH(DATA_WIDTH),
+        .A_VEC_SIZE(A_VEC_SIZE),
+        .B_WIDTH(B_WIDTH)
+    ) pe_lsb(
         .clk(clk),
         .rst(rst),
         .i_is_msb(i_is_msb),
@@ -127,11 +140,16 @@ module Martrix_Vector_multiplication #(
         .b(B3to0),
         .is_valid(i_valid),
         .i_is_lsb(i_is_lsb),
-        .initial_sum(34'b0),
+        .initial_sum({DATA_WIDTH{1'b0}}),
         .o_dot_product(outPeLSB)
     );
 
-    PE pe_msb(
+    PE #(
+        .B_CONCAT_WIDTH(B_CONCAT_WIDTH),
+        .DATA_WIDTH(DATA_WIDTH),
+        .A_VEC_SIZE(A_VEC_SIZE),
+        .B_WIDTH(B_WIDTH)
+    ) pe_msb(
         .clk(clk),
         .rst(rst),
         .i_is_msb(i_is_msb),
