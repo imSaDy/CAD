@@ -18,15 +18,11 @@ module Martrix_Vector_multiplication #(
     output [ADDR_WIDTH-1: 0] address,
     output [DATA_WIDTH-1: 0] w_data
 );
-
-
     wire [ADDR_WIDTH-1: 0] countAddr, countWriteAddr;
     wire [2:0] countWrite, countAread, countBread;
     wire [3:0] countPE;
-
     wire [3:0] A7to4, A3to0;
     wire [63:0] B7to4, B3to0;
-
     wire [33:0] outPeLSB;
 
     Counter #(ADDR_WIDTH) counter_addr(
@@ -55,7 +51,6 @@ module Martrix_Vector_multiplication #(
         .PI({($clog2(DIMENSION)){1'b0}}),
         .count(countWrite)
     );
-
     assign coutWrite = &{countWrite};
 
     Counter #(4) counter_pe(
@@ -87,7 +82,6 @@ module Martrix_Vector_multiplication #(
         .count(countAread)
     );
     assign coutARead = &{countAread};
-
 
     Mux2 #(7) mux1(
         .in0(countAddr),
@@ -125,7 +119,6 @@ module Martrix_Vector_multiplication #(
         .B2(B7to4)
     );
 
-
     PE pe_lsb(
         .clk(clk),
         .rst(rst),
@@ -149,6 +142,4 @@ module Martrix_Vector_multiplication #(
         .initial_sum(outPeLSB),
         .o_dot_product(w_data)
     );
-
-
 endmodule

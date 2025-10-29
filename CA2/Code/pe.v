@@ -9,7 +9,6 @@ module PE(
     input [33:0] initial_sum,
     output [33:0] o_dot_product
 );
-
     wire [33:0] outTwosComp1, outTwosComp2, outTwosComp3, outTwosComp4,
                 outMux1, outMux2, outMux3, outMux4, outMux5, outMux6,
                 outMux7, outMux8;
@@ -48,7 +47,6 @@ module PE(
         .out(outMux2)
     );
 
-
     assign selMux4 =  i_is_msb & a1;
     Mux2 #(34) mux3(
         .in0(34'b0),
@@ -63,7 +61,6 @@ module PE(
         .sel(selMux4),
         .out(outMux4)
     );
-
 
     assign selMux6 =  i_is_msb & a2;
     Mux2 #(34) mux5(
@@ -95,7 +92,6 @@ module PE(
         .out(outMux8)
     );
 
-
     Adder_fourOpr #(34) adder1(
         .cin(1'b0),
         .A(outMux2),
@@ -123,6 +119,4 @@ module PE(
         .cout(coutAdder2),
         .S(o_dot_product)
     );
-
-
 endmodule

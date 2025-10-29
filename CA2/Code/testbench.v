@@ -1,4 +1,4 @@
-module tb_hashGeneratopr();
+module TestBenchMVM();
     reg clk;   
     reg rst;
     reg start;

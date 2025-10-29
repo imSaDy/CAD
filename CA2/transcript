@@ -942,3 +942,5 @@ run -all
 # ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v(26)
 #    Time: 10020 ps  Iteration: 0  Instance: /tb_hashGeneratopr
 # Break in Module tb_hashGeneratopr at C:/Users/ASUS/Desktop/CAD/CA2/Code/testbench.v line 26
+# End time: 21:44:37 on Oct 28,2025, Elapsed time: 1:13:23
+# Errors: 0, Warnings: 1
