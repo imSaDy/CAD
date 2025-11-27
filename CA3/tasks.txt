@@ -1,4 +1,4 @@
-// Part I 
+// Part I                         * done
 shift reg  (sadegh)
 
 2 * xor   (erfan)
@@ -11,13 +11,11 @@ and gate (cout)  (sadegh)
 
 Multiplier  
 
-Adder             (erfan)
-
 5 * Mux (2 input)  (sadegh)
 
 5 * register          (sadegh)
 
-6 bit Counter        (erfan)
+6 bit Counter        (erfan)                 * done
 
 Function 1 to 4       (erfan)
 
@@ -29,5 +27,5 @@ M file
 
 constant mem           ---
 
-Adder 32 bit       (erfan)
+Adder 32 bit       (erfan)                  * done
 
