@@ -1,13 +1,13 @@
 module Adder_2opr(
     input  [31:0] A, B,
-    input         Cin,
+    input         cin,
     output [31:0] Sum,
-    output        Cout
+    output        cout
 );
 
-    wire [31:0] P, G;   // propagate and generate
+    wire [31:0] P, G;
     wire [32:0] C;
-    assign C[0] = Cin;
+    assign C[0] = cin;
 
     genvar i;
 
@@ -16,8 +16,8 @@ module Adder_2opr(
     // -----------------------------
     generate
         for (i = 0; i < 32; i=i+1) begin : PG
-            Xor Pgen(A[i], B[i], P[i]);
-            And Ggen(A[i], B[i], G[i]);
+            XOR Pgen(A[i], B[i], P[i]);
+            AND3 Ggen(A[i], B[i], 1'b1, G[i]);
         end
     endgenerate
 
@@ -57,10 +57,10 @@ module Adder_2opr(
     // -----------------------------
     generate
         for (i = 0; i < 32; i=i+1)
-            Xor sumxor(P[i], C[i], Sum[i]);
+            XOR sumxor(P[i], C[i], Sum[i]);
     endgenerate
 
-    assign Cout = C[32];
+    assign cout = C[32];
 
 endmodule
 
@@ -69,9 +69,9 @@ module BlackCell(input Gin_k, Pin_k, Gin_j, Pin_j,
                  output Gout, Pout);
 
     wire t;
-    And u1 (Pin_k, Gin_j, t);
-    Or  u2 (Gin_k, t, Gout);
-    And u3 (Pin_k, Pin_j, Pout);
+    AND3 u1 (Pin_k, Gin_j, 1'b1, t);
+    OR  u2 (Gin_k, t, Gout);
+    AND3 u3 (Pin_k, Pin_j, 1'b1, Pout);
 
 endmodule
 
@@ -80,7 +80,7 @@ module GrayCell(input Gin_k, Pin_k, Gin_j,
                 output Gout);
 
     wire t;
-    And u1(Pin_k, Gin_j, t);
-    Or  u2(Gin_k, t, Gout);
+    AND3 u1(Pin_k, Gin_j, 1'b1, t);
+    OR u2(Gin_k, t, Gout);
 
 endmodule

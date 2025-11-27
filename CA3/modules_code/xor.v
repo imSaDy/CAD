@@ -1,4 +1,4 @@
-module Xor(
+module XOR(
     input A, B,
     output C
 )

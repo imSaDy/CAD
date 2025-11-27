@@ -15,24 +15,34 @@ module Counter_3Bit (
     wire C_0, C_1; 
     wire XOR_0, XOR_1, XOR_2;
     
-    // Carry_0 = en & Q_0
+    AND3 and0(
+        .A(Q_0),
+        .B(en),
+        .C(1'b1),
+        .Y(C_0)
+    );
 
-    // Carry_1 = en & Q_0 & Q_1 = C_0 & Q_1
+    AND3 and1(
+        .A(Q_1),
+        .B(C_0),
+        .C(1'b1),
+        .Y(C_1)
+    );
+    
 
-
-    Xor xor0(
+    XOR xor0(
         .A(Q_0),
         .B(en),
         .C(XOR_0)
     );
     
-    Xor xor1(
+    XOR xor1(
         .A(Q_1),
         .B(C_0),
         .C(XOR_1)
     );
 
-    Xor xor2(
+    XOR xor2(
         .A(Q_2),
         .B(C_1),
         .C(XOR_2)
