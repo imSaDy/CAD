@@ -2,12 +2,14 @@
 
 module MUX21_tb;
 
-    reg I0;
-    reg I1;
-    reg S;
-    wire Y;
+    parameter WIDTH = 4;
 
-    MUX21 uut (
+    reg [WIDTH-1:0] I0;
+    reg [WIDTH-1:0] I1;
+    reg S;
+    wire [WIDTH-1:0] Y;
+
+    MUX21 #(.WIDTH(WIDTH)) uut (
         .I0(I0), 
         .I1(I1), 
         .S(S), 
@@ -15,43 +17,22 @@ module MUX21_tb;
     );
 
     initial begin
-        I0 = 0;
-        I1 = 0;
+        I0 = 0; I1 = 0; S = 0;
+        #10;
+
+        I0 = 4'hA;
+        I1 = 4'h5;
         S = 0;
         #10;
 
-        I0 = 1;
-        I1 = 0;
-        S = 0;
-        #10;
-
-        I0 = 0;
-        I1 = 1;
-        S = 0;
-        #10;
-
-        I0 = 1;
-        I1 = 1;
-        S = 0;
-        #10;
-
-        I0 = 0;
-        I1 = 0;
         S = 1;
         #10;
 
-        I0 = 1;
-        I1 = 0;
-        S = 1;
+        I0 = 4'hF;
+        I1 = 4'h0;
+        S = 0;
         #10;
 
-        I0 = 0;
-        I1 = 1;
-        S = 1;
-        #10;
-
-        I0 = 1;
-        I1 = 1;
         S = 1;
         #10;
 
