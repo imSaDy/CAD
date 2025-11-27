@@ -1,0 +1,33 @@
+// Part I 
+shift reg  (sadegh)
+
+2 * xor   (erfan)
+
+3 bit counter  (erfan)
+
+and gate (cout)  (sadegh)
+
+// Part II
+
+Multiplier  
+
+Adder             (erfan)
+
+5 * Mux (2 input)  (sadegh)
+
+5 * register          (sadegh)
+
+6 bit Counter        (erfan)
+
+Function 1 to 4       (erfan)
+
+not gate           (erfan)
+
+1 * Mux (4 input)   (sadegh)
+
+M file                 
+
+constant mem           ---
+
+Adder 32 bit       (erfan)
+
