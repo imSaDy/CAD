@@ -17,9 +17,9 @@ Multiplier
 
 6 bit Counter        (erfan)                 * done
 
-Function 1 to 4       (erfan)
+Function 1 to 4       (erfan)           *done
 
-not gate           (erfan)
+not gate           (erfan)		*done
 
 1 * Mux (4 input)   (sadegh)
 
