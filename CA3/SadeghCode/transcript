@@ -1,40 +1,117 @@
+# Compile of AND3.v was successful.
 # Compile of AND3_TB.v was successful.
-vsim -gui work.AND3_tb
-# vsim -gui work.AND3_tb 
-# Start time: 18:50:36 on Nov 27,2025
-# Loading work.AND3_tb
-# Loading work.AND3
-# Loading work.c1
+# Compile of modules.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of AND3.v was successful.
+# Compile of AND3_TB.v was successful.
+# Compile of modules.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of ShiftRegister_TB.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.ShiftRegister_tb
+# vsim -gui work.ShiftRegister_tb 
+# Start time: 20:31:01 on Nov 27,2025
+# Loading work.ShiftRegister_tb
+# Loading work.ShiftRegister
+# Loading work.s2
+# Loading work.FDCP
 add wave -position insertpoint  \
-sim:/AND3_tb/A \
-sim:/AND3_tb/B \
-sim:/AND3_tb/C \
-sim:/AND3_tb/Y \
-sim:/AND3_tb/i
+sim:/ShiftRegister_tb/clk \
+sim:/ShiftRegister_tb/rst \
+sim:/ShiftRegister_tb/load \
+sim:/ShiftRegister_tb/shiftEn \
+sim:/ShiftRegister_tb/ser_in \
+sim:/ShiftRegister_tb/PI \
+sim:/ShiftRegister_tb/twoMSB
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ASUS  Hostname: LAPTOP-NE9QAJVT  ProcessID: 5200
+#           Attempting to use alternate WLF file "./wlftbte8sx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbte8sx
 run -all
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
 # The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
+# 's2-s1.exe' is not recognized as an internal or external command,
 # operable program or batch file.
 # 
 # Result too large. (errno = ERANGE)
-# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/AND3_TB.v(25)
-#    Time: 90 ns  Iteration: 0  Instance: /AND3_tb
-# Break in Module AND3_tb at C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/AND3_TB.v line 25
-# Compile of AND3_TB.v was successful.
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/ShiftRegister_TB.v(70)
+#    Time: 90 ns  Iteration: 0  Instance: /ShiftRegister_tb
+# Break in Module ShiftRegister_tb at C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/ShiftRegister_TB.v line 70
+# Compile of ShiftRegister_TB.v was successful.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.AND3_tb
+# Loading work.ShiftRegister_tb
 run -all
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
 # The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
+# 's2-s1.exe' is not recognized as an internal or external command,
 # operable program or batch file.
 # 
 # Result too large. (errno = ERANGE)
-# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/AND3_TB.v(25)
-#    Time: 90 ns  Iteration: 0  Instance: /AND3_tb
-# Break in Module AND3_tb at C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/AND3_TB.v line 25
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/ShiftRegister_TB.v(51)
+#    Time: 140 ns  Iteration: 0  Instance: /ShiftRegister_tb
+# Break in Module ShiftRegister_tb at C:/Users/ASUS/Desktop/CAD/CA3/SadeghCode/ShiftRegister_TB.v line 51
