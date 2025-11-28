@@ -45,28 +45,28 @@ module HashGenDataPath #(
         .Sum(outAdder)
     );
 
-    Mux21  #(WORD_WIDTH) mux1(
+    MUX21  #(WORD_WIDTH) mux1(
         .I0(A0),
         .I1(D),
         .S(selA),
         .Y(outMux1)
     );
 
-    Mux21  #(WORD_WIDTH) mux2(
+    MUX21  #(WORD_WIDTH) mux2(
         .I0(B0),
         .I1(outAdder),
         .S(selB),
         .Y(outMux2)
     );
 
-    Mux21  #(WORD_WIDTH) mux3(
+    MUX21  #(WORD_WIDTH) mux3(
         .I0(C0),
         .I1(B),
         .S(selC),
         .Y(outMux3)
     );
 
-    Mux21  #(WORD_WIDTH) mux4(
+    MUX21  #(WORD_WIDTH) mux4(
         .I0(D0),
         .I1(C),
         .S(selD),
@@ -203,7 +203,7 @@ module HashGenDataPath #(
     ConstMem #(
         .INPUT_WIDTH(6),
         .OUTPUT_WIDTH(8),
-        .MEM_FILE(MEMORY_FILE)
+        .MEMORY_FILE(MEMORY_FILE)
     ) const_mem (
         .index(i),
         .data_out(const_i)
@@ -220,7 +220,7 @@ module HashGenDataPath #(
         .Sum(outAdder2)
     );
 
-    Mux21 #(WORD_WIDTH) mux6(
+    MUX21 #(WORD_WIDTH) mux6(
         .I0(outMux5),
         .I1(outAdder2),
         .S(selF),

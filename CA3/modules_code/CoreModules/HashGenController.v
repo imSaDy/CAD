@@ -6,9 +6,9 @@ module HashGenController (
     input co,
     output reg start_rnd,
     output reg countEn,
-    output reg loadABCD,
+    output loadABCD,
     output reg loadM,
-    output reg loadF,
+    output loadF,
     output reg selF,
     output reg selA,
     output reg selB,
@@ -17,12 +17,13 @@ module HashGenController (
     output reg done
 );
     wire [6:0] ps;
-    wire inter_connection;  
+    wire inter_connection1, inter_connection2, inter_connection3;  
     wire shift_trigger; 
     wire load_trigger;
     wire PI_2, PI_0;
+    wire reset;
 
-    assign PI_0 = rst;
+    assign PI_0 = reset;
 
     c1 c1_1(
         .A0(ps[1]),       
@@ -33,11 +34,11 @@ module HashGenController (
         .SB(ps[5]),       
         .S0(ps[3]),       
         .S1(ps[5]),       
-        .f(inter_connection)
+        .f(inter_connection1)
     );
 
     c1 c1_2(
-        .A0(inter_connection),       
+        .A0(inter_connection1),       
         .A1(1'b1),       
         .SA(ps[6]),  
         .B0(1'b1),         
@@ -51,7 +52,7 @@ module HashGenController (
     c1 c1_3(
         .A0(1'b0),       
         .A1(1'b1),       
-        .SA(rst),  
+        .SA(reset),  
         .B0(1'b1),         
         .B1(1'b0),       
         .SB(co),       
@@ -68,8 +69,8 @@ module HashGenController (
         .B0(1'b0),         
         .B1(1'b1),       
         .SB(1'b0),       
-        .S0(rst),       
-        .S1(0),       
+        .S0(reset),       
+        .S1(1'b0),       
         .f(PI_2)
     );
 
@@ -84,13 +85,28 @@ module HashGenController (
         .Q(ps)
     );
 
-    // NOR4 nor1 (
-    //     .A(ps[0]), 
-    //     .B(ps[1]), 
-    //     .C(ps[2]), 
-    //     .D(ps[3]), 
-    //     .Y(load_trigger)
-    // );
+    NOR4 nor1 (
+        .A(ps[0]), 
+        .B(ps[1]), 
+        .C(ps[2]), 
+        .D(ps[3]), 
+        .Y(inter_connection2)
+    );
+
+    NOR4 nor2 (
+        .A(ps[4]), 
+        .B(ps[5]), 
+        .C(ps[6]), 
+        .D(1'b0), 
+        .Y(inter_connection3)
+    );
+
+    AND3 and_1(
+        .A(inter_connection2),
+        .B(inter_connection3),
+        .C(1'b1),
+        .Y(reset)
+    );
 
     OR or_1(
         .A(ps[1]),
