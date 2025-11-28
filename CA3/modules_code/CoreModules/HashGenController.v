@@ -39,7 +39,7 @@ module HashGenController (
     c1 c1_2(
         .A0(inter_connection),       
         .A1(1'b1),       
-        .SA(p[6]),  
+        .SA(ps[6]),  
         .B0(1'b1),         
         .B1(1'b0),       
         .SB(1'b0),       
@@ -98,7 +98,7 @@ module HashGenController (
         .C(loadABCD)
     );
 
-    OR or_1(
+    OR or_2(
         .A(ps[3]),
         .B(ps[4]),
         .C(loadF)

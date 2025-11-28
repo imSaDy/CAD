@@ -1,4 +1,4 @@
-module Adder_8bit(
+module Adder2_8bit(
     input  [7:0] A, B,
     input        cin,
     output [7:0] Sum,
@@ -72,4 +72,84 @@ module GrayCell(
     wire t;
     AND3 u1(Pin_k, Gin_j, 1'b1, t);
     OR  u2(Gin_k, t, Gout);
+endmodule
+
+//////////////////////////////////////////////////////////////////////////////////
+
+module Adder4_8bit(
+    input  [7:0] A, B, C, D,
+    input        cin,
+    output [7:0] Sum,
+    output       cout
+);
+    // Intermediate sums
+    wire [7:0] S1, S2;
+    wire [7:0] C1, C2, C3;
+
+    // -------- Stage 1: A + B --------
+    genvar i;
+    generate
+        for(i=0;i<8;i=i+1) begin : ADD1
+            FullAdder_min FA1(
+                .a(A[i]),
+                .b(B[i]),
+                .cin(i==0 ? cin : C1[i-1]),
+                .sum(S1[i]),
+                .cout(C1[i])
+            );
+        end
+    endgenerate
+
+    // -------- Stage 2: (A+B) + C --------
+    generate
+        for(i=0;i<8;i=i+1) begin : ADD2
+            FullAdder_min FA2(
+                .a(S1[i]),
+                .b(C[i]),
+                .cin(i==0 ? 1'b0 : C2[i-1]),
+                .sum(S2[i]),
+                .cout(C2[i])
+            );
+        end
+    endgenerate
+
+    // -------- Stage 3: (A+B+C) + D --------
+    generate
+        for(i=0;i<8;i=i+1) begin : ADD3
+            FullAdder_min FA3(
+                .a(S2[i]),
+                .b(D[i]),
+                .cin(i==0 ? 1'b0 : C3[i-1]),
+                .sum(Sum[i]),
+                .cout(C3[i])
+            );
+        end
+    endgenerate
+
+    assign cout = C3[7];
+
+endmodule
+
+
+
+// =====================================================
+// MINIMAL-GATE FULL ADDER
+// Uses ONLY: XOR, AND3, OR
+// Total = 5 gates per FA (minimum possible)
+// =====================================================
+module FullAdder_min(
+    input  a, b, cin,
+    output sum, cout
+);
+    wire axb, t1, t2;
+
+    // sum = a XOR b XOR cin   (2 XOR gates)
+    XOR x1(a, b, axb);
+    XOR x2(axb, cin, sum);
+
+    // carry = (a&b) + (cin & (a⊕b))
+    // uses 2 AND3 + 1 OR  (3 gates)
+    AND3 g1(a, b, 1'b1, t1);
+    AND3 g2(cin, axb, 1'b1, t2);
+    OR   o1(t1, t2, cout);
 endmodule
