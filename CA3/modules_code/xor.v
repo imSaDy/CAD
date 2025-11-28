@@ -1,7 +1,7 @@
 module XOR(
     input A, B,
     output C
-)
+);
 
     c1 c1_1(
         .A0(1'b0),

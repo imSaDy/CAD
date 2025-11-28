@@ -13,10 +13,13 @@ module Function1 #(
         for (i = 0; i < WIDTH; i = i + 1) begin : F1
             wire XY, nZ, nZP;
 
-            AND3 u0 (.A(X[i]), .B(Y[i]), 1'b1, .C(XY));
+            AND3 u0 (.A(X[i]), .B(Y[i]), .C(1'b1), .Y(XY));
+            
             NOT u1 (.A(Z[i]), .Y(nZ));
-            AND3 u2 (.A(nZ), .B(P[i]), 1'b1, .C(nZP));
-            OR  u3 (.A(XY), .B(nZP), .Y(Res[i]));
+            
+            AND3 u2 (.A(nZ), .B(P[i]), .C(1'b1), .Y(nZP));
+            
+            OR  u3 (.A(XY), .B(nZP), .C(Res[i]));
         end
     endgenerate
 endmodule
@@ -55,7 +58,9 @@ module Function3 #(
             wire nZ, Y_or_nZ;
 
             NOT u0 (.A(Z[i]), .Y(nZ));
-            OR  u1 (.A(Y[i]), .B(nZ), .Y(Y_or_nZ));
+            
+            OR  u1 (.A(Y[i]), .B(nZ), .C(Y_or_nZ));
+            
             XOR u2 (.A(X[i]), .B(Y_or_nZ), .C(Res[i]));
         end
     endgenerate
