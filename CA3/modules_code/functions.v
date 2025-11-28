@@ -1,5 +1,5 @@
 module Function1 #(
-    parameter WIDTH = 32
+    parameter WIDTH = 8
 )(
     input  [WIDTH-1:0] X,
     input  [WIDTH-1:0] Y,
@@ -25,7 +25,7 @@ module Function1 #(
 endmodule
 
 module Function2 #(
-    parameter WIDTH = 32
+    parameter WIDTH = 8
 )(
     input  [WIDTH-1:0] X,
     input  [WIDTH-1:0] Y,
@@ -37,14 +37,14 @@ module Function2 #(
     generate
         for (i = 0; i < WIDTH; i = i + 1) begin : F2
             wire t;
-            XOR u0 (.A(X[i]), .B(Y[i]), .C(t));
-            XOR u1 (.A(t),    .B(Z[i]), .C(Res[i]));
+            XOR u0 (X[i], Y[i], t);
+            XOR u1 (t, Z[i], Res[i]);
         end
     endgenerate
 endmodule
 
 module Function3 #(
-    parameter WIDTH = 32
+    parameter WIDTH = 8
 )(
     input  [WIDTH-1:0] X,
     input  [WIDTH-1:0] Y,
