@@ -12,16 +12,24 @@ module RandGenController(
 
     wire [3:0] ps;       
     wire shift_trigger; 
-
+    wire load_trigger;
     ShiftRegister #(.WIDTH(4)) state_reg (
         .clk(clk),
-        .rst(1'b0),          
-        .load(rst),          
+        .rst(rst),          
+        .load(load_trigger),          
         .shiftEn(shift_trigger),
         .ser_in(ps[3]),
         .PI(4'b0001),        
         .twoMSB(),           
         .Q(ps)
+    );
+
+    NOR4 nor1 (
+        .A(ps[0]), 
+        .B(ps[1]), 
+        .C(ps[2]), 
+        .D(ps[3]), 
+        .Y(load_trigger)
     );
 
     c1 logic_inst (

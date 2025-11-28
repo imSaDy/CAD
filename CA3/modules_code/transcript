@@ -1,365 +1,1345 @@
-# Compile of Adder.v was successful.
+# Compile of adder.v was successful.
+# Compile of adder_tb.v was successful.
 # Compile of AND3.v was successful.
 # Compile of AND3_TB.v was successful.
 # Compile of blocks.v was successful.
 # Compile of counter.v was successful.
-# Compile of functions.v failed with 2 errors.
+# Compile of Counter_TB.v was successful.
+# Compile of functions.v was successful.
+# Compile of functions_tb.v was successful.
 # Compile of modules.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of Multiplier_TB.v was successful.
 # Compile of Mux21.v was successful.
 # Compile of Mux21_TB.v was successful.
 # Compile of Mux41.v was successful.
 # Compile of Mux41_TB.v was successful.
 # Compile of not.v was successful.
+# Compile of not_tb.v was successful.
 # Compile of or.v was successful.
+# Compile of or_tb.v was successful.
+# Compile of RandGenController.v was successful.
+# Compile of RandGenDataPath.v was successful.
 # Compile of Register.v was successful.
 # Compile of Register_TB.v was successful.
+# Compile of RndGenTop.v was successful.
 # Compile of ShiftRegister.v was successful.
 # Compile of ShiftRegister_TB.v was successful.
-# Compile of xor.v failed with 1 errors.
-# Compile of Multiplier.v was successful.
-# Compile of Multiplier_TB.v was successful.
-# 20 compiles, 2 failed with 3 errors.
-vsim -gui work.Multiplier4x4_tb
-# vsim -gui work.Multiplier4x4_tb 
-# Start time: 12:57:10 on Nov 28,2025
-# Loading work.Multiplier4x4_tb
-# Loading work.Multiplier4x4
-# Loading work.m_HA
-# Loading work.m_XOR
-# Loading work.c1
-# Loading work.m_AND
-# Loading work.m_FA
-# Loading work.m_MAJ
-add wave -position insertpoint  \
-sim:/Multiplier4x4_tb/A \
-sim:/Multiplier4x4_tb/B \
-sim:/Multiplier4x4_tb/P \
-sim:/Multiplier4x4_tb/i \
-sim:/Multiplier4x4_tb/j
-run -all
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/Multiplier_TB.v(29)
-#    Time: 2570 ns  Iteration: 0  Instance: /Multiplier4x4_tb
-# Break in Module Multiplier4x4_tb at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/Multiplier_TB.v line 29
-quit -sim
-# End time: 12:58:54 on Nov 28,2025, Elapsed time: 0:01:44
-# Errors: 0, Warnings: 3
-# Compile of counter.v was successful.
-# Compile of functions.v was successful.
+# Compile of TestBenchPart1.v was successful.
 # Compile of xor.v was successful.
-# Compile of Counter_TB.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.Counter_Par_tb
-# vsim -gui work.Counter_Par_tb 
-# Start time: 14:48:31 on Nov 28,2025
-# Loading work.Counter_Par_tb
-# Loading work.Counter
-# Loading work.AND3
-# Loading work.c1
-# Loading work.XOR
+# Compile of xor_tb.v was successful.
+# 30 compiles, 0 failed with no errors.
+vsim -gui work.tb_rndGenerator
+# vsim -gui work.tb_rndGenerator 
+# Start time: 15:34:34 on Nov 28,2025
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.ShiftRegister
 # Loading work.s2
 # Loading work.FDCP
+# Loading work.c1
+# Loading work.RandGenDataPath
+# Loading work.XOR
+# Loading work.Counter
+# Loading work.AND3
 add wave -position insertpoint  \
-sim:/Counter_Par_tb/WIDTH \
-sim:/Counter_Par_tb/clk \
-sim:/Counter_Par_tb/rst \
-sim:/Counter_Par_tb/load \
-sim:/Counter_Par_tb/en \
-sim:/Counter_Par_tb/PI \
-sim:/Counter_Par_tb/count
+sim:/tb_rndGenerator/clk \
+sim:/tb_rndGenerator/rst \
+sim:/tb_rndGenerator/seed \
+sim:/tb_rndGenerator/start_rnd \
+sim:/tb_rndGenerator/done_rnd \
+sim:/tb_rndGenerator/twoMSB
+run -all
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/clk \
+sim:/tb_rndGenerator/rndGen/rst \
+sim:/tb_rndGenerator/rndGen/shiftRegPI \
+sim:/tb_rndGenerator/rndGen/start_rnd \
+sim:/tb_rndGenerator/rndGen/rnd \
+sim:/tb_rndGenerator/rndGen/done_rnd \
+sim:/tb_rndGenerator/rndGen/cout \
+sim:/tb_rndGenerator/rndGen/loadC \
+sim:/tb_rndGenerator/rndGen/loadR \
+sim:/tb_rndGenerator/rndGen/countEn \
+sim:/tb_rndGenerator/rndGen/shiftEn
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/controller/clk \
+sim:/tb_rndGenerator/rndGen/controller/rst \
+sim:/tb_rndGenerator/rndGen/controller/start_rnd \
+sim:/tb_rndGenerator/rndGen/controller/co \
+sim:/tb_rndGenerator/rndGen/controller/done_rnd \
+sim:/tb_rndGenerator/rndGen/controller/loadC \
+sim:/tb_rndGenerator/rndGen/controller/loadR \
+sim:/tb_rndGenerator/rndGen/controller/countEn \
+sim:/tb_rndGenerator/rndGen/controller/shiftEn \
+sim:/tb_rndGenerator/rndGen/controller/ps \
+sim:/tb_rndGenerator/rndGen/controller/shift_trigger
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+quit -sim
+# End time: 16:27:34 on Nov 28,2025, Elapsed time: 0:53:00
+# Errors: 0, Warnings: 1
+# Compile of RandGenController.v was successful.
+vsim -gui work.tb_rndGenerator
+# vsim -gui work.tb_rndGenerator 
+# Start time: 16:27:51 on Nov 28,2025
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# ** Error: (vsim-3033) Instantiation of 'ShiftRegisterController' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rndGenerator/rndGen/controller File: C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/RandGenController.v Line: 16
+#         Searched libraries:
+#             C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/work
+# Loading work.c1
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.XOR
+# Loading work.Counter
+# Loading work.AND3
+# Error loading design
+# End time: 16:27:52 on Nov 28,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of ShiftRegisterController.v was successful.
+vsim -gui work.tb_rndGenerator
+# vsim -gui work.tb_rndGenerator 
+# Start time: 16:28:49 on Nov 28,2025
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.ShiftRegisterController
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.c1
+# Loading work.RandGenDataPath
+# Loading work.ShiftRegister
+# Loading work.XOR
+# Loading work.Counter
+# Loading work.AND3
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/clk \
+sim:/tb_rndGenerator/rst \
+sim:/tb_rndGenerator/seed \
+sim:/tb_rndGenerator/start_rnd \
+sim:/tb_rndGenerator/done_rnd \
+sim:/tb_rndGenerator/twoMSB
+run -all
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/clk \
+sim:/tb_rndGenerator/rndGen/rst \
+sim:/tb_rndGenerator/rndGen/shiftRegPI \
+sim:/tb_rndGenerator/rndGen/start_rnd \
+sim:/tb_rndGenerator/rndGen/rnd \
+sim:/tb_rndGenerator/rndGen/done_rnd \
+sim:/tb_rndGenerator/rndGen/cout \
+sim:/tb_rndGenerator/rndGen/loadC \
+sim:/tb_rndGenerator/rndGen/loadR \
+sim:/tb_rndGenerator/rndGen/countEn \
+sim:/tb_rndGenerator/rndGen/shiftEn
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/controller/clk \
+sim:/tb_rndGenerator/rndGen/controller/rst \
+sim:/tb_rndGenerator/rndGen/controller/start_rnd \
+sim:/tb_rndGenerator/rndGen/controller/co \
+sim:/tb_rndGenerator/rndGen/controller/done_rnd \
+sim:/tb_rndGenerator/rndGen/controller/loadC \
+sim:/tb_rndGenerator/rndGen/controller/loadR \
+sim:/tb_rndGenerator/rndGen/controller/countEn \
+sim:/tb_rndGenerator/rndGen/controller/shiftEn \
+sim:/tb_rndGenerator/rndGen/controller/ps \
+sim:/tb_rndGenerator/rndGen/controller/shift_trigger
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/WIDTH \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/clk \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/rst \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/load \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/shiftEn \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/ser_in \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/PI \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/Q \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/q
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/D00 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/D01 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/D10 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/D11 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/A1 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/B1 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/A0 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/B0 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/clr \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/clk \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/out \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/s0 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/s1 \
+sim:/tb_rndGenerator/rndGen/controller/state_reg/bit_0/d
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenchPart1.v line 62
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 17:26:13 on Nov 28,2025, Elapsed time: 0:57:24
+# Errors: 0, Warnings: 1
+# Compile of adder.v was successful.
+# Compile of AND3.v was successful.
+# Compile of blocks.v was successful.
+# Compile of counter.v was successful.
+# Compile of modules.v was successful.
+# Compile of Mux21.v was successful.
+# Compile of Mux41.v was successful.
+# Compile of Nor.v was successful.
+# Compile of not.v was successful.
+# Compile of or.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of xor.v was successful.
+# Compile of functions.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of RandGenController.v was successful.
+# Compile of RandGenDataPath.v was successful.
+# Compile of RndGenTop.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of AND3_TB.v was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of functions_tb.v was successful.
+# Compile of Multiplier_TB.v was successful.
+# Compile of Mux21_TB.v was successful.
+# Compile of Mux41_TB.v was successful.
+# Compile of Nor_TB.v was successful.
+# Compile of not_tb.v was successful.
+# Compile of or_tb.v was successful.
+# Compile of Register_TB.v was successful.
+# Compile of ShiftRegister_TB.v was successful.
+# Compile of TestBenchPart1.v was successful.
+# Compile of xor_tb.v was successful.
+# 32 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.NOR4_tb
+# vsim -gui work.NOR4_tb 
+# Start time: 17:27:39 on Nov 28,2025
+# Loading work.NOR4_tb
+# Loading work.NOR4
+# Loading work.c1
+add wave -position insertpoint  \
+sim:/NOR4_tb/A \
+sim:/NOR4_tb/B \
+sim:/NOR4_tb/C \
+sim:/NOR4_tb/D \
+sim:/NOR4_tb/Y \
+sim:/NOR4_tb/i
 run -all
 # (vsim-50) A call to system(c1.exe) returned error code '1'.
 # The logfile contains the following messages:
@@ -373,6 +1353,181 @@ run -all
 # operable program or batch file.
 # 
 # Result too large. (errno = ERANGE)
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/Nor_TB.v(26)
+#    Time: 160 ns  Iteration: 0  Instance: /NOR4_tb
+# Break in Module NOR4_tb at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/Nor_TB.v line 26
+quit -sim
+# End time: 17:28:35 on Nov 28,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 7
+# Compile of RandGenController.v failed with 2 errors.
+# Compile of adder.v was successful.
+# Compile of AND3.v was successful.
+# Compile of blocks.v was successful.
+# Compile of counter.v was successful.
+# Compile of modules.v was successful.
+# Compile of Mux21.v was successful.
+# Compile of Mux41.v was successful.
+# Compile of Nor.v was successful.
+# Compile of not.v was successful.
+# Compile of or.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of xor.v was successful.
+# Compile of functions.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of RandGenController.v failed with 2 errors.
+# Compile of RandGenDataPath.v was successful.
+# Compile of RndGenTop.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of AND3_TB.v was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of functions_tb.v was successful.
+# Compile of Multiplier_TB.v was successful.
+# Compile of Mux21_TB.v was successful.
+# Compile of Mux41_TB.v was successful.
+# Compile of Nor_TB.v was successful.
+# Compile of not_tb.v was successful.
+# Compile of or_tb.v was successful.
+# Compile of Register_TB.v was successful.
+# Compile of ShiftRegister_TB.v was successful.
+# Compile of TestBenchPart1.v was successful.
+# Compile of xor_tb.v was successful.
+# 32 compiles, 1 failed with 2 errors.
+# Compile of RandGenController.v was successful.
+vsim -gui work.NOR4_tb
+# vsim -gui work.NOR4_tb 
+# Start time: 17:34:53 on Nov 28,2025
+# Loading work.NOR4_tb
+# Loading work.NOR4
+# Loading work.c1
+quit -sim
+# End time: 17:35:01 on Nov 28,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 4
+vsim -gui work.tb_rndGenerator
+# vsim -gui work.tb_rndGenerator 
+# Start time: 17:35:17 on Nov 28,2025
+# Loading work.tb_rndGenerator
+# Loading work.rndGenerator
+# Loading work.RandGenController
+# Loading work.ShiftRegister
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.NOR4
+# Loading work.c1
+# Loading work.RandGenDataPath
+# Loading work.XOR
+# Loading work.Counter
+# Loading work.AND3
+add wave -position insertpoint  \
+sim:/tb_rndGenerator/clk \
+sim:/tb_rndGenerator/rst \
+sim:/tb_rndGenerator/seed \
+sim:/tb_rndGenerator/start_rnd \
+sim:/tb_rndGenerator/done_rnd \
+sim:/tb_rndGenerator/twoMSB
+run -all
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 's2-s1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
+# (vsim-50) A call to system(c1.exe) returned error code '1'.
+# The logfile contains the following messages:
+# 'c1.exe' is not recognized as an internal or external command,
+# operable program or batch file.
+# 
+# Result too large. (errno = ERANGE)
 # (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
 # The logfile contains the following messages:
 # 's2-s1.exe' is not recognized as an internal or external command,
@@ -403,12 +1558,6 @@ run -all
 # operable program or batch file.
 # 
 # Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
 # (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
 # The logfile contains the following messages:
 # 's2-s1.exe' is not recognized as an internal or external command,
@@ -421,30 +1570,6 @@ run -all
 # operable program or batch file.
 # 
 # Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 's2-s1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(c1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 'c1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# (vsim-50) A call to system(s2-s1.exe) returned error code '1'.
-# The logfile contains the following messages:
-# 's2-s1.exe' is not recognized as an internal or external command,
-# operable program or batch file.
-# 
-# Result too large. (errno = ERANGE)
-# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/Counter_TB.v(60)
-#    Time: 280 ns  Iteration: 0  Instance: /Counter_Par_tb
-# Break in Module Counter_Par_tb at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/Counter_TB.v line 60
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/TestBenchPart1.v(62)
+#    Time: 860 ns  Iteration: 0  Instance: /tb_rndGenerator
+# Break in Module tb_rndGenerator at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/TestBenchPart1.v line 62
