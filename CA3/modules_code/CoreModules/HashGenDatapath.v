@@ -37,7 +37,7 @@ module HashGenDataPath #(
         .P(outMult)
     );
 
-    Adder2 #(WORD_WIDTH)(
+    Adder2 #(WORD_WIDTH) adder1(
         .cin(1'b0),
         .A(outMult),
         .B(B),
@@ -150,7 +150,7 @@ module HashGenDataPath #(
         .done_rnd(done_rnd)
     );
 
-    MFile #(32) mfile(
+    MFile #(MESSAGE_WIDTH) mfile(
         .clk(clk),
         .rst(rst),
         .message(message),
@@ -202,7 +202,7 @@ module HashGenDataPath #(
 
     ConstMem #(
         .INPUT_WIDTH(6),
-        .OUTPUT_WIDTH(8),
+        .OUTPUT_WIDTH(WORD_WIDTH),
         .MEMORY_FILE(MEMORY_FILE)
     ) const_mem (
         .index(i),

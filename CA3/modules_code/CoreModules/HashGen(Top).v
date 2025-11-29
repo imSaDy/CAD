@@ -1,26 +1,28 @@
 module HashGenerator#(
-    parameter [7:0] A0 = 8'h01,
-    parameter [7:0] B0 = 8'h89,
-    parameter [7:0] C0 = 8'hfe,
-    parameter [7:0] D0 = 8'h76,
+    parameter MESSAGE_WIDTH = 32,
+    parameter [MESSAGE_WIDTH/4 - 1: 0] C0,
+    parameter [MESSAGE_WIDTH/4 - 1: 0] D0,
+    parameter [MESSAGE_WIDTH/4 - 1: 0] B0,
+    parameter [MESSAGE_WIDTH/4 - 1: 0] A0,
     parameter MEMORY_FILE = "constant.mem"
 )(
     input clk, 
     input rst,
     input start,
-    input [31:0] message,
+    input [MESSAGE_WIDTH - 1: 0] message,
     output done,
-    output [31:0] digest
+    output [MESSAGE_WIDTH - 1: 0] digest
 );
     wire selA, selB, selC, selD, selF;
     wire loadABCD, loadM, loadF;
     wire start_rnd, done_rnd;
     wire co, countEn;
+
     HashGenDataPath #(
         .COUNTER_WIDTH(6),
         .RND_WIDTH(2),
-        .MESSAGE_WIDTH(32),
-        .WORD_WIDTH(8),
+        .MESSAGE_WIDTH(MESSAGE_WIDTH),
+        .WORD_WIDTH(MESSAGE_WIDTH / 4),
         .MEMORY_FILE(MEMORY_FILE)
     ) hash_gen_dataPath(
         .A0(A0),

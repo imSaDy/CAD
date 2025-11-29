@@ -14,6 +14,7 @@ module HashGenerator_TB();
         .B0(8'h89),
         .C0(8'hfe),
         .D0(8'h76),
+        .MESSAGE_WIDTH(32),
         .MEMORY_FILE("constant.mem")
     ) hash_generator(
         .clk(clk),
