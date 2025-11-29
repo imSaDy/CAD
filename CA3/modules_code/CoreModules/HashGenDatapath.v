@@ -37,7 +37,7 @@ module HashGenDataPath #(
         .P(outMult)
     );
 
-    Adder2_8bit adder(
+    Adder2 #(WORD_WIDTH)(
         .cin(1'b0),
         .A(outMult),
         .B(B),
@@ -210,7 +210,7 @@ module HashGenDataPath #(
     );
 
 
-    Adder4_8bit adder2(
+    Adder4 #(WORD_WIDTH) adder2(
         .cin(1'b0),
         .A(F),
         .B(A),

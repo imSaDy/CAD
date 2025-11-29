@@ -4,17 +4,17 @@ module HashGenController (
     input start,
     input done_rnd,
     input co,
-    output reg start_rnd,
-    output reg countEn,
+    output start_rnd,
+    output countEn,
     output loadABCD,
-    output reg loadM,
+    output loadM,
     output loadF,
-    output reg selF,
-    output reg selA,
-    output reg selB,
-    output reg selC,
-    output reg selD,
-    output reg done
+    output selF,
+    output selA,
+    output selB,
+    output selC,
+    output selD,
+    output done
 );
     wire [6:0] ps;
     wire inter_connection1, inter_connection2, inter_connection3;  
