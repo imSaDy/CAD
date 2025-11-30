@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module HashGenerator_TB();
     reg clk;   
     reg rst;
@@ -28,7 +29,7 @@ module HashGenerator_TB();
     initial begin
         message = 32'b0; start=0; rst = 1'b1;
         #10 rst = 1'b0;
-        #10 start = 1'b1 ; message = 32'hdf01f0b7; 
+        #10 start = 1'b1 ; message = 32'h3761eded; 
         #10 start = 1'b0;
         #10000;
         $stop;

@@ -20,10 +20,10 @@ module MFile #(
     );
 
     MUX41 #(MESSAGE_WIDTH/4) mux(
-        .I0(outReg[MESSAGE_WIDTH/4 - 1:0]),
-        .I1(outReg[(2*MESSAGE_WIDTH)/4 - 1: MESSAGE_WIDTH/4]),
-        .I2(outReg[(3*MESSAGE_WIDTH)/4 - 1: (2*MESSAGE_WIDTH)/4]),
-        .I3(outReg[MESSAGE_WIDTH - 1: (3*MESSAGE_WIDTH)/4]),
+        .I0(outReg[MESSAGE_WIDTH - 1: (3*MESSAGE_WIDTH)/4]),
+        .I1(outReg[(3*MESSAGE_WIDTH)/4 - 1: (2*MESSAGE_WIDTH)/4]),
+        .I2(outReg[(2*MESSAGE_WIDTH)/4 - 1: MESSAGE_WIDTH/4]),
+        .I3(outReg[MESSAGE_WIDTH/4 - 1:0]),
         .S(index),
         .Y(out)
     );
