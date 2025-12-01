@@ -36,6 +36,7 @@ module HashGenDataPath #(
     wire [WORD_WIDTH-1:0] outMux1, outMux2, outMux3, outMux4, outMux5, outMux6;
     wire [WORD_WIDTH-1:0] outMult, outAdder;
     wire coutAdder, outAnd31, outAnd32;
+    wire is_init;
 
     Multiplier4x4 multiplier(
         .A(F[WORD_WIDTH/2 - 1: 0]),
@@ -43,16 +44,49 @@ module HashGenDataPath #(
         .P(outMult)
     );
 
-    MUX21  #(WORD_WIDTH) mux1(.I0(A0), .I1(D), .S(selA), .Y(outMux1));
-    MUX21  #(WORD_WIDTH) mux2(.I0(B0), .I1(outAdder), .S(selB), .Y(outMux2));
-    MUX21  #(WORD_WIDTH) mux3(.I0(C0), .I1(B), .S(selC), .Y(outMux3));
-    MUX21  #(WORD_WIDTH) mux4(.I0(D0), .I1(C), .S(selD), .Y(outMux4));
+    c1 u_is_init (
+        .A0(1'b0),
+        .A1(1'b1),
+        .SA(loadABCD),
+        .B0(1'b0),
+        .B1(1'b0),
+        .SB(1'b0),
+        .S0(selA),
+        .S1(1'b0),
+        .f(is_init)
+    );
 
-    // CONNECTED: Single loadABCD signal for all 4 registers
-    Register #(WORD_WIDTH) Areg(.clk(clk), .rst(rst), .load(loadABCD), .D(outMux1), .Q(A));
-    Register #(WORD_WIDTH) Breg(.clk(clk), .rst(rst), .load(loadABCD), .D(outMux2), .Q(B));
-    Register #(WORD_WIDTH) Creg(.clk(clk), .rst(rst), .load(loadABCD), .D(outMux3), .Q(C));
-    Register #(WORD_WIDTH) Dreg(.clk(clk), .rst(rst), .load(loadABCD), .D(outMux4), .Q(D));
+    MuxReg #(WORD_WIDTH) A_muxreg(
+        .clk(clk), .rst(rst), 
+        .init(is_init), 
+        .update(loadABCD),
+        .val_init(A0), .val_update(D),
+        .Q(A)
+    );
+
+    MuxReg #(WORD_WIDTH) B_muxreg(
+        .clk(clk), .rst(rst), 
+        .init(is_init), 
+        .update(loadABCD),
+        .val_init(B0), .val_update(outAdder),
+        .Q(B)
+    );
+
+    MuxReg #(WORD_WIDTH) C_muxreg(
+        .clk(clk), .rst(rst), 
+        .init(is_init), 
+        .update(loadABCD),
+        .val_init(C0), .val_update(B),
+        .Q(C)
+    );
+
+    MuxReg #(WORD_WIDTH) D_muxreg(
+        .clk(clk), .rst(rst), 
+        .init(is_init), 
+        .update(loadABCD),
+        .val_init(D0), .val_update(C),
+        .Q(D)
+    );
 
     assign digest = {A, B, C, D};
 
@@ -98,14 +132,6 @@ module HashGenDataPath #(
         .B(outMuxAdd2),
         .cout(coutAdder),
         .Sum(outAdder)
-    );
-
-    Adder2 #(4) aasdfasdder2opr(
-        .cin(1'b0),
-        .A(),
-        .B(),
-        .cout(),
-        .Sum()
     );
 
     Register #(WORD_WIDTH) accReg(
