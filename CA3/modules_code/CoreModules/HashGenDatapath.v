@@ -16,7 +16,6 @@ module HashGenDataPath #(
     input loadM,
     input [MESSAGE_WIDTH - 1:0] message,
     input selA, selB, selC, selD, selF,
-    // CHANGED: Single load signal
     input loadABCD, 
     input loadF,
     input [1:0] selAdd1, 
@@ -33,57 +32,50 @@ module HashGenDataPath #(
     wire [WORD_WIDTH-1:0] A, B, C, D, F, acc;
     wire [WORD_WIDTH-1:0] outMuxAdd1, outMuxAdd2;
     wire [WORD_WIDTH-1:0] f1, f2, f3, f4;
-    wire [WORD_WIDTH-1:0] outMux1, outMux2, outMux3, outMux4, outMux5, outMux6;
+    wire [WORD_WIDTH-1:0] outMux5; // mux6 removed (merged)
     wire [WORD_WIDTH-1:0] outMult, outAdder;
     wire coutAdder, outAnd31, outAnd32;
     wire is_init;
 
+    // --- Optimized Multiplier ---
     Multiplier4x4 multiplier(
         .A(F[WORD_WIDTH/2 - 1: 0]),
         .B(F[WORD_WIDTH - 1: WORD_WIDTH/2]),
         .P(outMult)
     );
 
+    // --- Init Logic ---
     c1 u_is_init (
-        .A0(1'b0),
-        .A1(1'b1),
-        .SA(loadABCD),
-        .B0(1'b0),
-        .B1(1'b0),
-        .SB(1'b0),
-        .S0(selA),
-        .S1(1'b0),
-        .f(is_init)
+        .A0(1'b0), .A1(1'b1), .SA(loadABCD),
+        .B0(1'b0), .B1(1'b0), .SB(1'b0),
+        .S0(selA), .S1(1'b0), .f(is_init)
     );
 
+    // --- MuxRegs (A, B, C, D) ---
     MuxReg #(WORD_WIDTH) A_muxreg(
         .clk(clk), .rst(rst), 
-        .init(is_init), 
-        .update(loadABCD),
+        .init(is_init), .update(loadABCD), 
         .val_init(A0), .val_update(D),
         .Q(A)
     );
 
     MuxReg #(WORD_WIDTH) B_muxreg(
         .clk(clk), .rst(rst), 
-        .init(is_init), 
-        .update(loadABCD),
+        .init(is_init), .update(loadABCD), 
         .val_init(B0), .val_update(outAdder),
         .Q(B)
     );
 
     MuxReg #(WORD_WIDTH) C_muxreg(
         .clk(clk), .rst(rst), 
-        .init(is_init), 
-        .update(loadABCD),
+        .init(is_init), .update(loadABCD), 
         .val_init(C0), .val_update(B),
         .Q(C)
     );
 
     MuxReg #(WORD_WIDTH) D_muxreg(
         .clk(clk), .rst(rst), 
-        .init(is_init), 
-        .update(loadABCD),
+        .init(is_init), .update(loadABCD), 
         .val_init(D0), .val_update(C),
         .Q(D)
     );
@@ -147,14 +139,16 @@ module HashGenDataPath #(
         .I0(acc), .I1(F), .I2(const_i), .I3(B),
         .S(selAdd2), .Y(outMuxAdd2)
     );
-    // ---------------------------
-
-    MUX21 #(WORD_WIDTH) mux6(
-        .I0(outMux5), .I1(outAdder), .S(selF), .Y(outMux6)
-    );
-
-    Register #(WORD_WIDTH) Freg(
-        .clk(clk), .rst(rst), .load(loadF), .D(outMux6), .Q(F)
+    
+    // --- OPTIMIZATION: Merged MUX21 (mux6) and Register (Freg) ---
+    // Eliminates 80 gates by using MuxReg logic
+    MuxReg #(WORD_WIDTH) F_muxreg(
+        .clk(clk), .rst(rst), 
+        .init(selF),          // If selF=1 (and loadF=1), Select D11 (val_init) -> outAdder
+        .update(loadF),       // If loadF=1 (and selF=0), Select D01 (val_update) -> outMux5
+        .val_init(outAdder),  // Source when selF=1 (State 5)
+        .val_update(outMux5), // Source when selF=0 (State 3)
+        .Q(F)
     );
 
 endmodule
