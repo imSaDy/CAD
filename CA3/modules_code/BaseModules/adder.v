@@ -4,31 +4,19 @@ module Adder2 #(parameter N = 8)(
     output [N-1:0] Sum,
     output         cout
 );
-    wire [N-1:0] P, G;
-    wire [N:0]   C;
+    wire [N:0] C;
     assign C[0] = cin;
 
     genvar i;
-
-    // Propagate / Generate
     generate
-        for (i = 0; i < N; i=i+1) begin : PG
-            XOR  u_xor(A[i], B[i], P[i]);
-            AND3 u_and(A[i], B[i], 1'b1, G[i]);
-        end
-    endgenerate
-
-    // Prefix chain
-    generate
-        for (i = 0; i < N; i=i+1) begin : PREFIX
-            GrayCell gc(G[i], P[i], C[i], C[i+1]);
-        end
-    endgenerate
-
-    // Sum bits
-    generate
-        for (i = 0; i < N; i=i+1) begin : SUMS
-            XOR u_sum(P[i], C[i], Sum[i]);
+        for(i=0; i<N; i=i+1) begin : RIPPLE
+            m_FA u_fa(
+                .A(A[i]), 
+                .B(B[i]), 
+                .Cin(C[i]), 
+                .S(Sum[i]), 
+                .C(C[i+1])
+            );
         end
     endgenerate
 

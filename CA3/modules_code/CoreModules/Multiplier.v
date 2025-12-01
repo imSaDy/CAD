@@ -27,14 +27,18 @@ module Multiplier4x4 (
     wire [3:0] s1;
     wire [3:0] c1;
     
+    // Stage 1
     m_HA ha1_0 (.A(pp0[1]), .B(pp1[0]), .S(P[1]), .C(c1[0]));
     m_FA fa1_1 (.A(pp0[2]), .B(pp1[1]), .Cin(c1[0]), .S(s1[1]), .C(c1[1]));
     m_FA fa1_2 (.A(pp0[3]), .B(pp1[2]), .Cin(c1[1]), .S(s1[2]), .C(c1[2]));
-    m_FA fa1_3 (.A(1'b0), .B(pp1[3]), .Cin(c1[2]), .S(s1[3]), .C(c1[3])); 
+    
+    // OPTIMIZATION: Replaced FA with HA because input A was 0
+    m_HA fa1_3 (.A(pp1[3]), .B(c1[2]), .S(s1[3]), .C(c1[3])); 
 
     wire [3:0] s2;
     wire [3:0] c2;
 
+    // Stage 2
     m_HA ha2_0 (.A(s1[1]), .B(pp2[0]), .S(P[2]), .C(c2[0]));
     m_FA fa2_1 (.A(s1[2]), .B(pp2[1]), .Cin(c2[0]), .S(s2[1]), .C(c2[1]));
     m_FA fa2_2 (.A(s1[3]), .B(pp2[2]), .Cin(c2[1]), .S(s2[2]), .C(c2[2]));
@@ -42,6 +46,7 @@ module Multiplier4x4 (
 
     wire [3:0] c3;
     
+    // Stage 3
     m_HA ha3_0 (.A(s2[1]), .B(pp3[0]), .S(P[3]), .C(c3[0]));
     m_FA fa3_1 (.A(s2[2]), .B(pp3[1]), .Cin(c3[0]), .S(P[4]), .C(c3[1]));
     m_FA fa3_2 (.A(s2[3]), .B(pp3[2]), .Cin(c3[1]), .S(P[5]), .C(c3[2]));

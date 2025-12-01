@@ -10,18 +10,16 @@ module Function1 #(
 
     genvar i;
     generate
-        for (i = 0; i < WIDTH; i = i + 1) begin : F1
-            wire XY, nZ, nZP;
-
-            AND3 u0 (.A(X[i]), .B(Y[i]), .C(1'b1), .Y(XY));
-            
-            NOT u1 (.A(Z[i]), .Y(nZ));
-            
-            AND3 u2 (.A(nZ), .B(P[i]), .C(1'b1), .Y(nZP));
-            
-            OR  u3 (.A(XY), .B(nZP), .C(Res[i]));
+        for (i = 0; i < WIDTH; i = i + 1) begin : bit_slice
+            MUX21 #(1) u_mux (
+                .I0(P[i]),
+                .I1(Y[i]),
+                .S(X[i]),
+                .Y(Res[i])
+            );
         end
     endgenerate
+
 endmodule
 
 module Function2 #(
@@ -54,14 +52,25 @@ module Function3 #(
 
     genvar i;
     generate
-        for (i = 0; i < WIDTH; i = i + 1) begin : F3
-            wire nZ, Y_or_nZ;
-
-            NOT u0 (.A(Z[i]), .Y(nZ));
-            
-            OR  u1 (.A(Y[i]), .B(nZ), .C(Y_or_nZ));
-            
-            XOR u2 (.A(X[i]), .B(Y_or_nZ), .C(Res[i]));
+        for (i = 0; i < WIDTH; i = i + 1) begin : bit_slice
+            wire term;
+            c1 u_or_not (
+                .A0(1'b1),
+                .A1(1'b0),
+                .SA(1'b0),
+                .B0(Y[i]),
+                .B1(1'b0),
+                .SB(1'b0),
+                .S0(Z[i]),
+                .S1(1'b0),
+                .f(term)
+            );
+            XOR u_xor_final (
+                .A(X[i]), 
+                .B(term), 
+                .C(Res[i])
+            );
         end
     endgenerate
+
 endmodule

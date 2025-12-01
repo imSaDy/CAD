@@ -1,7 +1,7 @@
-# Compile of blocks.v was successful.
+# Compile of functions.v was successful.
 vsim -gui work.HashGenerator_TB
 # vsim -gui work.HashGenerator_TB 
-# Start time: 20:06:01 on Nov 30,2025
+# Start time: 10:48:43 on Dec 01,2025
 # Loading work.HashGenerator_TB
 # Loading work.HashGenerator
 # Loading work.HashGenDataPath
@@ -37,7 +37,218 @@ vsim -gui work.HashGenerator_TB
 # Loading work.GrayCell
 # Loading work.NOT
 # Loading work.FullAdder
+add wave -position insertpoint  \
+sim:/HashGenerator_TB/clk \
+sim:/HashGenerator_TB/rst \
+sim:/HashGenerator_TB/start \
+sim:/HashGenerator_TB/done \
+sim:/HashGenerator_TB/message \
+sim:/HashGenerator_TB/digest
 run -all
 # ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
 #    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
 # Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of functions.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of adder.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Adder2
+# Loading work.Adder4
+# Loading work.FullAdder
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of functions.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of HashGen(Top).v was successful.
+# Compile of HashGenController.v was successful.
+# Compile of HashGenDatapath.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenerator
+# Loading work.HashGenDataPath
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of HashGenController.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of HashGenController.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenController
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of counter.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of counter.v was successful.
+# Compile of Multiplier.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Multiplier4x4
+# Loading work.m_HA
+# Loading work.m_XOR
+# Loading work.m_AND
+# Loading work.m_FA
+# Loading work.m_MAJ
+# Loading work.Counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of functions.v was successful.
+# Compile of HashGenDatapath.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenDataPath
+# Loading work.MergedFunctions
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of functions.v was successful.
+# Compile of HashGenDatapath.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenDataPath
+# Loading work.Function1
+# Loading work.Function2
+# Loading work.Function3
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+restart
+# Compile of HashGenDatapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenDataPath
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# Compile of HashGenDatapath.v failed with 1 errors.
+# Compile of HashGenDatapath.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.HashGenDataPath
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v(35)
+#    Time: 10030 ns  Iteration: 0  Instance: /HashGenerator_TB
+# Break in Module HashGenerator_TB at C:/Users/ASUS/Desktop/CAD/CAD/CA3/modules_code/TestBenches/hashgen_tb.v line 35
+# End time: 15:51:16 on Dec 01,2025, Elapsed time: 5:02:33
+# Errors: 0, Warnings: 1
