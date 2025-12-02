@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module tb_rndGenerator();
+module RndGen_TB();
     reg clk;
     reg rst;
     reg [5:0] seed; 
