@@ -3,10 +3,10 @@ module MuxReg #(
 )(
     input clk,
     input rst,
-    input init,       // Control signal for Initialization (ps[1])
-    input update,     // Control signal for Update (ps[6])
-    input [WIDTH-1:0] val_init,   // A0, B0, etc.
-    input [WIDTH-1:0] val_update, // D, outAdder, etc.
+    input init,
+    input update,
+    input [WIDTH-1:0] val_init,
+    input [WIDTH-1:0] val_update,
     output [WIDTH-1:0] Q
 );
     wire [WIDTH-1:0] q_wire;
@@ -14,22 +14,15 @@ module MuxReg #(
 
     genvar i;
     generate
-        for (i = 0; i < WIDTH; i = i + 1) begin : bit_slice
-            // Logic Mapping:
-            // init=0, update=0 -> s1=0, s0=0 -> Select D00 (Hold Q)
-            // init=0, update=1 -> s1=0, s0=1 -> Select D01 (Update Value)
-            // init=1, update=0 -> s1=1, s0=0 -> Select D10 (Init Value)
-            
+        for (i = 0; i < WIDTH; i = i + 1) begin : bit_slice            
             s2 bit_inst (
-                .D00(q_wire[i]),      // Hold
-                .D01(val_update[i]),  // Update
-                .D10(val_init[i]),    // Init
-                .D11(val_init[i]),    // (Unused case)
+                .D00(q_wire[i]),
+                .D01(val_update[i]),
+                .D10(val_init[i]),
+                .D11(val_init[i]),
                 
-                // s1 = A1 | B1. We want s1 = init. Set A1=init, B1=0.
                 .A1(init), .B1(1'b0),
                 
-                // s0 = A0 & B0. We want s0 = update. Set A0=update, B0=1.
                 .A0(update), .B0(1'b1),
                 
                 .clr(rst),

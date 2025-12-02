@@ -14,18 +14,15 @@ module HashGenerator#(
     output [MESSAGE_WIDTH - 1: 0] digest
 );
 
-    // --- Interconnecting Wires ---
     wire selA, selB, selC, selD, selF;
     wire loadABCD, loadM, loadF;
     wire start_rnd, done_rnd;
     wire co, countEn;
     
-    // New Wires for Single-Adder Architecture
     wire loadAcc;
     wire [1:0] selAdd1;
     wire [1:0] selAdd2;
 
-    // --- Datapath Instantiation ---
     HashGenDataPath #(
         .COUNTER_WIDTH(6),
         .RND_WIDTH(2),
@@ -33,7 +30,6 @@ module HashGenerator#(
         .WORD_WIDTH(MESSAGE_WIDTH / 4),
         .MEMORY_FILE(MEMORY_FILE)
     ) hash_gen_dataPath(
-        // Inputs
         .clk(clk),
         .rst(rst),
         .A0(A0),
@@ -44,40 +40,30 @@ module HashGenerator#(
         .start_rnd(start_rnd),
         .loadM(loadM),
         .message(message),
-        
-        // Control Signals
         .selA(selA),
         .selB(selB),
         .selC(selC),
         .selD(selD),
         .selF(selF),
-        .loadABCD(loadABCD), // Single load signal
+        .loadABCD(loadABCD),
         .loadF(loadF),
-        
-        // Single Adder Controls
         .selAdd1(selAdd1),
         .selAdd2(selAdd2),
         .loadAcc(loadAcc),
-        
-        // Outputs
         .co(co),
         .done_rnd(done_rnd),
         .digest(digest)
     );
 
-    // --- Controller Instantiation ---
     HashGenController hash_gen_controller(
-        // Inputs
         .clk(clk),
         .rst(rst),
         .start(start),
         .done_rnd(done_rnd),
         .co(co),
-        
-        // Outputs
         .start_rnd(start_rnd),
         .countEn(countEn),
-        .loadABCD(loadABCD), // Single load signal
+        .loadABCD(loadABCD),
         .loadM(loadM),
         .loadF(loadF),
         .selF(selF),
@@ -85,12 +71,9 @@ module HashGenerator#(
         .selB(selB),
         .selC(selC),
         .selD(selD),
-        
-        // Single Adder Controls
         .loadAcc(loadAcc),
         .selAdd1(selAdd1),
         .selAdd2(selAdd2),
-        
         .done(done)
     );
     

@@ -32,26 +32,23 @@ module HashGenDataPath #(
     wire [WORD_WIDTH-1:0] A, B, C, D, F, acc;
     wire [WORD_WIDTH-1:0] outMuxAdd1, outMuxAdd2;
     wire [WORD_WIDTH-1:0] f1, f2, f3, f4;
-    wire [WORD_WIDTH-1:0] outMux5; // mux6 removed (merged)
+    wire [WORD_WIDTH-1:0] outMux5;
     wire [WORD_WIDTH-1:0] outMult, outAdder;
     wire coutAdder, outAnd31, outAnd32;
     wire is_init;
 
-    // --- Optimized Multiplier ---
     Multiplier4x4 multiplier(
         .A(F[WORD_WIDTH/2 - 1: 0]),
         .B(F[WORD_WIDTH - 1: WORD_WIDTH/2]),
         .P(outMult)
     );
 
-    // --- Init Logic ---
     c1 u_is_init (
         .A0(1'b0), .A1(1'b1), .SA(loadABCD),
         .B0(1'b0), .B1(1'b0), .SB(1'b0),
         .S0(selA), .S1(1'b0), .f(is_init)
     );
 
-    // --- MuxRegs (A, B, C, D) ---
     MuxReg #(WORD_WIDTH) A_muxreg(
         .clk(clk), .rst(rst), 
         .init(is_init), .update(loadABCD), 
@@ -82,7 +79,6 @@ module HashGenDataPath #(
 
     assign digest = {A, B, C, D};
 
-    // --- Counter Logic ---
     Counter #(6) counter_6bit(
         .clk(clk), .rst(rst), .load(1'b0), .en(countEn), 
         .PI({COUNTER_WIDTH{1'b0}}), .count(i)
@@ -102,7 +98,6 @@ module HashGenDataPath #(
         .index(rnd), .out(M_rand)
     );
 
-    // --- Function Logic ---
     Function1 #(WORD_WIDTH) func1(.X(B), .Y(C), .Z(B), .P(D), .Res(f1));
     Function1 #(WORD_WIDTH) func2(.X(D), .Y(B), .Z(D), .P(C), .Res(f2));
     Function2 #(WORD_WIDTH) func3(.X(B), .Y(C), .Z(D), .Res(f3));
@@ -117,7 +112,6 @@ module HashGenDataPath #(
         .index(i), .data_out(const_i)
     );
 
-    // --- SHARED ADDER LOGIC ---
     Adder2 #(WORD_WIDTH) adder2opr(
         .cin(1'b0),
         .A(outMuxAdd1),
@@ -140,14 +134,12 @@ module HashGenDataPath #(
         .S(selAdd2), .Y(outMuxAdd2)
     );
     
-    // --- OPTIMIZATION: Merged MUX21 (mux6) and Register (Freg) ---
-    // Eliminates 80 gates by using MuxReg logic
     MuxReg #(WORD_WIDTH) F_muxreg(
         .clk(clk), .rst(rst), 
-        .init(selF),          // If selF=1 (and loadF=1), Select D11 (val_init) -> outAdder
-        .update(loadF),       // If loadF=1 (and selF=0), Select D01 (val_update) -> outMux5
-        .val_init(outAdder),  // Source when selF=1 (State 5)
-        .val_update(outMux5), // Source when selF=0 (State 3)
+        .init(selF),
+        .update(loadF),
+        .val_init(outAdder),  
+        .val_update(outMux5), 
         .Q(F)
     );
 

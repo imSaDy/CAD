@@ -1,23 +1,19 @@
 module Adder2 #(parameter N = 8)(
     input  [N-1:0] A, B,
-    input          cin, // Connected to 0 in Datapath
+    input          cin,
     output [N-1:0] Sum,
-    output         cout // Unused, assigned 0
+    output         cout 
 );
     wire [N:0] C;
     assign C[0] = cin;
-    assign cout = 1'b0; // Logic for final carry skipped to save gates
+    assign cout = 1'b0;
 
-    // --- Bit 0: Half Adder Optimization ---
-    // Since Cin is always 0, we don't need a Full Adder (3 cells).
-    // A Half Adder (2 cells) is sufficient.
     m_HA u_ha_0 (
         .A(A[0]), .B(B[0]), .S(Sum[0]), .C(C[1])
     );
 
     genvar i;
     generate
-        // --- Bits 1 to N-2: Full Adders ---
         for(i=1; i<N-1; i=i+1) begin : RIPPLE
             m_FA u_fa(
                 .A(A[i]), 
@@ -29,8 +25,6 @@ module Adder2 #(parameter N = 8)(
         end
     endgenerate
 
-    // --- Bit N-1: Sum Only (No Carry Out) ---
-    // Sum = A ^ B ^ C. Implemented with 2 XORs (2 cells).
     wire t_last;
     m_XOR u_last_1 (.A(A[N-1]), .B(B[N-1]), .Y(t_last));
     m_XOR u_last_2 (.A(t_last), .B(C[N-1]), .Y(Sum[N-1]));
@@ -48,7 +42,6 @@ module Adder4 #(parameter N = 8)(
 
     genvar i;
 
-    // Stage 1: A + B
     generate
         for(i=0;i<N;i=i+1) begin : ADD1
             FullAdder FA1(
@@ -59,7 +52,6 @@ module Adder4 #(parameter N = 8)(
         end
     endgenerate
 
-    // Stage 2: (A+B) + C
     generate
         for(i=0;i<N;i=i+1) begin : ADD2
             FullAdder FA2(
@@ -70,7 +62,6 @@ module Adder4 #(parameter N = 8)(
         end
     endgenerate
 
-    // Stage 3: (A+B+C) + D
     generate
         for(i=0;i<N;i=i+1) begin : ADD3
             FullAdder FA3(
@@ -82,27 +73,6 @@ module Adder4 #(parameter N = 8)(
     endgenerate
 
     assign cout = C3[N-1];
-endmodule
-
-module BlackCell(
-    input Gin_k, Pin_k,
-    input Gin_j, Pin_j,
-    output Gout, Pout
-);
-    wire t;
-    AND3 u1(Pin_k, Gin_j, 1'b1, t);
-    OR  u2(Gin_k, t, Gout);
-    AND3 u3(Pin_k, Pin_j, 1'b1, Pout);
-endmodule
-
-module GrayCell(
-    input Gin_k, Pin_k,
-    input Gin_j,
-    output Gout
-);
-    wire t;
-    AND3 u1(Pin_k, Gin_j, 1'b1, t);
-    OR  u2(Gin_k, t, Gout);
 endmodule
 
 module FullAdder(

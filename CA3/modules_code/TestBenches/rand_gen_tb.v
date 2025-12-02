@@ -7,12 +7,10 @@ module tb_rndGenerator();
     reg start_rnd;
     wire done_rnd; 
     wire [1:0] twoMSB; 
-    
-    // Clock Generation
+
     initial clk = 0;
     always #5 clk = ~clk; 
 
-    // Instantiate the Top Level Module
     rndGenerator rndGen(
         .clk(clk),
         .rst(rst),
@@ -22,39 +20,29 @@ module tb_rndGenerator();
         .done_rnd(done_rnd)
     );
 
-    // Test Stimulus
     initial begin
-        // Initialize
         seed = 6'b0; 
         rst = 1; 
         start_rnd = 1'b0;
         
-        // Reset Pulse
         #10 rst = 0;
         
-        // Test 1: Seed 000111
         #10 start_rnd = 1; seed = 6'b000111; 
         #10 start_rnd = 0; 
-        #150; // Wait for completion
+        #150;
         
-        // Test 2: Seed 000000
         #10 start_rnd = 1; seed = 6'b000000; 
         #10 start_rnd = 0; 
         #150;
         
-        // Test 3: Seed 000001
-        // Expected Sequence: 000010 -> 000101 -> 001010 -> 010100 -> 101000 -> 010000
         #10 start_rnd = 1; seed = 6'b000001; 
         #10 start_rnd = 0; 
         #150;
         
-        // Test 4: Seed 111111
         #10 start_rnd = 1; seed = 6'b111111;
         #10 start_rnd = 0; 
         #150;
         
-        // Test 5: Seed 100101
-        // Expected Sequence: 001011 -> 010110 -> 101101 -> 011010 -> 110100 -> 101001
         #10 start_rnd = 1; seed = 6'b100101; 
         #10 start_rnd = 0; 
         #150;

@@ -2,7 +2,7 @@
 
 module Counter_Par_tb;
 
-    parameter WIDTH = 5;
+    parameter WIDTH = 3;
 
     reg clk;
     reg rst;
