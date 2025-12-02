@@ -4,6 +4,12 @@ module mul2x2_opt(
 );
 
     wire m_term;
+    wire notB0;
+
+    NOT not_b0(
+        .A(B0),
+        .Y(notB0)
+    );
 
     c1 m_p0 (
         .A0(1'b0), .A1(B0), .SA(A0), 
@@ -21,7 +27,7 @@ module mul2x2_opt(
 
     c1 m_p1 (
         .A0(1'b0), .A1(B0), .SA(A1), 
-        .B0(1'b1), .B1(~B0), .SB(A1), 
+        .B0(1'b1), .B1(notB0), .SB(A1), 
         .S0(m_term), .S1(1'b0), 
         .f(P[1])
     );
@@ -61,24 +67,24 @@ module Multiplier4x4 (
     wire [4:0] mid_sum;
     wire c1_0, c1_1, c1_2, c1_3;
     
-    m_HA ha_mid_0 (.A(m1[0]), .B(m2[0]), .S(mid_sum[0]), .C(c1_0));
-    m_FA fa_mid_1 (.A(m1[1]), .B(m2[1]), .Cin(c1_0), .S(mid_sum[1]), .C(c1_1));
-    m_FA fa_mid_2 (.A(m1[2]), .B(m2[2]), .Cin(c1_1), .S(mid_sum[2]), .C(c1_2));
-    m_FA fa_mid_3 (.A(m1[3]), .B(m2[3]), .Cin(c1_2), .S(mid_sum[3]), .C(mid_sum[4]));
+    HA ha_mid_0 (.A(m1[0]), .B(m2[0]), .S(mid_sum[0]), .C(c1_0));
+    FA fa_mid_1 (.A(m1[1]), .B(m2[1]), .Cin(c1_0), .S(mid_sum[1]), .C(c1_1));
+    FA fa_mid_2 (.A(m1[2]), .B(m2[2]), .Cin(c1_1), .S(mid_sum[2]), .C(c1_2));
+    FA fa_mid_3 (.A(m1[3]), .B(m2[3]), .Cin(c1_2), .S(mid_sum[3]), .C(mid_sum[4]));
 
     assign P[0] = m0[0];
     assign P[1] = m0[1];
 
     wire c2_0, c2_1;
-    m_HA ha_p2 (.A(m0[2]), .B(mid_sum[0]), .S(P[2]), .C(c2_0));
-    m_FA fa_p3 (.A(m0[3]), .B(mid_sum[1]), .Cin(c2_0), .S(P[3]), .C(c2_1));
+    HA ha_p2 (.A(m0[2]), .B(mid_sum[0]), .S(P[2]), .C(c2_0));
+    FA fa_p3 (.A(m0[3]), .B(mid_sum[1]), .Cin(c2_0), .S(P[3]), .C(c2_1));
 
     wire c3_0, c3_1;
-    m_FA fa_p4 (.A(mid_sum[2]), .B(m3[0]), .Cin(c2_1), .S(P[4]), .C(c3_0));
-    m_FA fa_p5 (.A(mid_sum[3]), .B(m3[1]), .Cin(c3_0), .S(P[5]), .C(c3_1));
+    FA fa_p4 (.A(mid_sum[2]), .B(m3[0]), .Cin(c2_1), .S(P[4]), .C(c3_0));
+    FA fa_p5 (.A(mid_sum[3]), .B(m3[1]), .Cin(c3_0), .S(P[5]), .C(c3_1));
 
     wire c4_0;
-    m_FA fa_p6 (.A(mid_sum[4]), .B(m3[2]), .Cin(c3_1), .S(P[6]), .C(c4_0));
+    FA fa_p6 (.A(mid_sum[4]), .B(m3[2]), .Cin(c3_1), .S(P[6]), .C(c4_0));
     
     wire t_final;
     XOR x_p7_1 (.A(1'b0), .B(m3[3]), .C(t_final));
@@ -86,18 +92,3 @@ module Multiplier4x4 (
 
 endmodule
 
-module m_MAJ (input A, B, C, output Y);
-    c1 u (.A0(1'b0), .A1(C), .SA(B), .B0(C), .B1(1'b1), .SB(B), .S0(A), .S1(1'b0), .f(Y));
-endmodule
-
-module m_HA (input A, B, output S, C);
-    XOR u_sum (.A(A), .B(B), .C(S));
-    AND3 u_cy  (.A(A), .B(B), .C(1'b1), .Y(C));
-endmodule
-
-module m_FA (input A, B, Cin, output S, C);
-    wire t;
-    XOR u_x1 (.A(A), .B(B), .C(t));
-    XOR u_x2 (.A(t), .B(Cin), .C(S));
-    m_MAJ u_c  (.A(A), .B(B), .C(Cin), .Y(C));
-endmodule
