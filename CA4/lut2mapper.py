@@ -158,17 +158,17 @@ def map_lut2_to_cell(lut, cell_type, widths) -> Optional[str]:
     # for example .D00(1'b{""}), -> .D00(1'b{bit0}),
     if cell_type == "c2":
         return (f"c2 {lut['name']} (\n"
-            f"    .D00(1'b{bit0}), .D01(1'b{bit1}), .D10(1'b{bit2}), .D11(1'b{bit3}),\n"
-            f"    .A1(1'b{a_signal}), .B1(1'b{a_signal}), .A0(1'b{b_signal}), .B0(1'b{b_signal}),\n" 
+            f"    .D00({bit0}), .D01({bit1}), .D10({bit2}), .D11({bit3}),\n"
+            f"    .A1({a_signal}), .B1({a_signal}), .A0({b_signal}), .B0({b_signal}),\n" 
             f"    .out({lut['output']})\n"
             f");")
 
     # TODO: complete inside each {} with the right Configuration SRAM bits (bit0-3) or Select lines (a_signal, b_signal)
 
     return (f"c1 {lut['name']} (\n"
-                f"    .A0(1'b{bit0}), .A1(1'b{bit1}), .SA(1'b{a_signal}),\n"
-                f"    .B0(1'b{bit2}), .B1(1'b{bit3}), .SB(1'b{a_signal}),\n"
-                f"    .S0(1'b{b_signal}), .S1(1'b{b_signal}), .f({lut['output']})\n"
+                f"    .A0({bit0}), .A1({bit1}), .SA({a_signal}),\n"
+                f"    .B0({bit2}), .B1({bit3}), .SB({a_signal}),\n"
+                f"    .S0({b_signal}), .S1({b_signal}), .f({lut['output']})\n"
                 f");")
     
 
@@ -194,16 +194,16 @@ def map_lut1_to_cell(lut, cell_type, widths) -> Optional[str]:
 
     if cell_type == "c2":
         return (f"c2 {lut['name']} (\n"
-            f"    .D00(1'b{bit0}), .D01(1'b{bit1}), .D10(1'b0), .D11(1'b0),\n"
-            f"    .A1(1'b0), .B1(1'b0), .A0(1'b0), .B0(1'b{a}),\n"  
+            f"    .D00({bit0}), .D01({bit1}), .D10(0), .D11(0),\n"
+            f"    .A1(0), .B1(0), .A0(0), .B0({a}),\n"  
             f"    .out({lut['output']})\n"
             f");")
         
 
     return (f"c1 {lut['name']} (\n"
-            f"    .A0(1'b{bit0}), .A1(1'b{bit1}), .SA(1'b{a}),\n"
-            f"    .B0(1'b0), .B1(1'b0), .SB(1'b0),\n"
-            f"    .S0(1'b0), .S1(1'b0), .f({lut['output']})\n"
+            f"    .A0({bit0}), .A1({bit1}), .SA({a}),\n"
+            f"    .B0(0), .B1(0), .SB(0),\n"
+            f"    .S0(0), .S1(0), .f({lut['output']})\n"
             f");")
 
 # ---------- FF mapping ----------
@@ -252,7 +252,7 @@ def map_sdffe_to_s2(inst_name: str, ports: Dict[str,str]) -> str:
     return (
         f"s2 {inst_name} (\n"
         f"    .D00({Q}), .D01({Q}), .D10({D}), .D11({D}),\n"  
-        f"    .A1({E}), .B1({E}), .A0(1'b0), .B0(1'b0),\n"      
+        f"    .A1({E}), .B1({E}), .A0(0), .B0(0),\n"      
         f"    .clr({R}), .clk({C}), .out({Q})\n"             
         f");"
     )
@@ -273,8 +273,8 @@ def map_dff_to_s1(inst: str, ports: Dict[str,str]) -> str:
     return (
         f"s1 {inst} (\n"
         f"    .D00({D}), .D01({D}), .D10({D}), .D11({D}),\n"
-        f"    .A1(1'b0), .B1(1'b0), .A0(1'b0),\n"
-        f"    .clr(1'b0), .clk({C}), .out({Q})\n"
+        f"    .A1(0), .B1(0), .A0(0),\n"
+        f"    .clr(0), .clk({C}), .out({Q})\n"
         f");"
     )
 

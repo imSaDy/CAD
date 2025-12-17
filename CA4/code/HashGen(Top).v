@@ -1,9 +1,4 @@
-module HashGenerator#(
-    parameter [31:0] A0 = 32'h67452301,
-    parameter [31:0] B0 = 32'hefcdab89,
-    parameter [31:0] C0 = 32'h98badcfe,
-    parameter [31:0] D0 = 32'h10325476
-)(
+module HashGenerator (
     input clk, 
     input rst,
     input start,
@@ -23,10 +18,10 @@ module HashGenerator#(
         .MESSAGE_WIDTH(32),
         .WORD_WIDTH(8)
     ) hashGenDataPath(
-        .A0(A0),
-        .B0(B0),
-        .C0(C0),
-        .D0(D0),
+        .A0(8'h01),
+        .B0(8'h89),
+        .C0(8'hfe),
+        .D0(8'h76),
         .clk(clk),
         .rst(rst),
         .countEn(countEn),

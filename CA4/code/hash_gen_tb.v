@@ -22,12 +22,7 @@ module HashGenerator_TB();
         .data_out(const_i)
     );
 
-    HashGenerator #(
-        .A0(8'h01),
-        .B0(8'h89),
-        .C0(8'hfe),
-        .D0(8'h76)
-    ) hash_generator(
+    HashGenerator  hash_generator(
         .clk(clk),
         .rst(rst),
         .start(start),

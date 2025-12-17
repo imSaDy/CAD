@@ -2,7 +2,7 @@ module HashGenDataPath #(
     parameter COUNTER_WIDTH = 6,
     parameter RND_WIDTH = 2,
     parameter WORD_WIDTH = 8,
-    parameter MESSAGE_WIDTH = WORD_WIDTH
+    parameter MESSAGE_WIDTH = 32
 )(
     input [WORD_WIDTH-1:0] A0,
     input [WORD_WIDTH-1:0] B0,
@@ -137,7 +137,7 @@ module HashGenDataPath #(
         .done_rnd(done_rnd)
     );
 
-    MFile mfile(
+    MFile #(MESSAGE_WIDTH) mfile(
         .clk(clk),
         .rst(rst),
         .message(message),
