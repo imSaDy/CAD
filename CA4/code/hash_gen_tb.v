@@ -26,7 +26,7 @@ module HashGenerator_TB();
         .A0(8'h01),
         .B0(8'h89),
         .C0(8'hfe),
-        .D0(8'h76),
+        .D0(8'h76)
     ) hash_generator(
         .clk(clk),
         .rst(rst),

@@ -1,8 +1,8 @@
 module HashGenDataPath #(
     parameter COUNTER_WIDTH = 6,
     parameter RND_WIDTH = 2,
-    parameter MESSAGE_WIDTH = WORD_WIDTH,
-    parameter WORD_WIDTH = 8
+    parameter WORD_WIDTH = 8,
+    parameter MESSAGE_WIDTH = WORD_WIDTH
 )(
     input [WORD_WIDTH-1:0] A0,
     input [WORD_WIDTH-1:0] B0,
@@ -23,9 +23,8 @@ module HashGenDataPath #(
     output [COUNTER_WIDTH-1:0] i
 );
 
-    wire [COUNTER_WIDTH-1:0] i;
     wire [RND_WIDTH-1: 0] rnd;
-    wire [WORD_WIDTH-1:0] M_rand, const_i;
+    wire [WORD_WIDTH-1:0] M_rand;
     wire [WORD_WIDTH-1:0] A, B, C, D, F;
     wire [WORD_WIDTH-1:0] f1, f2, f3, f4;
     wire [WORD_WIDTH-1:0] outMux1, outMux2, outMux3, outMux4, outMux5, outMux6,
