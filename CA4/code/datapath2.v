@@ -1,8 +1,8 @@
 module HashGenDataPath #(
     parameter COUNTER_WIDTH = 6,
     parameter RND_WIDTH = 2,
-    parameter MESSAGE_WIDTH = 128,
-    parameter WORD_WIDTH = 32
+    parameter MESSAGE_WIDTH = WORD_WIDTH,
+    parameter WORD_WIDTH = 8
 )(
     input [WORD_WIDTH-1:0] A0,
     input [WORD_WIDTH-1:0] B0,
@@ -33,7 +33,7 @@ module HashGenDataPath #(
     wire coutAdder, coutAdder2;
 
     // LeftRotation #(
-    //     .INPUT_WIDTH(32),
+    //     .INPUT_WIDTH(WORD_WIDTH),
     //     .INDEX_WIDTH(6)
     // ) leftR (
     //     .data_in(F),
@@ -43,7 +43,7 @@ module HashGenDataPath #(
     
     assign outMult = F[WORD_WIDTH-1: WORD_WIDTH/2] * F[WORD_WIDTH/2 -1: 0];
 
-    Adder_twoOpr #(32) adder(
+    Adder_twoOpr #(WORD_WIDTH) adder(
         .cin(1'b0),
         .A(outMult),
         .B(B),
@@ -51,7 +51,7 @@ module HashGenDataPath #(
         .S(outAdder)
     );
 
-    Mux2  #(32) mux1(
+    Mux2  #(WORD_WIDTH) mux1(
         .in0(A0),
         .in1(D),
         .sel(selA),
@@ -59,21 +59,21 @@ module HashGenDataPath #(
     );
 
 
-    Mux2  #(32) mux2(
+    Mux2  #(WORD_WIDTH) mux2(
         .in0(B0),
         .in1(outAdder),
         .sel(selB),
         .out(outMux2)
     );
 
-    Mux2  #(32) mux3(
+    Mux2  #(WORD_WIDTH) mux3(
         .in0(C0),
         .in1(B),
         .sel(selC),
         .out(outMux3)
     );
 
-    Mux2  #(32) mux4(
+    Mux2  #(WORD_WIDTH) mux4(
         .in0(D0),
         .in1(C),
         .sel(selD),
@@ -81,7 +81,7 @@ module HashGenDataPath #(
     );
 
 
-    Register #(32) Areg(
+    Register #(WORD_WIDTH) Areg(
         .clk(clk),
         .rst(rst),
         .load(loadA),
@@ -89,7 +89,7 @@ module HashGenDataPath #(
         .register(A)
     );
 
-    Register #(32) Breg(
+    Register #(WORD_WIDTH) Breg(
         .clk(clk),
         .rst(rst),
         .load(loadB),
@@ -98,7 +98,7 @@ module HashGenDataPath #(
     );
 
 
-    Register #(32) Creg(
+    Register #(WORD_WIDTH) Creg(
         .clk(clk),
         .rst(rst),
         .load(loadC),
@@ -106,7 +106,7 @@ module HashGenDataPath #(
         .register(C)
     );
 
-    Register #(32) Dreg(
+    Register #(WORD_WIDTH) Dreg(
         .clk(clk),
         .rst(rst),
         .load(loadD),
@@ -117,7 +117,7 @@ module HashGenDataPath #(
     assign digest = {A, B, C, D};
 
 ////////////////////////////////////////////////
-    Counter #(6) counter_6bit(
+    Counter #(COUNTER_WIDTH) counter_6bit(
         .clk(clk),
         .rst(rst),
         .load(1'b0),
@@ -190,7 +190,7 @@ module HashGenDataPath #(
 
     // ConstMem #(
     //     .INPUT_WIDTH(6),
-    //     .OUTPUT_WIDTH(32),
+    //     .OUTPUT_WIDTH(WORD_WIDTH),
     //     .MEM_FILE("constant.mem")
     // ) const_mem (
     //     .index(i),
@@ -198,7 +198,7 @@ module HashGenDataPath #(
     // );
 
 
-    Adder_fourOpr #(32) adder2(
+    Adder_fourOpr #(WORD_WIDTH) adder2(
         .cin(1'b0),
         .A(F),
         .B(A),
@@ -209,14 +209,14 @@ module HashGenDataPath #(
     );
 
 
-    Mux2 #(32) mux6(
+    Mux2 #(WORD_WIDTH) mux6(
         .in0(outMux5),
         .in1(outAdder2),
         .sel(selF),
         .out(outMux6)
     );
 
-    Register #(32) Freg(
+    Register #(WORD_WIDTH) Freg(
         .clk(clk),
         .rst(rst),
         .load(loadF),

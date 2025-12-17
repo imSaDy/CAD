@@ -8,9 +8,9 @@ module HashGenerator#(
     input rst,
     input start,
     input [7:0] const_i,
-    input [127:0] message,
+    input [31:0] message,
     output done,
-    output [127:0] digest,
+    output [31:0] digest,
     output [5:0] i
 );
     wire selA, selB, selC, selD, selF;
@@ -20,8 +20,8 @@ module HashGenerator#(
     HashGenDataPath #(
         .COUNTER_WIDTH(6),
         .RND_WIDTH(2),
-        .MESSAGE_WIDTH(128),
-        .WORD_WIDTH(32)
+        .MESSAGE_WIDTH(32),
+        .WORD_WIDTH(8)
     ) hashGenDataPath(
         .A0(A0),
         .B0(B0),
