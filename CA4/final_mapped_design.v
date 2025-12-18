@@ -138,364 +138,364 @@ module \$paramod$d73174560945464e231704231a7faafbc1f943aa\HashGenDataPath (A0, B
   input start_rnd;
   wire start_rnd;
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1591 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n29_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n29_ ),
-    .S0(\$abc$1590$new_n26_ ), .S1(\$abc$1590$new_n26_ ), .f(co)
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n29_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n29_ ),
+    .S0(1'b\$abc$1590$new_n26_ ), .S1(1'b0), .f(co)
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1592 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n28_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n28_ ),
-    .S0(\$abc$1590$new_n27_ ), .S1(\$abc$1590$new_n27_ ), .f(\$abc$1590$new_n26_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n28_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n28_ ),
+    .S0(1'b\$abc$1590$new_n27_ ), .S1(1'b0), .f(\$abc$1590$new_n26_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1593 (
-    .A0(0), .A1(0), .SA(i[1]),
-    .B0(0), .B1(1), .SB(i[1]),
-    .S0(i[0]), .S1(i[0]), .f(\$abc$1590$new_n27_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bi[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bi[1]),
+    .S0(1'bi[0]), .S1(1'b0), .f(\$abc$1590$new_n27_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1594 (
-    .A0(0), .A1(0), .SA(i[3]),
-    .B0(0), .B1(1), .SB(i[3]),
-    .S0(i[2]), .S1(i[2]), .f(\$abc$1590$new_n28_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bi[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bi[3]),
+    .S0(1'bi[2]), .S1(1'b0), .f(\$abc$1590$new_n28_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1595 (
-    .A0(0), .A1(0), .SA(i[5]),
-    .B0(0), .B1(1), .SB(i[5]),
-    .S0(i[4]), .S1(i[4]), .f(\$abc$1590$new_n29_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bi[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bi[5]),
+    .S0(1'bi[4]), .S1(1'b0), .f(\$abc$1590$new_n29_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1596 (
-    .A0(0), .A1(0), .SA(F[0]),
-    .B0(0), .B1(1), .SB(F[0]),
-    .S0(F[4]), .S1(F[4]), .f(outMult[0])
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[0]),
+    .S0(1'bF[4]), .S1(1'b0), .f(outMult[0])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1597 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n33_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n33_ ),
-    .S0(\$abc$1590$new_n32_ ), .S1(\$abc$1590$new_n32_ ), .f(outMult[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n33_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n33_ ),
+    .S0(1'b\$abc$1590$new_n32_ ), .S1(1'b0), .f(outMult[1])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1598 (
-    .A0(0), .A1(0), .SA(F[5]),
-    .B0(0), .B1(1), .SB(F[5]),
-    .S0(F[0]), .S1(F[0]), .f(\$abc$1590$new_n32_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[5]),
+    .S0(1'bF[0]), .S1(1'b0), .f(\$abc$1590$new_n32_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1599 (
-    .A0(0), .A1(0), .SA(F[1]),
-    .B0(0), .B1(1), .SB(F[1]),
-    .S0(F[4]), .S1(F[4]), .f(\$abc$1590$new_n33_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[1]),
+    .S0(1'bF[4]), .S1(1'b0), .f(\$abc$1590$new_n33_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1600 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n40_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n40_ ),
-    .S0(\$abc$1590$new_n35_ ), .S1(\$abc$1590$new_n35_ ), .f(outMult[2])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n40_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n40_ ),
+    .S0(1'b\$abc$1590$new_n35_ ), .S1(1'b0), .f(outMult[2])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1601 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n39_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n39_ ),
-    .S0(\$abc$1590$new_n36_ ), .S1(\$abc$1590$new_n36_ ), .f(\$abc$1590$new_n35_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n39_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n39_ ),
+    .S0(1'b\$abc$1590$new_n36_ ), .S1(1'b0), .f(\$abc$1590$new_n35_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1602 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n38_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n38_ ),
-    .S0(\$abc$1590$new_n37_ ), .S1(\$abc$1590$new_n37_ ), .f(\$abc$1590$new_n36_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n38_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n38_ ),
+    .S0(1'b\$abc$1590$new_n37_ ), .S1(1'b0), .f(\$abc$1590$new_n36_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1603 (
-    .A0(0), .A1(0), .SA(F[6]),
-    .B0(0), .B1(1), .SB(F[6]),
-    .S0(F[0]), .S1(F[0]), .f(\$abc$1590$new_n37_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[6]),
+    .S0(1'bF[0]), .S1(1'b0), .f(\$abc$1590$new_n37_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1604 (
-    .A0(0), .A1(0), .SA(F[1]),
-    .B0(0), .B1(1), .SB(F[1]),
-    .S0(F[5]), .S1(F[5]), .f(\$abc$1590$new_n38_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[1]),
+    .S0(1'bF[5]), .S1(1'b0), .f(\$abc$1590$new_n38_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1605 (
-    .A0(0), .A1(0), .SA(F[2]),
-    .B0(0), .B1(1), .SB(F[2]),
-    .S0(F[4]), .S1(F[4]), .f(\$abc$1590$new_n39_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[2]),
+    .S0(1'bF[4]), .S1(1'b0), .f(\$abc$1590$new_n39_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1606 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n33_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n33_ ),
-    .S0(\$abc$1590$new_n32_ ), .S1(\$abc$1590$new_n32_ ), .f(\$abc$1590$new_n40_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n33_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n33_ ),
+    .S0(1'b\$abc$1590$new_n32_ ), .S1(1'b0), .f(\$abc$1590$new_n40_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1607 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n65_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n65_ ),
-    .S0(\$abc$1590$new_n42_ ), .S1(\$abc$1590$new_n42_ ), .f(outMult[4])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n65_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n65_ ),
+    .S0(1'b\$abc$1590$new_n42_ ), .S1(1'b0), .f(outMult[4])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1608 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n56_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n56_ ),
-    .S0(\$abc$1590$new_n43_ ), .S1(\$abc$1590$new_n43_ ), .f(\$abc$1590$new_n42_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n56_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n56_ ),
+    .S0(1'b\$abc$1590$new_n43_ ), .S1(1'b0), .f(\$abc$1590$new_n42_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1609 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n55_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n55_ ),
-    .S0(\$abc$1590$new_n44_ ), .S1(\$abc$1590$new_n44_ ), .f(\$abc$1590$new_n43_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n55_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n55_ ),
+    .S0(1'b\$abc$1590$new_n44_ ), .S1(1'b0), .f(\$abc$1590$new_n43_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1610 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n54_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n54_ ),
-    .S0(\$abc$1590$new_n45_ ), .S1(\$abc$1590$new_n45_ ), .f(\$abc$1590$new_n44_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n54_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n54_ ),
+    .S0(1'b\$abc$1590$new_n45_ ), .S1(1'b0), .f(\$abc$1590$new_n44_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1611 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n49_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n49_ ),
-    .S0(\$abc$1590$new_n46_ ), .S1(\$abc$1590$new_n46_ ), .f(\$abc$1590$new_n45_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n49_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n49_ ),
+    .S0(1'b\$abc$1590$new_n46_ ), .S1(1'b0), .f(\$abc$1590$new_n45_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1612 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n48_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n48_ ),
-    .S0(\$abc$1590$new_n47_ ), .S1(\$abc$1590$new_n47_ ), .f(\$abc$1590$new_n46_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n48_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n48_ ),
+    .S0(1'b\$abc$1590$new_n47_ ), .S1(1'b0), .f(\$abc$1590$new_n46_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1613 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n39_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n39_ ),
-    .S0(\$abc$1590$new_n36_ ), .S1(\$abc$1590$new_n36_ ), .f(\$abc$1590$new_n47_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n39_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n39_ ),
+    .S0(1'b\$abc$1590$new_n36_ ), .S1(1'b0), .f(\$abc$1590$new_n47_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1614 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n38_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n38_ ),
-    .S0(\$abc$1590$new_n37_ ), .S1(\$abc$1590$new_n37_ ), .f(\$abc$1590$new_n48_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n38_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n38_ ),
+    .S0(1'b\$abc$1590$new_n37_ ), .S1(1'b0), .f(\$abc$1590$new_n48_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1615 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n53_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n53_ ),
-    .S0(\$abc$1590$new_n50_ ), .S1(\$abc$1590$new_n50_ ), .f(\$abc$1590$new_n49_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n53_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n53_ ),
+    .S0(1'b\$abc$1590$new_n50_ ), .S1(1'b0), .f(\$abc$1590$new_n49_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1616 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n52_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n52_ ),
-    .S0(\$abc$1590$new_n51_ ), .S1(\$abc$1590$new_n51_ ), .f(\$abc$1590$new_n50_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n52_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n52_ ),
+    .S0(1'b\$abc$1590$new_n51_ ), .S1(1'b0), .f(\$abc$1590$new_n50_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1617 (
-    .A0(0), .A1(0), .SA(F[7]),
-    .B0(0), .B1(1), .SB(F[7]),
-    .S0(F[0]), .S1(F[0]), .f(\$abc$1590$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[7]),
+    .S0(1'bF[0]), .S1(1'b0), .f(\$abc$1590$new_n51_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1618 (
-    .A0(0), .A1(0), .SA(F[1]),
-    .B0(0), .B1(1), .SB(F[1]),
-    .S0(F[6]), .S1(F[6]), .f(\$abc$1590$new_n52_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[1]),
+    .S0(1'bF[6]), .S1(1'b0), .f(\$abc$1590$new_n52_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1619 (
-    .A0(0), .A1(0), .SA(F[2]),
-    .B0(0), .B1(1), .SB(F[2]),
-    .S0(F[5]), .S1(F[5]), .f(\$abc$1590$new_n53_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[2]),
+    .S0(1'bF[5]), .S1(1'b0), .f(\$abc$1590$new_n53_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1620 (
-    .A0(0), .A1(0), .SA(F[3]),
-    .B0(0), .B1(1), .SB(F[3]),
-    .S0(F[4]), .S1(F[4]), .f(\$abc$1590$new_n54_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[3]),
+    .S0(1'bF[4]), .S1(1'b0), .f(\$abc$1590$new_n54_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1621 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n49_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n49_ ),
-    .S0(\$abc$1590$new_n46_ ), .S1(\$abc$1590$new_n46_ ), .f(\$abc$1590$new_n55_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n49_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n49_ ),
+    .S0(1'b\$abc$1590$new_n46_ ), .S1(1'b0), .f(\$abc$1590$new_n55_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1622 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n64_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n64_ ),
-    .S0(\$abc$1590$new_n57_ ), .S1(\$abc$1590$new_n57_ ), .f(\$abc$1590$new_n56_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n64_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n64_ ),
+    .S0(1'b\$abc$1590$new_n57_ ), .S1(1'b0), .f(\$abc$1590$new_n56_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1623 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n61_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n61_ ),
-    .S0(\$abc$1590$new_n58_ ), .S1(\$abc$1590$new_n58_ ), .f(\$abc$1590$new_n57_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n61_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n61_ ),
+    .S0(1'b\$abc$1590$new_n58_ ), .S1(1'b0), .f(\$abc$1590$new_n57_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1624 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n60_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n60_ ),
-    .S0(\$abc$1590$new_n59_ ), .S1(\$abc$1590$new_n59_ ), .f(\$abc$1590$new_n58_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n60_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n60_ ),
+    .S0(1'b\$abc$1590$new_n59_ ), .S1(1'b0), .f(\$abc$1590$new_n58_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1625 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n53_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n53_ ),
-    .S0(\$abc$1590$new_n50_ ), .S1(\$abc$1590$new_n50_ ), .f(\$abc$1590$new_n59_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n53_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n53_ ),
+    .S0(1'b\$abc$1590$new_n50_ ), .S1(1'b0), .f(\$abc$1590$new_n59_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1626 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n52_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n52_ ),
-    .S0(\$abc$1590$new_n51_ ), .S1(\$abc$1590$new_n51_ ), .f(\$abc$1590$new_n60_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n52_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n52_ ),
+    .S0(1'b\$abc$1590$new_n51_ ), .S1(1'b0), .f(\$abc$1590$new_n60_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1627 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n63_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n63_ ),
-    .S0(\$abc$1590$new_n62_ ), .S1(\$abc$1590$new_n62_ ), .f(\$abc$1590$new_n61_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n63_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n63_ ),
+    .S0(1'b\$abc$1590$new_n62_ ), .S1(1'b0), .f(\$abc$1590$new_n61_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1628 (
-    .A0(0), .A1(0), .SA(F[1]),
-    .B0(0), .B1(1), .SB(F[1]),
-    .S0(F[7]), .S1(F[7]), .f(\$abc$1590$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[1]),
+    .S0(1'bF[7]), .S1(1'b0), .f(\$abc$1590$new_n62_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1629 (
-    .A0(0), .A1(0), .SA(F[2]),
-    .B0(0), .B1(1), .SB(F[2]),
-    .S0(F[6]), .S1(F[6]), .f(\$abc$1590$new_n63_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[2]),
+    .S0(1'bF[6]), .S1(1'b0), .f(\$abc$1590$new_n63_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1630 (
-    .A0(0), .A1(0), .SA(F[3]),
-    .B0(0), .B1(1), .SB(F[3]),
-    .S0(F[5]), .S1(F[5]), .f(\$abc$1590$new_n64_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[3]),
+    .S0(1'bF[5]), .S1(1'b0), .f(\$abc$1590$new_n64_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1631 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n67_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n67_ ),
-    .S0(\$abc$1590$new_n66_ ), .S1(\$abc$1590$new_n66_ ), .f(\$abc$1590$new_n65_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n67_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n67_ ),
+    .S0(1'b\$abc$1590$new_n66_ ), .S1(1'b0), .f(\$abc$1590$new_n65_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1632 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n54_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n54_ ),
-    .S0(\$abc$1590$new_n45_ ), .S1(\$abc$1590$new_n45_ ), .f(\$abc$1590$new_n66_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n54_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n54_ ),
+    .S0(1'b\$abc$1590$new_n45_ ), .S1(1'b0), .f(\$abc$1590$new_n66_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1633 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n40_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n40_ ),
-    .S0(\$abc$1590$new_n35_ ), .S1(\$abc$1590$new_n35_ ), .f(\$abc$1590$new_n67_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n40_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n40_ ),
+    .S0(1'b\$abc$1590$new_n35_ ), .S1(1'b0), .f(\$abc$1590$new_n67_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1634 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n72_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n72_ ),
-    .S0(\$abc$1590$new_n69_ ), .S1(\$abc$1590$new_n69_ ), .f(outMult[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n72_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n72_ ),
+    .S0(1'b\$abc$1590$new_n69_ ), .S1(1'b0), .f(outMult[5])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1635 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n71_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n71_ ),
-    .S0(\$abc$1590$new_n70_ ), .S1(\$abc$1590$new_n70_ ), .f(\$abc$1590$new_n69_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n71_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n71_ ),
+    .S0(1'b\$abc$1590$new_n70_ ), .S1(1'b0), .f(\$abc$1590$new_n69_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1636 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n65_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n65_ ),
-    .S0(\$abc$1590$new_n42_ ), .S1(\$abc$1590$new_n42_ ), .f(\$abc$1590$new_n70_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n65_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n65_ ),
+    .S0(1'b\$abc$1590$new_n42_ ), .S1(1'b0), .f(\$abc$1590$new_n70_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1637 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n56_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n56_ ),
-    .S0(\$abc$1590$new_n43_ ), .S1(\$abc$1590$new_n43_ ), .f(\$abc$1590$new_n71_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n56_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n56_ ),
+    .S0(1'b\$abc$1590$new_n43_ ), .S1(1'b0), .f(\$abc$1590$new_n71_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1638 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n76_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n76_ ),
-    .S0(\$abc$1590$new_n73_ ), .S1(\$abc$1590$new_n73_ ), .f(\$abc$1590$new_n72_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n76_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n76_ ),
+    .S0(1'b\$abc$1590$new_n73_ ), .S1(1'b0), .f(\$abc$1590$new_n72_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1639 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n75_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n75_ ),
-    .S0(\$abc$1590$new_n74_ ), .S1(\$abc$1590$new_n74_ ), .f(\$abc$1590$new_n73_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n75_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n75_ ),
+    .S0(1'b\$abc$1590$new_n74_ ), .S1(1'b0), .f(\$abc$1590$new_n73_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1640 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n64_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n64_ ),
-    .S0(\$abc$1590$new_n57_ ), .S1(\$abc$1590$new_n57_ ), .f(\$abc$1590$new_n74_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n64_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n64_ ),
+    .S0(1'b\$abc$1590$new_n57_ ), .S1(1'b0), .f(\$abc$1590$new_n74_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1641 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n61_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n61_ ),
-    .S0(\$abc$1590$new_n58_ ), .S1(\$abc$1590$new_n58_ ), .f(\$abc$1590$new_n75_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n61_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n61_ ),
+    .S0(1'b\$abc$1590$new_n58_ ), .S1(1'b0), .f(\$abc$1590$new_n75_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1642 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n80_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n80_ ),
-    .S0(\$abc$1590$new_n77_ ), .S1(\$abc$1590$new_n77_ ), .f(\$abc$1590$new_n76_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n80_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n80_ ),
+    .S0(1'b\$abc$1590$new_n77_ ), .S1(1'b0), .f(\$abc$1590$new_n76_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1643 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n79_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n79_ ),
-    .S0(\$abc$1590$new_n78_ ), .S1(\$abc$1590$new_n78_ ), .f(\$abc$1590$new_n77_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n79_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n79_ ),
+    .S0(1'b\$abc$1590$new_n78_ ), .S1(1'b0), .f(\$abc$1590$new_n77_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1644 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n63_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n63_ ),
-    .S0(\$abc$1590$new_n62_ ), .S1(\$abc$1590$new_n62_ ), .f(\$abc$1590$new_n78_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n63_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n63_ ),
+    .S0(1'b\$abc$1590$new_n62_ ), .S1(1'b0), .f(\$abc$1590$new_n78_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1645 (
-    .A0(0), .A1(0), .SA(F[2]),
-    .B0(0), .B1(1), .SB(F[2]),
-    .S0(F[7]), .S1(F[7]), .f(\$abc$1590$new_n79_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[2]),
+    .S0(1'bF[7]), .S1(1'b0), .f(\$abc$1590$new_n79_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1646 (
-    .A0(0), .A1(0), .SA(F[3]),
-    .B0(0), .B1(1), .SB(F[3]),
-    .S0(F[6]), .S1(F[6]), .f(\$abc$1590$new_n80_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[3]),
+    .S0(1'bF[6]), .S1(1'b0), .f(\$abc$1590$new_n80_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1647 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n88_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n88_ ),
-    .S0(\$abc$1590$new_n82_ ), .S1(\$abc$1590$new_n82_ ), .f(outMult[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n88_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n88_ ),
+    .S0(1'b\$abc$1590$new_n82_ ), .S1(1'b0), .f(outMult[6])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1648 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n83_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n83_ ),
-    .S0(\$abc$1590$new_n86_ ), .S1(\$abc$1590$new_n86_ ), .f(\$abc$1590$new_n82_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n83_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n83_ ),
+    .S0(1'b\$abc$1590$new_n86_ ), .S1(1'b0), .f(\$abc$1590$new_n82_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1649 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n85_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n85_ ),
-    .S0(\$abc$1590$new_n84_ ), .S1(\$abc$1590$new_n84_ ), .f(\$abc$1590$new_n83_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n85_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n85_ ),
+    .S0(1'b\$abc$1590$new_n84_ ), .S1(1'b0), .f(\$abc$1590$new_n83_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1650 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n71_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n71_ ),
-    .S0(\$abc$1590$new_n72_ ), .S1(\$abc$1590$new_n72_ ), .f(\$abc$1590$new_n84_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n71_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n71_ ),
+    .S0(1'b\$abc$1590$new_n72_ ), .S1(1'b0), .f(\$abc$1590$new_n84_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1651 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n76_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n76_ ),
-    .S0(\$abc$1590$new_n73_ ), .S1(\$abc$1590$new_n73_ ), .f(\$abc$1590$new_n85_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n76_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n76_ ),
+    .S0(1'b\$abc$1590$new_n73_ ), .S1(1'b0), .f(\$abc$1590$new_n85_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1652 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n65_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n65_ ),
-    .S0(\$abc$1590$new_n87_ ), .S1(\$abc$1590$new_n87_ ), .f(\$abc$1590$new_n86_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n65_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n65_ ),
+    .S0(1'b\$abc$1590$new_n87_ ), .S1(1'b0), .f(\$abc$1590$new_n86_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1653 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n72_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n72_ ),
-    .S0(\$abc$1590$new_n42_ ), .S1(\$abc$1590$new_n42_ ), .f(\$abc$1590$new_n87_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n72_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n72_ ),
+    .S0(1'b\$abc$1590$new_n42_ ), .S1(1'b0), .f(\$abc$1590$new_n87_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1654 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n92_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n92_ ),
-    .S0(\$abc$1590$new_n89_ ), .S1(\$abc$1590$new_n89_ ), .f(\$abc$1590$new_n88_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n92_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n92_ ),
+    .S0(1'b\$abc$1590$new_n89_ ), .S1(1'b0), .f(\$abc$1590$new_n88_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1655 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n91_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n91_ ),
-    .S0(\$abc$1590$new_n90_ ), .S1(\$abc$1590$new_n90_ ), .f(\$abc$1590$new_n89_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n91_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n91_ ),
+    .S0(1'b\$abc$1590$new_n90_ ), .S1(1'b0), .f(\$abc$1590$new_n89_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1656 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n80_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n80_ ),
-    .S0(\$abc$1590$new_n77_ ), .S1(\$abc$1590$new_n77_ ), .f(\$abc$1590$new_n90_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n80_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n80_ ),
+    .S0(1'b\$abc$1590$new_n77_ ), .S1(1'b0), .f(\$abc$1590$new_n90_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1657 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n79_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n79_ ),
-    .S0(\$abc$1590$new_n78_ ), .S1(\$abc$1590$new_n78_ ), .f(\$abc$1590$new_n91_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n79_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n79_ ),
+    .S0(1'b\$abc$1590$new_n78_ ), .S1(1'b0), .f(\$abc$1590$new_n91_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1658 (
-    .A0(0), .A1(0), .SA(F[3]),
-    .B0(0), .B1(1), .SB(F[3]),
-    .S0(F[7]), .S1(F[7]), .f(\$abc$1590$new_n92_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bF[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bF[3]),
+    .S0(1'bF[7]), .S1(1'b0), .f(\$abc$1590$new_n92_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1659 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n67_ ),
-    .B0(0), .B1(1), .SB(\$abc$1590$new_n67_ ),
-    .S0(\$abc$1590$new_n66_ ), .S1(\$abc$1590$new_n66_ ), .f(outMult[3])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n67_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1590$new_n67_ ),
+    .S0(1'b\$abc$1590$new_n66_ ), .S1(1'b0), .f(outMult[3])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1660 (
-    .A0(0), .A1(1), .SA(\$abc$1590$new_n96_ ),
-    .B0(1), .B1(1), .SB(\$abc$1590$new_n96_ ),
-    .S0(\$abc$1590$new_n95_ ), .S1(\$abc$1590$new_n95_ ), .f(outMult[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1590$new_n96_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1590$new_n96_ ),
+    .S0(1'b\$abc$1590$new_n95_ ), .S1(1'b0), .f(outMult[7])
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1661 (
-    .A0(1), .A1(0), .SA(\$abc$1590$new_n88_ ),
-    .B0(0), .B1(0), .SB(\$abc$1590$new_n88_ ),
-    .S0(\$abc$1590$new_n82_ ), .S1(\$abc$1590$new_n82_ ), .f(\$abc$1590$new_n95_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1590$new_n88_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1590$new_n88_ ),
+    .S0(1'b\$abc$1590$new_n82_ ), .S1(1'b0), .f(\$abc$1590$new_n95_ )
 );
   c1 \$abc$1590$auto$blifparse.cc:525:parse_blif$1662 (
-    .A0(0), .A1(0), .SA(\$abc$1590$new_n92_ ),
-    .B0(1), .B1(0), .SB(\$abc$1590$new_n92_ ),
-    .S0(\$abc$1590$new_n89_ ), .S1(\$abc$1590$new_n89_ ), .f(\$abc$1590$new_n96_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1590$new_n92_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1590$new_n92_ ),
+    .S0(1'b\$abc$1590$new_n89_ ), .S1(1'b0), .f(\$abc$1590$new_n96_ )
 );
   \$paramod\Register\WIDTH=s32'00000000000000000000000000001000  Areg (
     .clk(clk),
@@ -661,14 +661,14 @@ module \$paramod$e3250ade35487b7e54e5cb95f499607d91a5c281\RandGenDataPath (clk, 
   input [5:0] shiftRegPI;
   wire [5:0] shiftRegPI;
   c1 \$abc$1663$auto$blifparse.cc:525:parse_blif$1664 (
-    .A0(0), .A1(0), .SA(count[2]),
-    .B0(0), .B1(1), .SB(count[2]),
-    .S0(\$abc$1663$new_n7_ ), .S1(\$abc$1663$new_n7_ ), .f(co)
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[2]),
+    .S0(1'b\$abc$1663$new_n7_ ), .S1(1'b0), .f(co)
 );
   c1 \$abc$1663$auto$blifparse.cc:525:parse_blif$1665 (
-    .A0(0), .A1(0), .SA(count[1]),
-    .B0(0), .B1(1), .SB(count[1]),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1663$new_n7_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[1]),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1663$new_n7_ )
 );
   \$paramod\Counter\WIDTH=s32'00000000000000000000000000000011  counter (
     .PI(3'h2),
@@ -821,634 +821,634 @@ module \$paramod\Adder_fourOpr\WIDTH=s32'00000000000000000000000000001000 (cin, 
   output cout;
   wire cout;
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1667 (
-    .A0(1), .A1(0), .SA(cin),
-    .B0(0), .B1(1), .SB(cin),
-    .S0(\$abc$1666$new_n45_ ), .S1(\$abc$1666$new_n45_ ), .f(S[0])
+    .A0(1'b1), .A1(1'b0), .SA(1'bcin),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcin),
+    .S0(1'b\$abc$1666$new_n45_ ), .S1(1'b0), .f(S[0])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1668 (
-    .A0(0), .A1(1), .SA(C[0]),
-    .B0(1), .B1(0), .SB(C[0]),
-    .S0(\$abc$1666$new_n46_ ), .S1(\$abc$1666$new_n46_ ), .f(\$abc$1666$new_n45_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[0]),
+    .S0(1'b\$abc$1666$new_n46_ ), .S1(1'b0), .f(\$abc$1666$new_n45_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1669 (
-    .A0(0), .A1(1), .SA(D[0]),
-    .B0(1), .B1(0), .SB(D[0]),
-    .S0(\$abc$1666$new_n47_ ), .S1(\$abc$1666$new_n47_ ), .f(\$abc$1666$new_n46_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[0]),
+    .S0(1'b\$abc$1666$new_n47_ ), .S1(1'b0), .f(\$abc$1666$new_n46_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1670 (
-    .A0(1), .A1(0), .SA(B[0]),
-    .B0(0), .B1(1), .SB(B[0]),
-    .S0(A[0]), .S1(A[0]), .f(\$abc$1666$new_n47_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[0]),
+    .S0(1'bA[0]), .S1(1'b0), .f(\$abc$1666$new_n47_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1671 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n66_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n66_ ),
-    .S0(\$abc$1666$new_n49_ ), .S1(\$abc$1666$new_n49_ ), .f(S[2])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n66_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n66_ ),
+    .S0(1'b\$abc$1666$new_n49_ ), .S1(1'b0), .f(S[2])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1672 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n59_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n59_ ),
-    .S0(\$abc$1666$new_n50_ ), .S1(\$abc$1666$new_n50_ ), .f(\$abc$1666$new_n49_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n59_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n59_ ),
+    .S0(1'b\$abc$1666$new_n50_ ), .S1(1'b0), .f(\$abc$1666$new_n49_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1673 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n58_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n58_ ),
-    .S0(\$abc$1666$new_n51_ ), .S1(\$abc$1666$new_n51_ ), .f(\$abc$1666$new_n50_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n58_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n58_ ),
+    .S0(1'b\$abc$1666$new_n51_ ), .S1(1'b0), .f(\$abc$1666$new_n50_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1674 (
-    .A0(0), .A1(0), .SA(D[1]),
-    .B0(1), .B1(0), .SB(D[1]),
-    .S0(\$abc$1666$new_n52_ ), .S1(\$abc$1666$new_n52_ ), .f(\$abc$1666$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[1]),
+    .S0(1'b\$abc$1666$new_n52_ ), .S1(1'b0), .f(\$abc$1666$new_n51_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1675 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n56_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n56_ ),
-    .S0(\$abc$1666$new_n53_ ), .S1(\$abc$1666$new_n53_ ), .f(\$abc$1666$new_n52_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n56_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n56_ ),
+    .S0(1'b\$abc$1666$new_n53_ ), .S1(1'b0), .f(\$abc$1666$new_n52_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1676 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n55_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n55_ ),
-    .S0(\$abc$1666$new_n54_ ), .S1(\$abc$1666$new_n54_ ), .f(\$abc$1666$new_n53_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n55_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n55_ ),
+    .S0(1'b\$abc$1666$new_n54_ ), .S1(1'b0), .f(\$abc$1666$new_n53_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1677 (
-    .A0(0), .A1(0), .SA(D[0]),
-    .B0(1), .B1(0), .SB(D[0]),
-    .S0(\$abc$1666$new_n47_ ), .S1(\$abc$1666$new_n47_ ), .f(\$abc$1666$new_n54_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[0]),
+    .S0(1'b\$abc$1666$new_n47_ ), .S1(1'b0), .f(\$abc$1666$new_n54_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1678 (
-    .A0(0), .A1(0), .SA(B[0]),
-    .B0(0), .B1(1), .SB(B[0]),
-    .S0(A[0]), .S1(A[0]), .f(\$abc$1666$new_n55_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[0]),
+    .S0(1'bA[0]), .S1(1'b0), .f(\$abc$1666$new_n55_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1679 (
-    .A0(0), .A1(1), .SA(C[1]),
-    .B0(1), .B1(0), .SB(C[1]),
-    .S0(\$abc$1666$new_n57_ ), .S1(\$abc$1666$new_n57_ ), .f(\$abc$1666$new_n56_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[1]),
+    .S0(1'b\$abc$1666$new_n57_ ), .S1(1'b0), .f(\$abc$1666$new_n56_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1680 (
-    .A0(1), .A1(0), .SA(B[1]),
-    .B0(0), .B1(1), .SB(B[1]),
-    .S0(A[1]), .S1(A[1]), .f(\$abc$1666$new_n57_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[1]),
+    .S0(1'bA[1]), .S1(1'b0), .f(\$abc$1666$new_n57_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1681 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n56_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n56_ ),
-    .S0(\$abc$1666$new_n53_ ), .S1(\$abc$1666$new_n53_ ), .f(\$abc$1666$new_n58_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n56_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n56_ ),
+    .S0(1'b\$abc$1666$new_n53_ ), .S1(1'b0), .f(\$abc$1666$new_n58_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1682 (
-    .A0(0), .A1(1), .SA(D[2]),
-    .B0(1), .B1(0), .SB(D[2]),
-    .S0(\$abc$1666$new_n60_ ), .S1(\$abc$1666$new_n60_ ), .f(\$abc$1666$new_n59_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[2]),
+    .S0(1'b\$abc$1666$new_n60_ ), .S1(1'b0), .f(\$abc$1666$new_n59_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1683 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n64_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n64_ ),
-    .S0(\$abc$1666$new_n61_ ), .S1(\$abc$1666$new_n61_ ), .f(\$abc$1666$new_n60_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n64_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n64_ ),
+    .S0(1'b\$abc$1666$new_n61_ ), .S1(1'b0), .f(\$abc$1666$new_n60_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1684 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n63_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n63_ ),
-    .S0(\$abc$1666$new_n62_ ), .S1(\$abc$1666$new_n62_ ), .f(\$abc$1666$new_n61_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n63_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n63_ ),
+    .S0(1'b\$abc$1666$new_n62_ ), .S1(1'b0), .f(\$abc$1666$new_n61_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1685 (
-    .A0(0), .A1(0), .SA(C[1]),
-    .B0(1), .B1(0), .SB(C[1]),
-    .S0(\$abc$1666$new_n57_ ), .S1(\$abc$1666$new_n57_ ), .f(\$abc$1666$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[1]),
+    .S0(1'b\$abc$1666$new_n57_ ), .S1(1'b0), .f(\$abc$1666$new_n62_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1686 (
-    .A0(0), .A1(0), .SA(B[1]),
-    .B0(0), .B1(1), .SB(B[1]),
-    .S0(A[1]), .S1(A[1]), .f(\$abc$1666$new_n63_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[1]),
+    .S0(1'bA[1]), .S1(1'b0), .f(\$abc$1666$new_n63_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1687 (
-    .A0(0), .A1(1), .SA(C[2]),
-    .B0(1), .B1(0), .SB(C[2]),
-    .S0(\$abc$1666$new_n65_ ), .S1(\$abc$1666$new_n65_ ), .f(\$abc$1666$new_n64_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[2]),
+    .S0(1'b\$abc$1666$new_n65_ ), .S1(1'b0), .f(\$abc$1666$new_n64_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1688 (
-    .A0(1), .A1(0), .SA(B[2]),
-    .B0(0), .B1(1), .SB(B[2]),
-    .S0(A[2]), .S1(A[2]), .f(\$abc$1666$new_n65_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[2]),
+    .S0(1'bA[2]), .S1(1'b0), .f(\$abc$1666$new_n65_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1689 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n68_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n68_ ),
-    .S0(\$abc$1666$new_n67_ ), .S1(\$abc$1666$new_n67_ ), .f(\$abc$1666$new_n66_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n68_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n68_ ),
+    .S0(1'b\$abc$1666$new_n67_ ), .S1(1'b0), .f(\$abc$1666$new_n66_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1690 (
-    .A0(0), .A1(1), .SA(D[1]),
-    .B0(1), .B1(0), .SB(D[1]),
-    .S0(\$abc$1666$new_n52_ ), .S1(\$abc$1666$new_n52_ ), .f(\$abc$1666$new_n67_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[1]),
+    .S0(1'b\$abc$1666$new_n52_ ), .S1(1'b0), .f(\$abc$1666$new_n67_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1691 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n70_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n70_ ),
-    .S0(\$abc$1666$new_n69_ ), .S1(\$abc$1666$new_n69_ ), .f(\$abc$1666$new_n68_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n70_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n70_ ),
+    .S0(1'b\$abc$1666$new_n69_ ), .S1(1'b0), .f(\$abc$1666$new_n68_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1692 (
-    .A0(0), .A1(0), .SA(cin),
-    .B0(1), .B1(0), .SB(cin),
-    .S0(\$abc$1666$new_n45_ ), .S1(\$abc$1666$new_n45_ ), .f(\$abc$1666$new_n69_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcin),
+    .B0(1'b1), .B1(1'b0), .SB(1'bcin),
+    .S0(1'b\$abc$1666$new_n45_ ), .S1(1'b0), .f(\$abc$1666$new_n69_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1693 (
-    .A0(0), .A1(0), .SA(C[0]),
-    .B0(1), .B1(0), .SB(C[0]),
-    .S0(\$abc$1666$new_n46_ ), .S1(\$abc$1666$new_n46_ ), .f(\$abc$1666$new_n70_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[0]),
+    .S0(1'b\$abc$1666$new_n46_ ), .S1(1'b0), .f(\$abc$1666$new_n70_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1694 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n75_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n75_ ),
-    .S0(\$abc$1666$new_n72_ ), .S1(\$abc$1666$new_n72_ ), .f(S[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n75_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n75_ ),
+    .S0(1'b\$abc$1666$new_n72_ ), .S1(1'b0), .f(S[3])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1695 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n74_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n74_ ),
-    .S0(\$abc$1666$new_n73_ ), .S1(\$abc$1666$new_n73_ ), .f(\$abc$1666$new_n72_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n74_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n74_ ),
+    .S0(1'b\$abc$1666$new_n73_ ), .S1(1'b0), .f(\$abc$1666$new_n72_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1696 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n66_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n66_ ),
-    .S0(\$abc$1666$new_n49_ ), .S1(\$abc$1666$new_n49_ ), .f(\$abc$1666$new_n73_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n66_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n66_ ),
+    .S0(1'b\$abc$1666$new_n49_ ), .S1(1'b0), .f(\$abc$1666$new_n73_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1697 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n59_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n59_ ),
-    .S0(\$abc$1666$new_n50_ ), .S1(\$abc$1666$new_n50_ ), .f(\$abc$1666$new_n74_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n59_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n59_ ),
+    .S0(1'b\$abc$1666$new_n50_ ), .S1(1'b0), .f(\$abc$1666$new_n74_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1698 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n79_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n79_ ),
-    .S0(\$abc$1666$new_n76_ ), .S1(\$abc$1666$new_n76_ ), .f(\$abc$1666$new_n75_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n79_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n79_ ),
+    .S0(1'b\$abc$1666$new_n76_ ), .S1(1'b0), .f(\$abc$1666$new_n75_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1699 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n78_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n78_ ),
-    .S0(\$abc$1666$new_n77_ ), .S1(\$abc$1666$new_n77_ ), .f(\$abc$1666$new_n76_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n78_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n78_ ),
+    .S0(1'b\$abc$1666$new_n77_ ), .S1(1'b0), .f(\$abc$1666$new_n76_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1700 (
-    .A0(0), .A1(0), .SA(D[2]),
-    .B0(1), .B1(0), .SB(D[2]),
-    .S0(\$abc$1666$new_n60_ ), .S1(\$abc$1666$new_n60_ ), .f(\$abc$1666$new_n77_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[2]),
+    .S0(1'b\$abc$1666$new_n60_ ), .S1(1'b0), .f(\$abc$1666$new_n77_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1701 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n64_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n64_ ),
-    .S0(\$abc$1666$new_n61_ ), .S1(\$abc$1666$new_n61_ ), .f(\$abc$1666$new_n78_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n64_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n64_ ),
+    .S0(1'b\$abc$1666$new_n61_ ), .S1(1'b0), .f(\$abc$1666$new_n78_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1702 (
-    .A0(0), .A1(1), .SA(D[3]),
-    .B0(1), .B1(0), .SB(D[3]),
-    .S0(\$abc$1666$new_n80_ ), .S1(\$abc$1666$new_n80_ ), .f(\$abc$1666$new_n79_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[3]),
+    .S0(1'b\$abc$1666$new_n80_ ), .S1(1'b0), .f(\$abc$1666$new_n79_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1703 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n84_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n84_ ),
-    .S0(\$abc$1666$new_n81_ ), .S1(\$abc$1666$new_n81_ ), .f(\$abc$1666$new_n80_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n84_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n84_ ),
+    .S0(1'b\$abc$1666$new_n81_ ), .S1(1'b0), .f(\$abc$1666$new_n80_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1704 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n83_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n83_ ),
-    .S0(\$abc$1666$new_n82_ ), .S1(\$abc$1666$new_n82_ ), .f(\$abc$1666$new_n81_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n83_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n83_ ),
+    .S0(1'b\$abc$1666$new_n82_ ), .S1(1'b0), .f(\$abc$1666$new_n81_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1705 (
-    .A0(0), .A1(0), .SA(C[2]),
-    .B0(1), .B1(0), .SB(C[2]),
-    .S0(\$abc$1666$new_n65_ ), .S1(\$abc$1666$new_n65_ ), .f(\$abc$1666$new_n82_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[2]),
+    .S0(1'b\$abc$1666$new_n65_ ), .S1(1'b0), .f(\$abc$1666$new_n82_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1706 (
-    .A0(0), .A1(0), .SA(B[2]),
-    .B0(0), .B1(1), .SB(B[2]),
-    .S0(A[2]), .S1(A[2]), .f(\$abc$1666$new_n83_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[2]),
+    .S0(1'bA[2]), .S1(1'b0), .f(\$abc$1666$new_n83_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1707 (
-    .A0(0), .A1(1), .SA(C[3]),
-    .B0(1), .B1(0), .SB(C[3]),
-    .S0(\$abc$1666$new_n85_ ), .S1(\$abc$1666$new_n85_ ), .f(\$abc$1666$new_n84_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[3]),
+    .S0(1'b\$abc$1666$new_n85_ ), .S1(1'b0), .f(\$abc$1666$new_n84_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1708 (
-    .A0(1), .A1(0), .SA(B[3]),
-    .B0(0), .B1(1), .SB(B[3]),
-    .S0(A[3]), .S1(A[3]), .f(\$abc$1666$new_n85_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[3]),
+    .S0(1'bA[3]), .S1(1'b0), .f(\$abc$1666$new_n85_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1709 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n93_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n93_ ),
-    .S0(\$abc$1666$new_n87_ ), .S1(\$abc$1666$new_n87_ ), .f(S[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n93_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n93_ ),
+    .S0(1'b\$abc$1666$new_n87_ ), .S1(1'b0), .f(S[4])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1710 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n88_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n88_ ),
-    .S0(\$abc$1666$new_n91_ ), .S1(\$abc$1666$new_n91_ ), .f(\$abc$1666$new_n87_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n88_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n88_ ),
+    .S0(1'b\$abc$1666$new_n91_ ), .S1(1'b0), .f(\$abc$1666$new_n87_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1711 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n90_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n90_ ),
-    .S0(\$abc$1666$new_n89_ ), .S1(\$abc$1666$new_n89_ ), .f(\$abc$1666$new_n88_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n90_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n90_ ),
+    .S0(1'b\$abc$1666$new_n89_ ), .S1(1'b0), .f(\$abc$1666$new_n88_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1712 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n74_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n74_ ),
-    .S0(\$abc$1666$new_n75_ ), .S1(\$abc$1666$new_n75_ ), .f(\$abc$1666$new_n89_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n74_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n74_ ),
+    .S0(1'b\$abc$1666$new_n75_ ), .S1(1'b0), .f(\$abc$1666$new_n89_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1713 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n79_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n79_ ),
-    .S0(\$abc$1666$new_n76_ ), .S1(\$abc$1666$new_n76_ ), .f(\$abc$1666$new_n90_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n79_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n79_ ),
+    .S0(1'b\$abc$1666$new_n76_ ), .S1(1'b0), .f(\$abc$1666$new_n90_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1714 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n66_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n66_ ),
-    .S0(\$abc$1666$new_n92_ ), .S1(\$abc$1666$new_n92_ ), .f(\$abc$1666$new_n91_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n66_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n66_ ),
+    .S0(1'b\$abc$1666$new_n92_ ), .S1(1'b0), .f(\$abc$1666$new_n91_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1715 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n75_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n75_ ),
-    .S0(\$abc$1666$new_n49_ ), .S1(\$abc$1666$new_n49_ ), .f(\$abc$1666$new_n92_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n75_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n75_ ),
+    .S0(1'b\$abc$1666$new_n49_ ), .S1(1'b0), .f(\$abc$1666$new_n92_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1716 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n97_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n97_ ),
-    .S0(\$abc$1666$new_n94_ ), .S1(\$abc$1666$new_n94_ ), .f(\$abc$1666$new_n93_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n97_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n97_ ),
+    .S0(1'b\$abc$1666$new_n94_ ), .S1(1'b0), .f(\$abc$1666$new_n93_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1717 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n96_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n96_ ),
-    .S0(\$abc$1666$new_n95_ ), .S1(\$abc$1666$new_n95_ ), .f(\$abc$1666$new_n94_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n96_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n96_ ),
+    .S0(1'b\$abc$1666$new_n95_ ), .S1(1'b0), .f(\$abc$1666$new_n94_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1718 (
-    .A0(0), .A1(0), .SA(D[3]),
-    .B0(1), .B1(0), .SB(D[3]),
-    .S0(\$abc$1666$new_n80_ ), .S1(\$abc$1666$new_n80_ ), .f(\$abc$1666$new_n95_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[3]),
+    .S0(1'b\$abc$1666$new_n80_ ), .S1(1'b0), .f(\$abc$1666$new_n95_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1719 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n84_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n84_ ),
-    .S0(\$abc$1666$new_n81_ ), .S1(\$abc$1666$new_n81_ ), .f(\$abc$1666$new_n96_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n84_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n84_ ),
+    .S0(1'b\$abc$1666$new_n81_ ), .S1(1'b0), .f(\$abc$1666$new_n96_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1720 (
-    .A0(0), .A1(1), .SA(D[4]),
-    .B0(1), .B1(0), .SB(D[4]),
-    .S0(\$abc$1666$new_n98_ ), .S1(\$abc$1666$new_n98_ ), .f(\$abc$1666$new_n97_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[4]),
+    .S0(1'b\$abc$1666$new_n98_ ), .S1(1'b0), .f(\$abc$1666$new_n97_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1721 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n102_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n102_ ),
-    .S0(\$abc$1666$new_n99_ ), .S1(\$abc$1666$new_n99_ ), .f(\$abc$1666$new_n98_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n102_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n102_ ),
+    .S0(1'b\$abc$1666$new_n99_ ), .S1(1'b0), .f(\$abc$1666$new_n98_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1722 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n101_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n101_ ),
-    .S0(\$abc$1666$new_n100_ ), .S1(\$abc$1666$new_n100_ ), .f(\$abc$1666$new_n99_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n101_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n101_ ),
+    .S0(1'b\$abc$1666$new_n100_ ), .S1(1'b0), .f(\$abc$1666$new_n99_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1723 (
-    .A0(0), .A1(0), .SA(C[3]),
-    .B0(1), .B1(0), .SB(C[3]),
-    .S0(\$abc$1666$new_n85_ ), .S1(\$abc$1666$new_n85_ ), .f(\$abc$1666$new_n100_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[3]),
+    .S0(1'b\$abc$1666$new_n85_ ), .S1(1'b0), .f(\$abc$1666$new_n100_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1724 (
-    .A0(0), .A1(0), .SA(B[3]),
-    .B0(0), .B1(1), .SB(B[3]),
-    .S0(A[3]), .S1(A[3]), .f(\$abc$1666$new_n101_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[3]),
+    .S0(1'bA[3]), .S1(1'b0), .f(\$abc$1666$new_n101_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1725 (
-    .A0(0), .A1(1), .SA(C[4]),
-    .B0(1), .B1(0), .SB(C[4]),
-    .S0(\$abc$1666$new_n103_ ), .S1(\$abc$1666$new_n103_ ), .f(\$abc$1666$new_n102_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[4]),
+    .S0(1'b\$abc$1666$new_n103_ ), .S1(1'b0), .f(\$abc$1666$new_n102_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1726 (
-    .A0(1), .A1(0), .SA(B[4]),
-    .B0(0), .B1(1), .SB(B[4]),
-    .S0(A[4]), .S1(A[4]), .f(\$abc$1666$new_n103_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[4]),
+    .S0(1'bA[4]), .S1(1'b0), .f(\$abc$1666$new_n103_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1727 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n108_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n108_ ),
-    .S0(\$abc$1666$new_n105_ ), .S1(\$abc$1666$new_n105_ ), .f(S[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n108_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n108_ ),
+    .S0(1'b\$abc$1666$new_n105_ ), .S1(1'b0), .f(S[5])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1728 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n107_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n107_ ),
-    .S0(\$abc$1666$new_n106_ ), .S1(\$abc$1666$new_n106_ ), .f(\$abc$1666$new_n105_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n107_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n107_ ),
+    .S0(1'b\$abc$1666$new_n106_ ), .S1(1'b0), .f(\$abc$1666$new_n105_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1729 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n93_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n93_ ),
-    .S0(\$abc$1666$new_n87_ ), .S1(\$abc$1666$new_n87_ ), .f(\$abc$1666$new_n106_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n93_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n93_ ),
+    .S0(1'b\$abc$1666$new_n87_ ), .S1(1'b0), .f(\$abc$1666$new_n106_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1730 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n97_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n97_ ),
-    .S0(\$abc$1666$new_n94_ ), .S1(\$abc$1666$new_n94_ ), .f(\$abc$1666$new_n107_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n97_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n97_ ),
+    .S0(1'b\$abc$1666$new_n94_ ), .S1(1'b0), .f(\$abc$1666$new_n107_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1731 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n112_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n112_ ),
-    .S0(\$abc$1666$new_n109_ ), .S1(\$abc$1666$new_n109_ ), .f(\$abc$1666$new_n108_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n112_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n112_ ),
+    .S0(1'b\$abc$1666$new_n109_ ), .S1(1'b0), .f(\$abc$1666$new_n108_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1732 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n111_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n111_ ),
-    .S0(\$abc$1666$new_n110_ ), .S1(\$abc$1666$new_n110_ ), .f(\$abc$1666$new_n109_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n111_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n111_ ),
+    .S0(1'b\$abc$1666$new_n110_ ), .S1(1'b0), .f(\$abc$1666$new_n109_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1733 (
-    .A0(0), .A1(0), .SA(D[4]),
-    .B0(1), .B1(0), .SB(D[4]),
-    .S0(\$abc$1666$new_n98_ ), .S1(\$abc$1666$new_n98_ ), .f(\$abc$1666$new_n110_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[4]),
+    .S0(1'b\$abc$1666$new_n98_ ), .S1(1'b0), .f(\$abc$1666$new_n110_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1734 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n102_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n102_ ),
-    .S0(\$abc$1666$new_n99_ ), .S1(\$abc$1666$new_n99_ ), .f(\$abc$1666$new_n111_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n102_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n102_ ),
+    .S0(1'b\$abc$1666$new_n99_ ), .S1(1'b0), .f(\$abc$1666$new_n111_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1735 (
-    .A0(0), .A1(1), .SA(D[5]),
-    .B0(1), .B1(0), .SB(D[5]),
-    .S0(\$abc$1666$new_n113_ ), .S1(\$abc$1666$new_n113_ ), .f(\$abc$1666$new_n112_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[5]),
+    .S0(1'b\$abc$1666$new_n113_ ), .S1(1'b0), .f(\$abc$1666$new_n112_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1736 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n117_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n117_ ),
-    .S0(\$abc$1666$new_n114_ ), .S1(\$abc$1666$new_n114_ ), .f(\$abc$1666$new_n113_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n117_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n117_ ),
+    .S0(1'b\$abc$1666$new_n114_ ), .S1(1'b0), .f(\$abc$1666$new_n113_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1737 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n116_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n116_ ),
-    .S0(\$abc$1666$new_n115_ ), .S1(\$abc$1666$new_n115_ ), .f(\$abc$1666$new_n114_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n116_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n116_ ),
+    .S0(1'b\$abc$1666$new_n115_ ), .S1(1'b0), .f(\$abc$1666$new_n114_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1738 (
-    .A0(0), .A1(0), .SA(C[4]),
-    .B0(1), .B1(0), .SB(C[4]),
-    .S0(\$abc$1666$new_n103_ ), .S1(\$abc$1666$new_n103_ ), .f(\$abc$1666$new_n115_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[4]),
+    .S0(1'b\$abc$1666$new_n103_ ), .S1(1'b0), .f(\$abc$1666$new_n115_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1739 (
-    .A0(0), .A1(0), .SA(B[4]),
-    .B0(0), .B1(1), .SB(B[4]),
-    .S0(A[4]), .S1(A[4]), .f(\$abc$1666$new_n116_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[4]),
+    .S0(1'bA[4]), .S1(1'b0), .f(\$abc$1666$new_n116_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1740 (
-    .A0(0), .A1(1), .SA(C[5]),
-    .B0(1), .B1(0), .SB(C[5]),
-    .S0(\$abc$1666$new_n118_ ), .S1(\$abc$1666$new_n118_ ), .f(\$abc$1666$new_n117_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[5]),
+    .S0(1'b\$abc$1666$new_n118_ ), .S1(1'b0), .f(\$abc$1666$new_n117_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1741 (
-    .A0(1), .A1(0), .SA(B[5]),
-    .B0(0), .B1(1), .SB(B[5]),
-    .S0(A[5]), .S1(A[5]), .f(\$abc$1666$new_n118_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[5]),
+    .S0(1'bA[5]), .S1(1'b0), .f(\$abc$1666$new_n118_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1742 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n126_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n126_ ),
-    .S0(\$abc$1666$new_n120_ ), .S1(\$abc$1666$new_n120_ ), .f(S[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n126_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n126_ ),
+    .S0(1'b\$abc$1666$new_n120_ ), .S1(1'b0), .f(S[6])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1743 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n123_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n123_ ),
-    .S0(\$abc$1666$new_n121_ ), .S1(\$abc$1666$new_n121_ ), .f(\$abc$1666$new_n120_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n123_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n123_ ),
+    .S0(1'b\$abc$1666$new_n121_ ), .S1(1'b0), .f(\$abc$1666$new_n120_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1744 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n122_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n122_ ),
-    .S0(\$abc$1666$new_n87_ ), .S1(\$abc$1666$new_n87_ ), .f(\$abc$1666$new_n121_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n122_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n122_ ),
+    .S0(1'b\$abc$1666$new_n87_ ), .S1(1'b0), .f(\$abc$1666$new_n121_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1745 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n108_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n108_ ),
-    .S0(\$abc$1666$new_n93_ ), .S1(\$abc$1666$new_n93_ ), .f(\$abc$1666$new_n122_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n108_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n108_ ),
+    .S0(1'b\$abc$1666$new_n93_ ), .S1(1'b0), .f(\$abc$1666$new_n122_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1746 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n125_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n125_ ),
-    .S0(\$abc$1666$new_n124_ ), .S1(\$abc$1666$new_n124_ ), .f(\$abc$1666$new_n123_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n125_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n125_ ),
+    .S0(1'b\$abc$1666$new_n124_ ), .S1(1'b0), .f(\$abc$1666$new_n123_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1747 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n107_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n107_ ),
-    .S0(\$abc$1666$new_n108_ ), .S1(\$abc$1666$new_n108_ ), .f(\$abc$1666$new_n124_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n107_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n107_ ),
+    .S0(1'b\$abc$1666$new_n108_ ), .S1(1'b0), .f(\$abc$1666$new_n124_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1748 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n112_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n112_ ),
-    .S0(\$abc$1666$new_n109_ ), .S1(\$abc$1666$new_n109_ ), .f(\$abc$1666$new_n125_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n112_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n112_ ),
+    .S0(1'b\$abc$1666$new_n109_ ), .S1(1'b0), .f(\$abc$1666$new_n125_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1749 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n130_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n130_ ),
-    .S0(\$abc$1666$new_n127_ ), .S1(\$abc$1666$new_n127_ ), .f(\$abc$1666$new_n126_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n130_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n130_ ),
+    .S0(1'b\$abc$1666$new_n127_ ), .S1(1'b0), .f(\$abc$1666$new_n126_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1750 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n129_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n129_ ),
-    .S0(\$abc$1666$new_n128_ ), .S1(\$abc$1666$new_n128_ ), .f(\$abc$1666$new_n127_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n129_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n129_ ),
+    .S0(1'b\$abc$1666$new_n128_ ), .S1(1'b0), .f(\$abc$1666$new_n127_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1751 (
-    .A0(0), .A1(0), .SA(D[5]),
-    .B0(1), .B1(0), .SB(D[5]),
-    .S0(\$abc$1666$new_n113_ ), .S1(\$abc$1666$new_n113_ ), .f(\$abc$1666$new_n128_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[5]),
+    .S0(1'b\$abc$1666$new_n113_ ), .S1(1'b0), .f(\$abc$1666$new_n128_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1752 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n117_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n117_ ),
-    .S0(\$abc$1666$new_n114_ ), .S1(\$abc$1666$new_n114_ ), .f(\$abc$1666$new_n129_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n117_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n117_ ),
+    .S0(1'b\$abc$1666$new_n114_ ), .S1(1'b0), .f(\$abc$1666$new_n129_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1753 (
-    .A0(0), .A1(1), .SA(D[6]),
-    .B0(1), .B1(0), .SB(D[6]),
-    .S0(\$abc$1666$new_n131_ ), .S1(\$abc$1666$new_n131_ ), .f(\$abc$1666$new_n130_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[6]),
+    .S0(1'b\$abc$1666$new_n131_ ), .S1(1'b0), .f(\$abc$1666$new_n130_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1754 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n135_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n135_ ),
-    .S0(\$abc$1666$new_n132_ ), .S1(\$abc$1666$new_n132_ ), .f(\$abc$1666$new_n131_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n135_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n135_ ),
+    .S0(1'b\$abc$1666$new_n132_ ), .S1(1'b0), .f(\$abc$1666$new_n131_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1755 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n134_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n134_ ),
-    .S0(\$abc$1666$new_n133_ ), .S1(\$abc$1666$new_n133_ ), .f(\$abc$1666$new_n132_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n134_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n134_ ),
+    .S0(1'b\$abc$1666$new_n133_ ), .S1(1'b0), .f(\$abc$1666$new_n132_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1756 (
-    .A0(0), .A1(0), .SA(C[5]),
-    .B0(1), .B1(0), .SB(C[5]),
-    .S0(\$abc$1666$new_n118_ ), .S1(\$abc$1666$new_n118_ ), .f(\$abc$1666$new_n133_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[5]),
+    .S0(1'b\$abc$1666$new_n118_ ), .S1(1'b0), .f(\$abc$1666$new_n133_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1757 (
-    .A0(0), .A1(0), .SA(B[5]),
-    .B0(0), .B1(1), .SB(B[5]),
-    .S0(A[5]), .S1(A[5]), .f(\$abc$1666$new_n134_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[5]),
+    .S0(1'bA[5]), .S1(1'b0), .f(\$abc$1666$new_n134_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1758 (
-    .A0(0), .A1(1), .SA(C[6]),
-    .B0(1), .B1(0), .SB(C[6]),
-    .S0(\$abc$1666$new_n136_ ), .S1(\$abc$1666$new_n136_ ), .f(\$abc$1666$new_n135_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[6]),
+    .S0(1'b\$abc$1666$new_n136_ ), .S1(1'b0), .f(\$abc$1666$new_n135_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1759 (
-    .A0(1), .A1(0), .SA(B[6]),
-    .B0(0), .B1(1), .SB(B[6]),
-    .S0(A[6]), .S1(A[6]), .f(\$abc$1666$new_n136_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[6]),
+    .S0(1'bA[6]), .S1(1'b0), .f(\$abc$1666$new_n136_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1760 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n141_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n141_ ),
-    .S0(\$abc$1666$new_n138_ ), .S1(\$abc$1666$new_n138_ ), .f(S[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n141_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n141_ ),
+    .S0(1'b\$abc$1666$new_n138_ ), .S1(1'b0), .f(S[7])
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1761 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n140_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n140_ ),
-    .S0(\$abc$1666$new_n139_ ), .S1(\$abc$1666$new_n139_ ), .f(\$abc$1666$new_n138_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n140_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n140_ ),
+    .S0(1'b\$abc$1666$new_n139_ ), .S1(1'b0), .f(\$abc$1666$new_n138_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1762 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n126_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n126_ ),
-    .S0(\$abc$1666$new_n120_ ), .S1(\$abc$1666$new_n120_ ), .f(\$abc$1666$new_n139_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n126_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n126_ ),
+    .S0(1'b\$abc$1666$new_n120_ ), .S1(1'b0), .f(\$abc$1666$new_n139_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1763 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n130_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n130_ ),
-    .S0(\$abc$1666$new_n127_ ), .S1(\$abc$1666$new_n127_ ), .f(\$abc$1666$new_n140_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n130_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n130_ ),
+    .S0(1'b\$abc$1666$new_n127_ ), .S1(1'b0), .f(\$abc$1666$new_n140_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1764 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n145_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n145_ ),
-    .S0(\$abc$1666$new_n142_ ), .S1(\$abc$1666$new_n142_ ), .f(\$abc$1666$new_n141_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n145_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n145_ ),
+    .S0(1'b\$abc$1666$new_n142_ ), .S1(1'b0), .f(\$abc$1666$new_n141_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1765 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n144_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n144_ ),
-    .S0(\$abc$1666$new_n143_ ), .S1(\$abc$1666$new_n143_ ), .f(\$abc$1666$new_n142_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n144_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n144_ ),
+    .S0(1'b\$abc$1666$new_n143_ ), .S1(1'b0), .f(\$abc$1666$new_n142_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1766 (
-    .A0(0), .A1(0), .SA(D[6]),
-    .B0(1), .B1(0), .SB(D[6]),
-    .S0(\$abc$1666$new_n131_ ), .S1(\$abc$1666$new_n131_ ), .f(\$abc$1666$new_n143_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[6]),
+    .S0(1'b\$abc$1666$new_n131_ ), .S1(1'b0), .f(\$abc$1666$new_n143_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1767 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n135_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n135_ ),
-    .S0(\$abc$1666$new_n132_ ), .S1(\$abc$1666$new_n132_ ), .f(\$abc$1666$new_n144_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n135_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n135_ ),
+    .S0(1'b\$abc$1666$new_n132_ ), .S1(1'b0), .f(\$abc$1666$new_n144_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1768 (
-    .A0(0), .A1(1), .SA(D[7]),
-    .B0(1), .B1(0), .SB(D[7]),
-    .S0(\$abc$1666$new_n146_ ), .S1(\$abc$1666$new_n146_ ), .f(\$abc$1666$new_n145_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bD[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[7]),
+    .S0(1'b\$abc$1666$new_n146_ ), .S1(1'b0), .f(\$abc$1666$new_n145_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1769 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n150_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n150_ ),
-    .S0(\$abc$1666$new_n147_ ), .S1(\$abc$1666$new_n147_ ), .f(\$abc$1666$new_n146_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n150_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n150_ ),
+    .S0(1'b\$abc$1666$new_n147_ ), .S1(1'b0), .f(\$abc$1666$new_n146_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1770 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n149_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n149_ ),
-    .S0(\$abc$1666$new_n148_ ), .S1(\$abc$1666$new_n148_ ), .f(\$abc$1666$new_n147_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n149_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n149_ ),
+    .S0(1'b\$abc$1666$new_n148_ ), .S1(1'b0), .f(\$abc$1666$new_n147_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1771 (
-    .A0(0), .A1(0), .SA(C[6]),
-    .B0(1), .B1(0), .SB(C[6]),
-    .S0(\$abc$1666$new_n136_ ), .S1(\$abc$1666$new_n136_ ), .f(\$abc$1666$new_n148_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[6]),
+    .S0(1'b\$abc$1666$new_n136_ ), .S1(1'b0), .f(\$abc$1666$new_n148_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1772 (
-    .A0(0), .A1(0), .SA(B[6]),
-    .B0(0), .B1(1), .SB(B[6]),
-    .S0(A[6]), .S1(A[6]), .f(\$abc$1666$new_n149_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[6]),
+    .S0(1'bA[6]), .S1(1'b0), .f(\$abc$1666$new_n149_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1773 (
-    .A0(0), .A1(1), .SA(C[7]),
-    .B0(1), .B1(0), .SB(C[7]),
-    .S0(\$abc$1666$new_n151_ ), .S1(\$abc$1666$new_n151_ ), .f(\$abc$1666$new_n150_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bC[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[7]),
+    .S0(1'b\$abc$1666$new_n151_ ), .S1(1'b0), .f(\$abc$1666$new_n150_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1774 (
-    .A0(1), .A1(0), .SA(B[7]),
-    .B0(0), .B1(1), .SB(B[7]),
-    .S0(A[7]), .S1(A[7]), .f(\$abc$1666$new_n151_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bB[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[7]),
+    .S0(1'bA[7]), .S1(1'b0), .f(\$abc$1666$new_n151_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1775 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n162_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n162_ ),
-    .S0(\$abc$1666$new_n153_ ), .S1(\$abc$1666$new_n153_ ), .f(cout)
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n162_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n162_ ),
+    .S0(1'b\$abc$1666$new_n153_ ), .S1(1'b0), .f(cout)
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1776 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n154_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n154_ ),
-    .S0(\$abc$1666$new_n160_ ), .S1(\$abc$1666$new_n160_ ), .f(\$abc$1666$new_n153_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n154_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n154_ ),
+    .S0(1'b\$abc$1666$new_n160_ ), .S1(1'b0), .f(\$abc$1666$new_n153_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1777 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n157_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n157_ ),
-    .S0(\$abc$1666$new_n155_ ), .S1(\$abc$1666$new_n155_ ), .f(\$abc$1666$new_n154_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n157_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n157_ ),
+    .S0(1'b\$abc$1666$new_n155_ ), .S1(1'b0), .f(\$abc$1666$new_n154_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1778 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n156_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n156_ ),
-    .S0(\$abc$1666$new_n123_ ), .S1(\$abc$1666$new_n123_ ), .f(\$abc$1666$new_n155_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n156_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n156_ ),
+    .S0(1'b\$abc$1666$new_n123_ ), .S1(1'b0), .f(\$abc$1666$new_n155_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1779 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n141_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n141_ ),
-    .S0(\$abc$1666$new_n126_ ), .S1(\$abc$1666$new_n126_ ), .f(\$abc$1666$new_n156_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n141_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n141_ ),
+    .S0(1'b\$abc$1666$new_n126_ ), .S1(1'b0), .f(\$abc$1666$new_n156_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1780 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n159_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n159_ ),
-    .S0(\$abc$1666$new_n158_ ), .S1(\$abc$1666$new_n158_ ), .f(\$abc$1666$new_n157_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n159_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n159_ ),
+    .S0(1'b\$abc$1666$new_n158_ ), .S1(1'b0), .f(\$abc$1666$new_n157_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1781 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n140_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n140_ ),
-    .S0(\$abc$1666$new_n141_ ), .S1(\$abc$1666$new_n141_ ), .f(\$abc$1666$new_n158_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n140_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n140_ ),
+    .S0(1'b\$abc$1666$new_n141_ ), .S1(1'b0), .f(\$abc$1666$new_n158_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1782 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n145_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n145_ ),
-    .S0(\$abc$1666$new_n142_ ), .S1(\$abc$1666$new_n142_ ), .f(\$abc$1666$new_n159_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n145_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n145_ ),
+    .S0(1'b\$abc$1666$new_n142_ ), .S1(1'b0), .f(\$abc$1666$new_n159_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1783 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n161_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n161_ ),
-    .S0(\$abc$1666$new_n87_ ), .S1(\$abc$1666$new_n87_ ), .f(\$abc$1666$new_n160_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n161_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n161_ ),
+    .S0(1'b\$abc$1666$new_n87_ ), .S1(1'b0), .f(\$abc$1666$new_n160_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1784 (
-    .A0(0), .A1(0), .SA(\$abc$1666$new_n156_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n156_ ),
-    .S0(\$abc$1666$new_n122_ ), .S1(\$abc$1666$new_n122_ ), .f(\$abc$1666$new_n161_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1666$new_n156_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n156_ ),
+    .S0(1'b\$abc$1666$new_n122_ ), .S1(1'b0), .f(\$abc$1666$new_n161_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1785 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n166_ ),
-    .B0(0), .B1(1), .SB(\$abc$1666$new_n166_ ),
-    .S0(\$abc$1666$new_n163_ ), .S1(\$abc$1666$new_n163_ ), .f(\$abc$1666$new_n162_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n166_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1666$new_n166_ ),
+    .S0(1'b\$abc$1666$new_n163_ ), .S1(1'b0), .f(\$abc$1666$new_n162_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1786 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n165_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n165_ ),
-    .S0(\$abc$1666$new_n164_ ), .S1(\$abc$1666$new_n164_ ), .f(\$abc$1666$new_n163_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n165_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n165_ ),
+    .S0(1'b\$abc$1666$new_n164_ ), .S1(1'b0), .f(\$abc$1666$new_n163_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1787 (
-    .A0(0), .A1(0), .SA(D[7]),
-    .B0(1), .B1(0), .SB(D[7]),
-    .S0(\$abc$1666$new_n146_ ), .S1(\$abc$1666$new_n146_ ), .f(\$abc$1666$new_n164_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bD[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bD[7]),
+    .S0(1'b\$abc$1666$new_n146_ ), .S1(1'b0), .f(\$abc$1666$new_n164_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1788 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n150_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n150_ ),
-    .S0(\$abc$1666$new_n147_ ), .S1(\$abc$1666$new_n147_ ), .f(\$abc$1666$new_n165_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n150_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n150_ ),
+    .S0(1'b\$abc$1666$new_n147_ ), .S1(1'b0), .f(\$abc$1666$new_n165_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1789 (
-    .A0(1), .A1(0), .SA(\$abc$1666$new_n168_ ),
-    .B0(0), .B1(0), .SB(\$abc$1666$new_n168_ ),
-    .S0(\$abc$1666$new_n167_ ), .S1(\$abc$1666$new_n167_ ), .f(\$abc$1666$new_n166_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1666$new_n168_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1666$new_n168_ ),
+    .S0(1'b\$abc$1666$new_n167_ ), .S1(1'b0), .f(\$abc$1666$new_n166_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1790 (
-    .A0(0), .A1(0), .SA(C[7]),
-    .B0(1), .B1(0), .SB(C[7]),
-    .S0(\$abc$1666$new_n151_ ), .S1(\$abc$1666$new_n151_ ), .f(\$abc$1666$new_n167_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bC[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bC[7]),
+    .S0(1'b\$abc$1666$new_n151_ ), .S1(1'b0), .f(\$abc$1666$new_n167_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1791 (
-    .A0(0), .A1(0), .SA(B[7]),
-    .B0(0), .B1(1), .SB(B[7]),
-    .S0(A[7]), .S1(A[7]), .f(\$abc$1666$new_n168_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bB[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bB[7]),
+    .S0(1'bA[7]), .S1(1'b0), .f(\$abc$1666$new_n168_ )
 );
   c1 \$abc$1666$auto$blifparse.cc:525:parse_blif$1792 (
-    .A0(0), .A1(1), .SA(\$abc$1666$new_n68_ ),
-    .B0(1), .B1(0), .SB(\$abc$1666$new_n68_ ),
-    .S0(\$abc$1666$new_n67_ ), .S1(\$abc$1666$new_n67_ ), .f(S[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1666$new_n68_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1666$new_n68_ ),
+    .S0(1'b\$abc$1666$new_n67_ ), .S1(1'b0), .f(S[1])
 );
 endmodule
 
@@ -1507,264 +1507,264 @@ module \$paramod\Adder_twoOpr\WIDTH=s32'00000000000000000000000000001000 (cin, A
   output cout;
   wire cout;
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1794 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n50_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n50_ ),
-    .S0(\$abc$1793$new_n29_ ), .S1(\$abc$1793$new_n29_ ), .f(S[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n50_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n50_ ),
+    .S0(1'b\$abc$1793$new_n29_ ), .S1(1'b0), .f(S[5])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1795 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n49_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n49_ ),
-    .S0(\$abc$1793$new_n30_ ), .S1(\$abc$1793$new_n30_ ), .f(\$abc$1793$new_n29_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n49_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n49_ ),
+    .S0(1'b\$abc$1793$new_n30_ ), .S1(1'b0), .f(\$abc$1793$new_n29_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1796 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n48_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n48_ ),
-    .S0(\$abc$1793$new_n31_ ), .S1(\$abc$1793$new_n31_ ), .f(\$abc$1793$new_n30_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n48_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n48_ ),
+    .S0(1'b\$abc$1793$new_n31_ ), .S1(1'b0), .f(\$abc$1793$new_n30_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1797 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n44_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n44_ ),
-    .S0(\$abc$1793$new_n32_ ), .S1(\$abc$1793$new_n32_ ), .f(\$abc$1793$new_n31_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n44_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n44_ ),
+    .S0(1'b\$abc$1793$new_n32_ ), .S1(1'b0), .f(\$abc$1793$new_n31_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1798 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n41_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n41_ ),
-    .S0(\$abc$1793$new_n33_ ), .S1(\$abc$1793$new_n33_ ), .f(\$abc$1793$new_n32_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n41_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n41_ ),
+    .S0(1'b\$abc$1793$new_n33_ ), .S1(1'b0), .f(\$abc$1793$new_n32_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1799 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n40_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n40_ ),
-    .S0(\$abc$1793$new_n34_ ), .S1(\$abc$1793$new_n34_ ), .f(\$abc$1793$new_n33_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n40_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n40_ ),
+    .S0(1'b\$abc$1793$new_n34_ ), .S1(1'b0), .f(\$abc$1793$new_n33_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1800 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n39_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n39_ ),
-    .S0(\$abc$1793$new_n35_ ), .S1(\$abc$1793$new_n35_ ), .f(\$abc$1793$new_n34_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n39_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n39_ ),
+    .S0(1'b\$abc$1793$new_n35_ ), .S1(1'b0), .f(\$abc$1793$new_n34_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1801 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n38_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n38_ ),
-    .S0(\$abc$1793$new_n36_ ), .S1(\$abc$1793$new_n36_ ), .f(\$abc$1793$new_n35_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n38_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n38_ ),
+    .S0(1'b\$abc$1793$new_n36_ ), .S1(1'b0), .f(\$abc$1793$new_n35_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1802 (
-    .A0(0), .A1(0), .SA(cin),
-    .B0(1), .B1(0), .SB(cin),
-    .S0(\$abc$1793$new_n37_ ), .S1(\$abc$1793$new_n37_ ), .f(\$abc$1793$new_n36_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcin),
+    .B0(1'b1), .B1(1'b0), .SB(1'bcin),
+    .S0(1'b\$abc$1793$new_n37_ ), .S1(1'b0), .f(\$abc$1793$new_n36_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1803 (
-    .A0(1), .A1(0), .SA(A[0]),
-    .B0(0), .B1(1), .SB(A[0]),
-    .S0(B[0]), .S1(B[0]), .f(\$abc$1793$new_n37_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[0]),
+    .S0(1'bB[0]), .S1(1'b0), .f(\$abc$1793$new_n37_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1804 (
-    .A0(0), .A1(0), .SA(A[0]),
-    .B0(0), .B1(1), .SB(A[0]),
-    .S0(B[0]), .S1(B[0]), .f(\$abc$1793$new_n38_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[0]),
+    .S0(1'bB[0]), .S1(1'b0), .f(\$abc$1793$new_n38_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1805 (
-    .A0(1), .A1(0), .SA(A[1]),
-    .B0(0), .B1(1), .SB(A[1]),
-    .S0(B[1]), .S1(B[1]), .f(\$abc$1793$new_n39_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[1]),
+    .S0(1'bB[1]), .S1(1'b0), .f(\$abc$1793$new_n39_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1806 (
-    .A0(0), .A1(0), .SA(A[1]),
-    .B0(0), .B1(1), .SB(A[1]),
-    .S0(B[1]), .S1(B[1]), .f(\$abc$1793$new_n40_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[1]),
+    .S0(1'bB[1]), .S1(1'b0), .f(\$abc$1793$new_n40_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1807 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n43_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n43_ ),
-    .S0(\$abc$1793$new_n42_ ), .S1(\$abc$1793$new_n42_ ), .f(\$abc$1793$new_n41_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n43_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n43_ ),
+    .S0(1'b\$abc$1793$new_n42_ ), .S1(1'b0), .f(\$abc$1793$new_n41_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1808 (
-    .A0(1), .A1(0), .SA(A[3]),
-    .B0(0), .B1(1), .SB(A[3]),
-    .S0(B[3]), .S1(B[3]), .f(\$abc$1793$new_n42_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[3]),
+    .S0(1'bB[3]), .S1(1'b0), .f(\$abc$1793$new_n42_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1809 (
-    .A0(1), .A1(0), .SA(A[2]),
-    .B0(0), .B1(1), .SB(A[2]),
-    .S0(B[2]), .S1(B[2]), .f(\$abc$1793$new_n43_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[2]),
+    .S0(1'bB[2]), .S1(1'b0), .f(\$abc$1793$new_n43_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1810 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n47_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n47_ ),
-    .S0(\$abc$1793$new_n45_ ), .S1(\$abc$1793$new_n45_ ), .f(\$abc$1793$new_n44_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n47_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n47_ ),
+    .S0(1'b\$abc$1793$new_n45_ ), .S1(1'b0), .f(\$abc$1793$new_n44_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1811 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n46_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n46_ ),
-    .S0(\$abc$1793$new_n42_ ), .S1(\$abc$1793$new_n42_ ), .f(\$abc$1793$new_n45_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n46_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n46_ ),
+    .S0(1'b\$abc$1793$new_n42_ ), .S1(1'b0), .f(\$abc$1793$new_n45_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1812 (
-    .A0(0), .A1(0), .SA(A[2]),
-    .B0(0), .B1(1), .SB(A[2]),
-    .S0(B[2]), .S1(B[2]), .f(\$abc$1793$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[2]),
+    .S0(1'bB[2]), .S1(1'b0), .f(\$abc$1793$new_n46_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1813 (
-    .A0(0), .A1(0), .SA(A[3]),
-    .B0(0), .B1(1), .SB(A[3]),
-    .S0(B[3]), .S1(B[3]), .f(\$abc$1793$new_n47_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[3]),
+    .S0(1'bB[3]), .S1(1'b0), .f(\$abc$1793$new_n47_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1814 (
-    .A0(1), .A1(0), .SA(A[4]),
-    .B0(0), .B1(1), .SB(A[4]),
-    .S0(B[4]), .S1(B[4]), .f(\$abc$1793$new_n48_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[4]),
+    .S0(1'bB[4]), .S1(1'b0), .f(\$abc$1793$new_n48_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1815 (
-    .A0(0), .A1(0), .SA(A[4]),
-    .B0(0), .B1(1), .SB(A[4]),
-    .S0(B[4]), .S1(B[4]), .f(\$abc$1793$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[4]),
+    .S0(1'bB[4]), .S1(1'b0), .f(\$abc$1793$new_n49_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1816 (
-    .A0(1), .A1(0), .SA(A[5]),
-    .B0(0), .B1(1), .SB(A[5]),
-    .S0(B[5]), .S1(B[5]), .f(\$abc$1793$new_n50_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[5]),
+    .S0(1'bB[5]), .S1(1'b0), .f(\$abc$1793$new_n50_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1817 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n58_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n58_ ),
-    .S0(\$abc$1793$new_n52_ ), .S1(\$abc$1793$new_n52_ ), .f(S[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n58_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n58_ ),
+    .S0(1'b\$abc$1793$new_n52_ ), .S1(1'b0), .f(S[6])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1818 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n55_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n55_ ),
-    .S0(\$abc$1793$new_n53_ ), .S1(\$abc$1793$new_n53_ ), .f(\$abc$1793$new_n52_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n55_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n55_ ),
+    .S0(1'b\$abc$1793$new_n53_ ), .S1(1'b0), .f(\$abc$1793$new_n52_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1819 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n54_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n54_ ),
-    .S0(\$abc$1793$new_n31_ ), .S1(\$abc$1793$new_n31_ ), .f(\$abc$1793$new_n53_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n54_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n54_ ),
+    .S0(1'b\$abc$1793$new_n31_ ), .S1(1'b0), .f(\$abc$1793$new_n53_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1820 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n48_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n48_ ),
-    .S0(\$abc$1793$new_n50_ ), .S1(\$abc$1793$new_n50_ ), .f(\$abc$1793$new_n54_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n48_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n48_ ),
+    .S0(1'b\$abc$1793$new_n50_ ), .S1(1'b0), .f(\$abc$1793$new_n54_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1821 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n57_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n57_ ),
-    .S0(\$abc$1793$new_n56_ ), .S1(\$abc$1793$new_n56_ ), .f(\$abc$1793$new_n55_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n57_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n57_ ),
+    .S0(1'b\$abc$1793$new_n56_ ), .S1(1'b0), .f(\$abc$1793$new_n55_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1822 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n49_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n49_ ),
-    .S0(\$abc$1793$new_n50_ ), .S1(\$abc$1793$new_n50_ ), .f(\$abc$1793$new_n56_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n49_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n49_ ),
+    .S0(1'b\$abc$1793$new_n50_ ), .S1(1'b0), .f(\$abc$1793$new_n56_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1823 (
-    .A0(0), .A1(0), .SA(A[5]),
-    .B0(0), .B1(1), .SB(A[5]),
-    .S0(B[5]), .S1(B[5]), .f(\$abc$1793$new_n57_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[5]),
+    .S0(1'bB[5]), .S1(1'b0), .f(\$abc$1793$new_n57_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1824 (
-    .A0(1), .A1(0), .SA(A[6]),
-    .B0(0), .B1(1), .SB(A[6]),
-    .S0(B[6]), .S1(B[6]), .f(\$abc$1793$new_n58_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[6]),
+    .S0(1'bB[6]), .S1(1'b0), .f(\$abc$1793$new_n58_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1825 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n63_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n63_ ),
-    .S0(\$abc$1793$new_n60_ ), .S1(\$abc$1793$new_n60_ ), .f(S[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n63_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n63_ ),
+    .S0(1'b\$abc$1793$new_n60_ ), .S1(1'b0), .f(S[7])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1826 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n62_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n62_ ),
-    .S0(\$abc$1793$new_n61_ ), .S1(\$abc$1793$new_n61_ ), .f(\$abc$1793$new_n60_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n62_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n62_ ),
+    .S0(1'b\$abc$1793$new_n61_ ), .S1(1'b0), .f(\$abc$1793$new_n60_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1827 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n58_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n58_ ),
-    .S0(\$abc$1793$new_n52_ ), .S1(\$abc$1793$new_n52_ ), .f(\$abc$1793$new_n61_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n58_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n58_ ),
+    .S0(1'b\$abc$1793$new_n52_ ), .S1(1'b0), .f(\$abc$1793$new_n61_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1828 (
-    .A0(0), .A1(0), .SA(A[6]),
-    .B0(0), .B1(1), .SB(A[6]),
-    .S0(B[6]), .S1(B[6]), .f(\$abc$1793$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[6]),
+    .S0(1'bB[6]), .S1(1'b0), .f(\$abc$1793$new_n62_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1829 (
-    .A0(1), .A1(0), .SA(A[7]),
-    .B0(0), .B1(1), .SB(A[7]),
-    .S0(B[7]), .S1(B[7]), .f(\$abc$1793$new_n63_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bA[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[7]),
+    .S0(1'bB[7]), .S1(1'b0), .f(\$abc$1793$new_n63_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1830 (
-    .A0(1), .A1(1), .SA(\$abc$1793$new_n68_ ),
-    .B0(0), .B1(1), .SB(\$abc$1793$new_n68_ ),
-    .S0(\$abc$1793$new_n65_ ), .S1(\$abc$1793$new_n65_ ), .f(cout)
+    .A0(1'b1), .A1(1'b1), .SA(1'b\$abc$1793$new_n68_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1793$new_n68_ ),
+    .S0(1'b\$abc$1793$new_n65_ ), .S1(1'b0), .f(cout)
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1831 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n66_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n66_ ),
-    .S0(\$abc$1793$new_n31_ ), .S1(\$abc$1793$new_n31_ ), .f(\$abc$1793$new_n65_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n66_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n66_ ),
+    .S0(1'b\$abc$1793$new_n31_ ), .S1(1'b0), .f(\$abc$1793$new_n65_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1832 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n67_ ),
-    .B0(0), .B1(1), .SB(\$abc$1793$new_n67_ ),
-    .S0(\$abc$1793$new_n54_ ), .S1(\$abc$1793$new_n54_ ), .f(\$abc$1793$new_n66_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n67_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1793$new_n67_ ),
+    .S0(1'b\$abc$1793$new_n54_ ), .S1(1'b0), .f(\$abc$1793$new_n66_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1833 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n63_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n63_ ),
-    .S0(\$abc$1793$new_n58_ ), .S1(\$abc$1793$new_n58_ ), .f(\$abc$1793$new_n67_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n63_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n63_ ),
+    .S0(1'b\$abc$1793$new_n58_ ), .S1(1'b0), .f(\$abc$1793$new_n67_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1834 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n70_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n70_ ),
-    .S0(\$abc$1793$new_n69_ ), .S1(\$abc$1793$new_n69_ ), .f(\$abc$1793$new_n68_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n70_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n70_ ),
+    .S0(1'b\$abc$1793$new_n69_ ), .S1(1'b0), .f(\$abc$1793$new_n68_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1835 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n67_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n67_ ),
-    .S0(\$abc$1793$new_n55_ ), .S1(\$abc$1793$new_n55_ ), .f(\$abc$1793$new_n69_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n67_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n67_ ),
+    .S0(1'b\$abc$1793$new_n55_ ), .S1(1'b0), .f(\$abc$1793$new_n69_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1836 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n72_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n72_ ),
-    .S0(\$abc$1793$new_n71_ ), .S1(\$abc$1793$new_n71_ ), .f(\$abc$1793$new_n70_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n72_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n72_ ),
+    .S0(1'b\$abc$1793$new_n71_ ), .S1(1'b0), .f(\$abc$1793$new_n70_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1837 (
-    .A0(0), .A1(0), .SA(\$abc$1793$new_n62_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n62_ ),
-    .S0(\$abc$1793$new_n63_ ), .S1(\$abc$1793$new_n63_ ), .f(\$abc$1793$new_n71_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1793$new_n62_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n62_ ),
+    .S0(1'b\$abc$1793$new_n63_ ), .S1(1'b0), .f(\$abc$1793$new_n71_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1838 (
-    .A0(0), .A1(0), .SA(A[7]),
-    .B0(0), .B1(1), .SB(A[7]),
-    .S0(B[7]), .S1(B[7]), .f(\$abc$1793$new_n72_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bA[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bA[7]),
+    .S0(1'bB[7]), .S1(1'b0), .f(\$abc$1793$new_n72_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1839 (
-    .A0(1), .A1(0), .SA(cin),
-    .B0(0), .B1(1), .SB(cin),
-    .S0(\$abc$1793$new_n37_ ), .S1(\$abc$1793$new_n37_ ), .f(S[0])
+    .A0(1'b1), .A1(1'b0), .SA(1'bcin),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcin),
+    .S0(1'b\$abc$1793$new_n37_ ), .S1(1'b0), .f(S[0])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1840 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n39_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n39_ ),
-    .S0(\$abc$1793$new_n35_ ), .S1(\$abc$1793$new_n35_ ), .f(S[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n39_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n39_ ),
+    .S0(1'b\$abc$1793$new_n35_ ), .S1(1'b0), .f(S[1])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1841 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n43_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n43_ ),
-    .S0(\$abc$1793$new_n33_ ), .S1(\$abc$1793$new_n33_ ), .f(S[2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n43_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n43_ ),
+    .S0(1'b\$abc$1793$new_n33_ ), .S1(1'b0), .f(S[2])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1842 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n42_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n42_ ),
-    .S0(\$abc$1793$new_n77_ ), .S1(\$abc$1793$new_n77_ ), .f(S[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n42_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n42_ ),
+    .S0(1'b\$abc$1793$new_n77_ ), .S1(1'b0), .f(S[3])
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1843 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n46_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n46_ ),
-    .S0(\$abc$1793$new_n78_ ), .S1(\$abc$1793$new_n78_ ), .f(\$abc$1793$new_n77_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n46_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n46_ ),
+    .S0(1'b\$abc$1793$new_n78_ ), .S1(1'b0), .f(\$abc$1793$new_n77_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1844 (
-    .A0(1), .A1(0), .SA(\$abc$1793$new_n43_ ),
-    .B0(0), .B1(0), .SB(\$abc$1793$new_n43_ ),
-    .S0(\$abc$1793$new_n33_ ), .S1(\$abc$1793$new_n33_ ), .f(\$abc$1793$new_n78_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1793$new_n43_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1793$new_n43_ ),
+    .S0(1'b\$abc$1793$new_n33_ ), .S1(1'b0), .f(\$abc$1793$new_n78_ )
 );
   c1 \$abc$1793$auto$blifparse.cc:525:parse_blif$1845 (
-    .A0(0), .A1(1), .SA(\$abc$1793$new_n48_ ),
-    .B0(1), .B1(0), .SB(\$abc$1793$new_n48_ ),
-    .S0(\$abc$1793$new_n31_ ), .S1(\$abc$1793$new_n31_ ), .f(S[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1793$new_n48_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1793$new_n48_ ),
+    .S0(1'b\$abc$1793$new_n31_ ), .S1(1'b0), .f(S[4])
 );
 endmodule
 
@@ -1793,83 +1793,83 @@ module \$paramod\Counter\WIDTH=s32'00000000000000000000000000000011 (clk, rst, l
   input rst;
   wire rst;
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1847 (
-    .A0(0), .A1(1), .SA(en),
-    .B0(1), .B1(1), .SB(en),
-    .S0(load), .S1(load), .f(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 )
+    .A0(1'b0), .A1(1'b1), .SA(1'ben),
+    .B0(1'b1), .B1(1'b1), .SB(1'ben),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1848 (
-    .A0(0), .A1(1), .SA(\$abc$1846$new_n17_ ),
-    .B0(1), .B1(1), .SB(\$abc$1846$new_n17_ ),
-    .S0(\$abc$1846$new_n16_ ), .S1(\$abc$1846$new_n16_ ), .f(\$0\count[2:0] [0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1846$new_n17_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1846$new_n17_ ),
+    .S0(1'b\$abc$1846$new_n16_ ), .S1(1'b0), .f(\$0\count[2:0] [0])
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1849 (
-    .A0(1), .A1(0), .SA(count[0]),
-    .B0(0), .B1(0), .SB(count[0]),
-    .S0(load), .S1(load), .f(\$abc$1846$new_n16_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[0]),
+    .B0(1'b0), .B1(1'b0), .SB(1'bcount[0]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1846$new_n16_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1850 (
-    .A0(0), .A1(0), .SA(PI[0]),
-    .B0(0), .B1(1), .SB(PI[0]),
-    .S0(load), .S1(load), .f(\$abc$1846$new_n17_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[0]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1846$new_n17_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1851 (
-    .A0(0), .A1(1), .SA(\$abc$1846$new_n21_ ),
-    .B0(1), .B1(1), .SB(\$abc$1846$new_n21_ ),
-    .S0(\$abc$1846$new_n19_ ), .S1(\$abc$1846$new_n19_ ), .f(\$0\count[2:0] [1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1846$new_n21_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1846$new_n21_ ),
+    .S0(1'b\$abc$1846$new_n19_ ), .S1(1'b0), .f(\$0\count[2:0] [1])
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1852 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1846$new_n20_ ), .S1(\$abc$1846$new_n20_ ), .f(\$abc$1846$new_n19_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1846$new_n20_ ), .S1(1'b0), .f(\$abc$1846$new_n19_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1853 (
-    .A0(1), .A1(0), .SA(count[1]),
-    .B0(0), .B1(1), .SB(count[1]),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1846$new_n20_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[1]),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1846$new_n20_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1854 (
-    .A0(0), .A1(0), .SA(PI[1]),
-    .B0(0), .B1(1), .SB(PI[1]),
-    .S0(load), .S1(load), .f(\$abc$1846$new_n21_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[1]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1846$new_n21_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1855 (
-    .A0(0), .A1(1), .SA(\$abc$1846$new_n26_ ),
-    .B0(1), .B1(1), .SB(\$abc$1846$new_n26_ ),
-    .S0(\$abc$1846$new_n23_ ), .S1(\$abc$1846$new_n23_ ), .f(\$0\count[2:0] [2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1846$new_n26_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1846$new_n26_ ),
+    .S0(1'b\$abc$1846$new_n23_ ), .S1(1'b0), .f(\$0\count[2:0] [2])
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1856 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1846$new_n24_ ), .S1(\$abc$1846$new_n24_ ), .f(\$abc$1846$new_n23_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1846$new_n24_ ), .S1(1'b0), .f(\$abc$1846$new_n23_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1857 (
-    .A0(1), .A1(0), .SA(count[2]),
-    .B0(0), .B1(1), .SB(count[2]),
-    .S0(\$abc$1846$new_n25_ ), .S1(\$abc$1846$new_n25_ ), .f(\$abc$1846$new_n24_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[2]),
+    .S0(1'b\$abc$1846$new_n25_ ), .S1(1'b0), .f(\$abc$1846$new_n24_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1858 (
-    .A0(0), .A1(0), .SA(count[1]),
-    .B0(0), .B1(1), .SB(count[1]),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1846$new_n25_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[1]),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1846$new_n25_ )
 );
   c1 \$abc$1846$auto$blifparse.cc:525:parse_blif$1859 (
-    .A0(0), .A1(0), .SA(PI[2]),
-    .B0(0), .B1(1), .SB(PI[2]),
-    .S0(load), .S1(load), .f(\$abc$1846$new_n26_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[2]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1846$new_n26_ )
 );
   s2 \$auto$ff.cc:266:slice$954 (
-    .D00(count[0]), .D01(count[0]), .D10(\$0\count[2:0] [0]), .D11(\$0\count[2:0] [0]),
-    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(0), .B0(0),
+    .D00(count[0]), .D01(count[0]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[0])
 );
   s2 \$auto$ff.cc:266:slice$955 (
-    .D00(count[1]), .D01(count[1]), .D10(\$0\count[2:0] [1]), .D11(\$0\count[2:0] [1]),
-    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(0), .B0(0),
+    .D00(count[1]), .D01(count[1]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[1])
 );
   s2 \$auto$ff.cc:266:slice$956 (
-    .D00(count[2]), .D01(count[2]), .D10(\$0\count[2:0] [2]), .D11(\$0\count[2:0] [2]),
-    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(0), .B0(0),
+    .D00(count[2]), .D01(count[2]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .B1(\$abc$1846$auto$opt_dff.cc:194:make_patterns_logic$237 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[2])
 );
 endmodule
@@ -1912,178 +1912,178 @@ module \$paramod\Counter\WIDTH=s32'00000000000000000000000000000110 (clk, rst, l
   input rst;
   wire rst;
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1861 (
-    .A0(0), .A1(1), .SA(en),
-    .B0(1), .B1(1), .SB(en),
-    .S0(load), .S1(load), .f(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 )
+    .A0(1'b0), .A1(1'b1), .SA(1'ben),
+    .B0(1'b1), .B1(1'b1), .SB(1'ben),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1862 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n26_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n26_ ),
-    .S0(\$abc$1860$new_n25_ ), .S1(\$abc$1860$new_n25_ ), .f(\$0\count[5:0] [0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n26_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n26_ ),
+    .S0(1'b\$abc$1860$new_n25_ ), .S1(1'b0), .f(\$0\count[5:0] [0])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1863 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1860$new_n25_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1860$new_n25_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1864 (
-    .A0(0), .A1(0), .SA(PI[0]),
-    .B0(0), .B1(1), .SB(PI[0]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n26_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[0]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n26_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1865 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n30_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n30_ ),
-    .S0(\$abc$1860$new_n28_ ), .S1(\$abc$1860$new_n28_ ), .f(\$0\count[5:0] [1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n30_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n30_ ),
+    .S0(1'b\$abc$1860$new_n28_ ), .S1(1'b0), .f(\$0\count[5:0] [1])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1866 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1860$new_n29_ ), .S1(\$abc$1860$new_n29_ ), .f(\$abc$1860$new_n28_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1860$new_n29_ ), .S1(1'b0), .f(\$abc$1860$new_n28_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1867 (
-    .A0(1), .A1(0), .SA(count[1]),
-    .B0(0), .B1(1), .SB(count[1]),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1860$new_n29_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[1]),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1860$new_n29_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1868 (
-    .A0(0), .A1(0), .SA(PI[1]),
-    .B0(0), .B1(1), .SB(PI[1]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n30_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[1]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n30_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1869 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n35_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n35_ ),
-    .S0(\$abc$1860$new_n32_ ), .S1(\$abc$1860$new_n32_ ), .f(\$0\count[5:0] [2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n35_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n35_ ),
+    .S0(1'b\$abc$1860$new_n32_ ), .S1(1'b0), .f(\$0\count[5:0] [2])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1870 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1860$new_n33_ ), .S1(\$abc$1860$new_n33_ ), .f(\$abc$1860$new_n32_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1860$new_n33_ ), .S1(1'b0), .f(\$abc$1860$new_n32_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1871 (
-    .A0(1), .A1(0), .SA(count[2]),
-    .B0(0), .B1(1), .SB(count[2]),
-    .S0(\$abc$1860$new_n34_ ), .S1(\$abc$1860$new_n34_ ), .f(\$abc$1860$new_n33_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[2]),
+    .S0(1'b\$abc$1860$new_n34_ ), .S1(1'b0), .f(\$abc$1860$new_n33_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1872 (
-    .A0(0), .A1(0), .SA(count[1]),
-    .B0(0), .B1(1), .SB(count[1]),
-    .S0(count[0]), .S1(count[0]), .f(\$abc$1860$new_n34_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[1]),
+    .S0(1'bcount[0]), .S1(1'b0), .f(\$abc$1860$new_n34_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1873 (
-    .A0(0), .A1(0), .SA(PI[2]),
-    .B0(0), .B1(1), .SB(PI[2]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n35_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[2]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n35_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1874 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n40_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n40_ ),
-    .S0(\$abc$1860$new_n37_ ), .S1(\$abc$1860$new_n37_ ), .f(\$0\count[5:0] [3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n40_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n40_ ),
+    .S0(1'b\$abc$1860$new_n37_ ), .S1(1'b0), .f(\$0\count[5:0] [3])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1875 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1860$new_n38_ ), .S1(\$abc$1860$new_n38_ ), .f(\$abc$1860$new_n37_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1860$new_n38_ ), .S1(1'b0), .f(\$abc$1860$new_n37_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1876 (
-    .A0(1), .A1(0), .SA(count[3]),
-    .B0(0), .B1(1), .SB(count[3]),
-    .S0(\$abc$1860$new_n39_ ), .S1(\$abc$1860$new_n39_ ), .f(\$abc$1860$new_n38_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[3]),
+    .S0(1'b\$abc$1860$new_n39_ ), .S1(1'b0), .f(\$abc$1860$new_n38_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1877 (
-    .A0(0), .A1(0), .SA(count[2]),
-    .B0(0), .B1(1), .SB(count[2]),
-    .S0(\$abc$1860$new_n34_ ), .S1(\$abc$1860$new_n34_ ), .f(\$abc$1860$new_n39_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[2]),
+    .S0(1'b\$abc$1860$new_n34_ ), .S1(1'b0), .f(\$abc$1860$new_n39_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1878 (
-    .A0(0), .A1(0), .SA(PI[3]),
-    .B0(0), .B1(1), .SB(PI[3]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n40_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[3]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n40_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1879 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n46_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n46_ ),
-    .S0(\$abc$1860$new_n42_ ), .S1(\$abc$1860$new_n42_ ), .f(\$0\count[5:0] [4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n46_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n46_ ),
+    .S0(1'b\$abc$1860$new_n42_ ), .S1(1'b0), .f(\$0\count[5:0] [4])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1880 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1860$new_n43_ ), .S1(\$abc$1860$new_n43_ ), .f(\$abc$1860$new_n42_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1860$new_n43_ ), .S1(1'b0), .f(\$abc$1860$new_n42_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1881 (
-    .A0(1), .A1(0), .SA(count[4]),
-    .B0(0), .B1(1), .SB(count[4]),
-    .S0(\$abc$1860$new_n44_ ), .S1(\$abc$1860$new_n44_ ), .f(\$abc$1860$new_n43_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[4]),
+    .S0(1'b\$abc$1860$new_n44_ ), .S1(1'b0), .f(\$abc$1860$new_n43_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1882 (
-    .A0(0), .A1(0), .SA(\$abc$1860$new_n45_ ),
-    .B0(0), .B1(1), .SB(\$abc$1860$new_n45_ ),
-    .S0(\$abc$1860$new_n34_ ), .S1(\$abc$1860$new_n34_ ), .f(\$abc$1860$new_n44_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1860$new_n45_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$1860$new_n45_ ),
+    .S0(1'b\$abc$1860$new_n34_ ), .S1(1'b0), .f(\$abc$1860$new_n44_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1883 (
-    .A0(0), .A1(0), .SA(count[3]),
-    .B0(0), .B1(1), .SB(count[3]),
-    .S0(count[2]), .S1(count[2]), .f(\$abc$1860$new_n45_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[3]),
+    .S0(1'bcount[2]), .S1(1'b0), .f(\$abc$1860$new_n45_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1884 (
-    .A0(0), .A1(0), .SA(PI[4]),
-    .B0(0), .B1(1), .SB(PI[4]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[4]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n46_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1885 (
-    .A0(0), .A1(1), .SA(\$abc$1860$new_n51_ ),
-    .B0(1), .B1(1), .SB(\$abc$1860$new_n51_ ),
-    .S0(\$abc$1860$new_n48_ ), .S1(\$abc$1860$new_n48_ ), .f(\$0\count[5:0] [5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1860$new_n51_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1860$new_n51_ ),
+    .S0(1'b\$abc$1860$new_n48_ ), .S1(1'b0), .f(\$0\count[5:0] [5])
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1886 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$1860$new_n49_ ), .S1(\$abc$1860$new_n49_ ), .f(\$abc$1860$new_n48_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$1860$new_n49_ ), .S1(1'b0), .f(\$abc$1860$new_n48_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1887 (
-    .A0(1), .A1(0), .SA(count[5]),
-    .B0(0), .B1(1), .SB(count[5]),
-    .S0(\$abc$1860$new_n50_ ), .S1(\$abc$1860$new_n50_ ), .f(\$abc$1860$new_n49_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcount[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[5]),
+    .S0(1'b\$abc$1860$new_n50_ ), .S1(1'b0), .f(\$abc$1860$new_n49_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1888 (
-    .A0(0), .A1(0), .SA(count[4]),
-    .B0(0), .B1(1), .SB(count[4]),
-    .S0(\$abc$1860$new_n44_ ), .S1(\$abc$1860$new_n44_ ), .f(\$abc$1860$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bcount[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bcount[4]),
+    .S0(1'b\$abc$1860$new_n44_ ), .S1(1'b0), .f(\$abc$1860$new_n50_ )
 );
   c1 \$abc$1860$auto$blifparse.cc:525:parse_blif$1889 (
-    .A0(0), .A1(0), .SA(PI[5]),
-    .B0(0), .B1(1), .SB(PI[5]),
-    .S0(load), .S1(load), .f(\$abc$1860$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[5]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$1860$new_n51_ )
 );
   s2 \$auto$ff.cc:266:slice$867 (
-    .D00(count[0]), .D01(count[0]), .D10(\$0\count[5:0] [0]), .D11(\$0\count[5:0] [0]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[0]), .D01(count[0]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[0])
 );
   s2 \$auto$ff.cc:266:slice$868 (
-    .D00(count[1]), .D01(count[1]), .D10(\$0\count[5:0] [1]), .D11(\$0\count[5:0] [1]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[1]), .D01(count[1]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[1])
 );
   s2 \$auto$ff.cc:266:slice$869 (
-    .D00(count[2]), .D01(count[2]), .D10(\$0\count[5:0] [2]), .D11(\$0\count[5:0] [2]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[2]), .D01(count[2]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[2])
 );
   s2 \$auto$ff.cc:266:slice$870 (
-    .D00(count[3]), .D01(count[3]), .D10(\$0\count[5:0] [3]), .D11(\$0\count[5:0] [3]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[3]), .D01(count[3]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[3])
 );
   s2 \$auto$ff.cc:266:slice$871 (
-    .D00(count[4]), .D01(count[4]), .D10(\$0\count[5:0] [4]), .D11(\$0\count[5:0] [4]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[4]), .D01(count[4]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[4])
 );
   s2 \$auto$ff.cc:266:slice$872 (
-    .D00(count[5]), .D01(count[5]), .D10(\$0\count[5:0] [5]), .D11(\$0\count[5:0] [5]),
-    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(0), .B0(0),
+    .D00(count[5]), .D01(count[5]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .B1(\$abc$1860$auto$opt_dff.cc:194:make_patterns_logic$240 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(count[5])
 );
 endmodule
@@ -2116,124 +2116,124 @@ module \$paramod\Function1\WIDTH=s32'00000000000000000000000000001000 (X, Y, Z, 
   input [7:0] Z;
   wire [7:0] Z;
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1891 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n44_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n44_ ),
-    .S0(\$abc$1890$new_n43_ ), .S1(\$abc$1890$new_n43_ ), .f(Res[0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n44_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n44_ ),
+    .S0(1'b\$abc$1890$new_n43_ ), .S1(1'b0), .f(Res[0])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1892 (
-    .A0(0), .A1(0), .SA(Y[0]),
-    .B0(0), .B1(1), .SB(Y[0]),
-    .S0(X[0]), .S1(X[0]), .f(\$abc$1890$new_n43_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[0]),
+    .S0(1'bX[0]), .S1(1'b0), .f(\$abc$1890$new_n43_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1893 (
-    .A0(0), .A1(0), .SA(P[0]),
-    .B0(1), .B1(0), .SB(P[0]),
-    .S0(Z[0]), .S1(Z[0]), .f(\$abc$1890$new_n44_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[0]),
+    .S0(1'bZ[0]), .S1(1'b0), .f(\$abc$1890$new_n44_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1894 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n47_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n47_ ),
-    .S0(\$abc$1890$new_n46_ ), .S1(\$abc$1890$new_n46_ ), .f(Res[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n47_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n47_ ),
+    .S0(1'b\$abc$1890$new_n46_ ), .S1(1'b0), .f(Res[1])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1895 (
-    .A0(0), .A1(0), .SA(Y[1]),
-    .B0(0), .B1(1), .SB(Y[1]),
-    .S0(X[1]), .S1(X[1]), .f(\$abc$1890$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[1]),
+    .S0(1'bX[1]), .S1(1'b0), .f(\$abc$1890$new_n46_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1896 (
-    .A0(0), .A1(0), .SA(P[1]),
-    .B0(1), .B1(0), .SB(P[1]),
-    .S0(Z[1]), .S1(Z[1]), .f(\$abc$1890$new_n47_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[1]),
+    .S0(1'bZ[1]), .S1(1'b0), .f(\$abc$1890$new_n47_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1897 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n50_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n50_ ),
-    .S0(\$abc$1890$new_n49_ ), .S1(\$abc$1890$new_n49_ ), .f(Res[2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n50_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n50_ ),
+    .S0(1'b\$abc$1890$new_n49_ ), .S1(1'b0), .f(Res[2])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1898 (
-    .A0(0), .A1(0), .SA(Y[2]),
-    .B0(0), .B1(1), .SB(Y[2]),
-    .S0(X[2]), .S1(X[2]), .f(\$abc$1890$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[2]),
+    .S0(1'bX[2]), .S1(1'b0), .f(\$abc$1890$new_n49_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1899 (
-    .A0(0), .A1(0), .SA(P[2]),
-    .B0(1), .B1(0), .SB(P[2]),
-    .S0(Z[2]), .S1(Z[2]), .f(\$abc$1890$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[2]),
+    .S0(1'bZ[2]), .S1(1'b0), .f(\$abc$1890$new_n50_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1900 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n53_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n53_ ),
-    .S0(\$abc$1890$new_n52_ ), .S1(\$abc$1890$new_n52_ ), .f(Res[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n53_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n53_ ),
+    .S0(1'b\$abc$1890$new_n52_ ), .S1(1'b0), .f(Res[3])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1901 (
-    .A0(0), .A1(0), .SA(Y[3]),
-    .B0(0), .B1(1), .SB(Y[3]),
-    .S0(X[3]), .S1(X[3]), .f(\$abc$1890$new_n52_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[3]),
+    .S0(1'bX[3]), .S1(1'b0), .f(\$abc$1890$new_n52_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1902 (
-    .A0(0), .A1(0), .SA(P[3]),
-    .B0(1), .B1(0), .SB(P[3]),
-    .S0(Z[3]), .S1(Z[3]), .f(\$abc$1890$new_n53_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[3]),
+    .S0(1'bZ[3]), .S1(1'b0), .f(\$abc$1890$new_n53_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1903 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n56_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n56_ ),
-    .S0(\$abc$1890$new_n55_ ), .S1(\$abc$1890$new_n55_ ), .f(Res[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n56_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n56_ ),
+    .S0(1'b\$abc$1890$new_n55_ ), .S1(1'b0), .f(Res[4])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1904 (
-    .A0(0), .A1(0), .SA(Y[4]),
-    .B0(0), .B1(1), .SB(Y[4]),
-    .S0(X[4]), .S1(X[4]), .f(\$abc$1890$new_n55_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[4]),
+    .S0(1'bX[4]), .S1(1'b0), .f(\$abc$1890$new_n55_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1905 (
-    .A0(0), .A1(0), .SA(P[4]),
-    .B0(1), .B1(0), .SB(P[4]),
-    .S0(Z[4]), .S1(Z[4]), .f(\$abc$1890$new_n56_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[4]),
+    .S0(1'bZ[4]), .S1(1'b0), .f(\$abc$1890$new_n56_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1906 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n59_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n59_ ),
-    .S0(\$abc$1890$new_n58_ ), .S1(\$abc$1890$new_n58_ ), .f(Res[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n59_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n59_ ),
+    .S0(1'b\$abc$1890$new_n58_ ), .S1(1'b0), .f(Res[5])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1907 (
-    .A0(0), .A1(0), .SA(Y[5]),
-    .B0(0), .B1(1), .SB(Y[5]),
-    .S0(X[5]), .S1(X[5]), .f(\$abc$1890$new_n58_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[5]),
+    .S0(1'bX[5]), .S1(1'b0), .f(\$abc$1890$new_n58_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1908 (
-    .A0(0), .A1(0), .SA(P[5]),
-    .B0(1), .B1(0), .SB(P[5]),
-    .S0(Z[5]), .S1(Z[5]), .f(\$abc$1890$new_n59_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[5]),
+    .S0(1'bZ[5]), .S1(1'b0), .f(\$abc$1890$new_n59_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1909 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n62_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n62_ ),
-    .S0(\$abc$1890$new_n61_ ), .S1(\$abc$1890$new_n61_ ), .f(Res[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n62_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n62_ ),
+    .S0(1'b\$abc$1890$new_n61_ ), .S1(1'b0), .f(Res[6])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1910 (
-    .A0(0), .A1(0), .SA(Y[6]),
-    .B0(0), .B1(1), .SB(Y[6]),
-    .S0(X[6]), .S1(X[6]), .f(\$abc$1890$new_n61_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[6]),
+    .S0(1'bX[6]), .S1(1'b0), .f(\$abc$1890$new_n61_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1911 (
-    .A0(0), .A1(0), .SA(P[6]),
-    .B0(1), .B1(0), .SB(P[6]),
-    .S0(Z[6]), .S1(Z[6]), .f(\$abc$1890$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[6]),
+    .S0(1'bZ[6]), .S1(1'b0), .f(\$abc$1890$new_n62_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1912 (
-    .A0(0), .A1(1), .SA(\$abc$1890$new_n65_ ),
-    .B0(1), .B1(1), .SB(\$abc$1890$new_n65_ ),
-    .S0(\$abc$1890$new_n64_ ), .S1(\$abc$1890$new_n64_ ), .f(Res[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1890$new_n65_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1890$new_n65_ ),
+    .S0(1'b\$abc$1890$new_n64_ ), .S1(1'b0), .f(Res[7])
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1913 (
-    .A0(0), .A1(0), .SA(Y[7]),
-    .B0(0), .B1(1), .SB(Y[7]),
-    .S0(X[7]), .S1(X[7]), .f(\$abc$1890$new_n64_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bY[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[7]),
+    .S0(1'bX[7]), .S1(1'b0), .f(\$abc$1890$new_n64_ )
 );
   c1 \$abc$1890$auto$blifparse.cc:525:parse_blif$1914 (
-    .A0(0), .A1(0), .SA(P[7]),
-    .B0(1), .B1(0), .SB(P[7]),
-    .S0(Z[7]), .S1(Z[7]), .f(\$abc$1890$new_n65_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bP[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bP[7]),
+    .S0(1'bZ[7]), .S1(1'b0), .f(\$abc$1890$new_n65_ )
 );
 endmodule
 
@@ -2255,84 +2255,84 @@ module \$paramod\Function2\WIDTH=s32'00000000000000000000000000001000 (X, Y, Z, 
   input [7:0] Z;
   wire [7:0] Z;
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1916 (
-    .A0(1), .A1(0), .SA(Z[0]),
-    .B0(0), .B1(1), .SB(Z[0]),
-    .S0(\$abc$1915$new_n35_ ), .S1(\$abc$1915$new_n35_ ), .f(Res[0])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[0]),
+    .S0(1'b\$abc$1915$new_n35_ ), .S1(1'b0), .f(Res[0])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1917 (
-    .A0(1), .A1(0), .SA(Y[0]),
-    .B0(0), .B1(1), .SB(Y[0]),
-    .S0(X[0]), .S1(X[0]), .f(\$abc$1915$new_n35_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[0]),
+    .S0(1'bX[0]), .S1(1'b0), .f(\$abc$1915$new_n35_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1918 (
-    .A0(1), .A1(0), .SA(Z[1]),
-    .B0(0), .B1(1), .SB(Z[1]),
-    .S0(\$abc$1915$new_n37_ ), .S1(\$abc$1915$new_n37_ ), .f(Res[1])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[1]),
+    .S0(1'b\$abc$1915$new_n37_ ), .S1(1'b0), .f(Res[1])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1919 (
-    .A0(1), .A1(0), .SA(Y[1]),
-    .B0(0), .B1(1), .SB(Y[1]),
-    .S0(X[1]), .S1(X[1]), .f(\$abc$1915$new_n37_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[1]),
+    .S0(1'bX[1]), .S1(1'b0), .f(\$abc$1915$new_n37_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1920 (
-    .A0(1), .A1(0), .SA(Z[2]),
-    .B0(0), .B1(1), .SB(Z[2]),
-    .S0(\$abc$1915$new_n39_ ), .S1(\$abc$1915$new_n39_ ), .f(Res[2])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[2]),
+    .S0(1'b\$abc$1915$new_n39_ ), .S1(1'b0), .f(Res[2])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1921 (
-    .A0(1), .A1(0), .SA(Y[2]),
-    .B0(0), .B1(1), .SB(Y[2]),
-    .S0(X[2]), .S1(X[2]), .f(\$abc$1915$new_n39_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[2]),
+    .S0(1'bX[2]), .S1(1'b0), .f(\$abc$1915$new_n39_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1922 (
-    .A0(1), .A1(0), .SA(Z[3]),
-    .B0(0), .B1(1), .SB(Z[3]),
-    .S0(\$abc$1915$new_n41_ ), .S1(\$abc$1915$new_n41_ ), .f(Res[3])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[3]),
+    .S0(1'b\$abc$1915$new_n41_ ), .S1(1'b0), .f(Res[3])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1923 (
-    .A0(1), .A1(0), .SA(Y[3]),
-    .B0(0), .B1(1), .SB(Y[3]),
-    .S0(X[3]), .S1(X[3]), .f(\$abc$1915$new_n41_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[3]),
+    .S0(1'bX[3]), .S1(1'b0), .f(\$abc$1915$new_n41_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1924 (
-    .A0(1), .A1(0), .SA(Z[4]),
-    .B0(0), .B1(1), .SB(Z[4]),
-    .S0(\$abc$1915$new_n43_ ), .S1(\$abc$1915$new_n43_ ), .f(Res[4])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[4]),
+    .S0(1'b\$abc$1915$new_n43_ ), .S1(1'b0), .f(Res[4])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1925 (
-    .A0(1), .A1(0), .SA(Y[4]),
-    .B0(0), .B1(1), .SB(Y[4]),
-    .S0(X[4]), .S1(X[4]), .f(\$abc$1915$new_n43_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[4]),
+    .S0(1'bX[4]), .S1(1'b0), .f(\$abc$1915$new_n43_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1926 (
-    .A0(1), .A1(0), .SA(Z[5]),
-    .B0(0), .B1(1), .SB(Z[5]),
-    .S0(\$abc$1915$new_n45_ ), .S1(\$abc$1915$new_n45_ ), .f(Res[5])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[5]),
+    .S0(1'b\$abc$1915$new_n45_ ), .S1(1'b0), .f(Res[5])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1927 (
-    .A0(1), .A1(0), .SA(Y[5]),
-    .B0(0), .B1(1), .SB(Y[5]),
-    .S0(X[5]), .S1(X[5]), .f(\$abc$1915$new_n45_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[5]),
+    .S0(1'bX[5]), .S1(1'b0), .f(\$abc$1915$new_n45_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1928 (
-    .A0(1), .A1(0), .SA(Z[6]),
-    .B0(0), .B1(1), .SB(Z[6]),
-    .S0(\$abc$1915$new_n47_ ), .S1(\$abc$1915$new_n47_ ), .f(Res[6])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[6]),
+    .S0(1'b\$abc$1915$new_n47_ ), .S1(1'b0), .f(Res[6])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1929 (
-    .A0(1), .A1(0), .SA(Y[6]),
-    .B0(0), .B1(1), .SB(Y[6]),
-    .S0(X[6]), .S1(X[6]), .f(\$abc$1915$new_n47_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[6]),
+    .S0(1'bX[6]), .S1(1'b0), .f(\$abc$1915$new_n47_ )
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1930 (
-    .A0(1), .A1(0), .SA(Z[7]),
-    .B0(0), .B1(1), .SB(Z[7]),
-    .S0(\$abc$1915$new_n49_ ), .S1(\$abc$1915$new_n49_ ), .f(Res[7])
+    .A0(1'b1), .A1(1'b0), .SA(1'bZ[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bZ[7]),
+    .S0(1'b\$abc$1915$new_n49_ ), .S1(1'b0), .f(Res[7])
 );
   c1 \$abc$1915$auto$blifparse.cc:525:parse_blif$1931 (
-    .A0(1), .A1(0), .SA(Y[7]),
-    .B0(0), .B1(1), .SB(Y[7]),
-    .S0(X[7]), .S1(X[7]), .f(\$abc$1915$new_n49_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bY[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bY[7]),
+    .S0(1'bX[7]), .S1(1'b0), .f(\$abc$1915$new_n49_ )
 );
 endmodule
 
@@ -2354,84 +2354,84 @@ module \$paramod\Function3\WIDTH=s32'00000000000000000000000000001000 (X, Y, Z, 
   input [7:0] Z;
   wire [7:0] Z;
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1933 (
-    .A0(1), .A1(0), .SA(X[0]),
-    .B0(0), .B1(1), .SB(X[0]),
-    .S0(\$abc$1932$new_n35_ ), .S1(\$abc$1932$new_n35_ ), .f(Res[0])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[0]),
+    .S0(1'b\$abc$1932$new_n35_ ), .S1(1'b0), .f(Res[0])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1934 (
-    .A0(0), .A1(0), .SA(Z[0]),
-    .B0(1), .B1(0), .SB(Z[0]),
-    .S0(Y[0]), .S1(Y[0]), .f(\$abc$1932$new_n35_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[0]),
+    .S0(1'bY[0]), .S1(1'b0), .f(\$abc$1932$new_n35_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1935 (
-    .A0(1), .A1(0), .SA(X[1]),
-    .B0(0), .B1(1), .SB(X[1]),
-    .S0(\$abc$1932$new_n37_ ), .S1(\$abc$1932$new_n37_ ), .f(Res[1])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[1]),
+    .S0(1'b\$abc$1932$new_n37_ ), .S1(1'b0), .f(Res[1])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1936 (
-    .A0(0), .A1(0), .SA(Z[1]),
-    .B0(1), .B1(0), .SB(Z[1]),
-    .S0(Y[1]), .S1(Y[1]), .f(\$abc$1932$new_n37_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[1]),
+    .S0(1'bY[1]), .S1(1'b0), .f(\$abc$1932$new_n37_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1937 (
-    .A0(1), .A1(0), .SA(X[2]),
-    .B0(0), .B1(1), .SB(X[2]),
-    .S0(\$abc$1932$new_n39_ ), .S1(\$abc$1932$new_n39_ ), .f(Res[2])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[2]),
+    .S0(1'b\$abc$1932$new_n39_ ), .S1(1'b0), .f(Res[2])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1938 (
-    .A0(0), .A1(0), .SA(Z[2]),
-    .B0(1), .B1(0), .SB(Z[2]),
-    .S0(Y[2]), .S1(Y[2]), .f(\$abc$1932$new_n39_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[2]),
+    .S0(1'bY[2]), .S1(1'b0), .f(\$abc$1932$new_n39_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1939 (
-    .A0(1), .A1(0), .SA(X[3]),
-    .B0(0), .B1(1), .SB(X[3]),
-    .S0(\$abc$1932$new_n41_ ), .S1(\$abc$1932$new_n41_ ), .f(Res[3])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[3]),
+    .S0(1'b\$abc$1932$new_n41_ ), .S1(1'b0), .f(Res[3])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1940 (
-    .A0(0), .A1(0), .SA(Z[3]),
-    .B0(1), .B1(0), .SB(Z[3]),
-    .S0(Y[3]), .S1(Y[3]), .f(\$abc$1932$new_n41_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[3]),
+    .S0(1'bY[3]), .S1(1'b0), .f(\$abc$1932$new_n41_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1941 (
-    .A0(1), .A1(0), .SA(X[4]),
-    .B0(0), .B1(1), .SB(X[4]),
-    .S0(\$abc$1932$new_n43_ ), .S1(\$abc$1932$new_n43_ ), .f(Res[4])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[4]),
+    .S0(1'b\$abc$1932$new_n43_ ), .S1(1'b0), .f(Res[4])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1942 (
-    .A0(0), .A1(0), .SA(Z[4]),
-    .B0(1), .B1(0), .SB(Z[4]),
-    .S0(Y[4]), .S1(Y[4]), .f(\$abc$1932$new_n43_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[4]),
+    .S0(1'bY[4]), .S1(1'b0), .f(\$abc$1932$new_n43_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1943 (
-    .A0(1), .A1(0), .SA(X[5]),
-    .B0(0), .B1(1), .SB(X[5]),
-    .S0(\$abc$1932$new_n45_ ), .S1(\$abc$1932$new_n45_ ), .f(Res[5])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[5]),
+    .S0(1'b\$abc$1932$new_n45_ ), .S1(1'b0), .f(Res[5])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1944 (
-    .A0(0), .A1(0), .SA(Z[5]),
-    .B0(1), .B1(0), .SB(Z[5]),
-    .S0(Y[5]), .S1(Y[5]), .f(\$abc$1932$new_n45_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[5]),
+    .S0(1'bY[5]), .S1(1'b0), .f(\$abc$1932$new_n45_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1945 (
-    .A0(1), .A1(0), .SA(X[6]),
-    .B0(0), .B1(1), .SB(X[6]),
-    .S0(\$abc$1932$new_n47_ ), .S1(\$abc$1932$new_n47_ ), .f(Res[6])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[6]),
+    .S0(1'b\$abc$1932$new_n47_ ), .S1(1'b0), .f(Res[6])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1946 (
-    .A0(0), .A1(0), .SA(Z[6]),
-    .B0(1), .B1(0), .SB(Z[6]),
-    .S0(Y[6]), .S1(Y[6]), .f(\$abc$1932$new_n47_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[6]),
+    .S0(1'bY[6]), .S1(1'b0), .f(\$abc$1932$new_n47_ )
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1947 (
-    .A0(1), .A1(0), .SA(X[7]),
-    .B0(0), .B1(1), .SB(X[7]),
-    .S0(\$abc$1932$new_n49_ ), .S1(\$abc$1932$new_n49_ ), .f(Res[7])
+    .A0(1'b1), .A1(1'b0), .SA(1'bX[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bX[7]),
+    .S0(1'b\$abc$1932$new_n49_ ), .S1(1'b0), .f(Res[7])
 );
   c1 \$abc$1932$auto$blifparse.cc:525:parse_blif$1948 (
-    .A0(0), .A1(0), .SA(Z[7]),
-    .B0(1), .B1(0), .SB(Z[7]),
-    .S0(Y[7]), .S1(Y[7]), .f(\$abc$1932$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bZ[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bZ[7]),
+    .S0(1'bY[7]), .S1(1'b0), .f(\$abc$1932$new_n49_ )
 );
 endmodule
 
@@ -2510,344 +2510,344 @@ module \$paramod\MFile\MESSAGE_WIDTH=s32'00000000000000000000000000100000 (clk, 
   input rst;
   wire rst;
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1950 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n55_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n55_ ),
-    .S0(\$abc$1949$new_n45_ ), .S1(\$abc$1949$new_n45_ ), .f(out[0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n55_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n55_ ),
+    .S0(1'b\$abc$1949$new_n45_ ), .S1(1'b0), .f(out[0])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1951 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n46_ ), .S1(\$abc$1949$new_n46_ ), .f(\$abc$1949$new_n45_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n46_ ), .S1(1'b0), .f(\$abc$1949$new_n45_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1952 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n47_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n47_ ),
-    .S0(\$abc$1949$new_n52_ ), .S1(\$abc$1949$new_n52_ ), .f(\$abc$1949$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n47_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n47_ ),
+    .S0(1'b\$abc$1949$new_n52_ ), .S1(1'b0), .f(\$abc$1949$new_n46_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1953 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n50_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n50_ ),
-    .S0(\$abc$1949$new_n48_ ), .S1(\$abc$1949$new_n48_ ), .f(\$abc$1949$new_n47_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n50_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n50_ ),
+    .S0(1'b\$abc$1949$new_n48_ ), .S1(1'b0), .f(\$abc$1949$new_n47_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1954 (
-    .A0(0), .A1(0), .SA(outReg[0]),
-    .B0(0), .B1(1), .SB(outReg[0]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n48_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[0]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n48_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1955 (
-    .A0(0), .A1(0), .SA(index[1]),
-    .B0(0), .B1(1), .SB(index[1]),
-    .S0(index[0]), .S1(index[0]), .f(\$abc$1949$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bindex[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bindex[1]),
+    .S0(1'bindex[0]), .S1(1'b0), .f(\$abc$1949$new_n49_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1956 (
-    .A0(0), .A1(0), .SA(outReg[8]),
-    .B0(0), .B1(1), .SB(outReg[8]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[8]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[8]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n50_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1957 (
-    .A0(0), .A1(0), .SA(index[1]),
-    .B0(1), .B1(0), .SB(index[1]),
-    .S0(index[0]), .S1(index[0]), .f(\$abc$1949$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bindex[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bindex[1]),
+    .S0(1'bindex[0]), .S1(1'b0), .f(\$abc$1949$new_n51_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1958 (
-    .A0(0), .A1(0), .SA(outReg[16]),
-    .B0(0), .B1(1), .SB(outReg[16]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n52_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[16]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[16]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n52_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1959 (
-    .A0(0), .A1(0), .SA(index[0]),
-    .B0(1), .B1(0), .SB(index[0]),
-    .S0(index[1]), .S1(index[1]), .f(\$abc$1949$new_n53_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bindex[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bindex[0]),
+    .S0(1'bindex[1]), .S1(1'b0), .f(\$abc$1949$new_n53_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1960 (
-    .A0(1), .A1(0), .SA(index[1]),
-    .B0(0), .B1(0), .SB(index[1]),
-    .S0(index[0]), .S1(index[0]), .f(\$abc$1949$new_n54_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bindex[1]),
+    .B0(1'b0), .B1(1'b0), .SB(1'bindex[1]),
+    .S0(1'bindex[0]), .S1(1'b0), .f(\$abc$1949$new_n54_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1961 (
-    .A0(0), .A1(0), .SA(outReg[24]),
-    .B0(0), .B1(1), .SB(outReg[24]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n55_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[24]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[24]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n55_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1962 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n63_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n63_ ),
-    .S0(\$abc$1949$new_n57_ ), .S1(\$abc$1949$new_n57_ ), .f(out[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n63_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n63_ ),
+    .S0(1'b\$abc$1949$new_n57_ ), .S1(1'b0), .f(out[1])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1963 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n58_ ), .S1(\$abc$1949$new_n58_ ), .f(\$abc$1949$new_n57_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n58_ ), .S1(1'b0), .f(\$abc$1949$new_n57_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1964 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n59_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n59_ ),
-    .S0(\$abc$1949$new_n62_ ), .S1(\$abc$1949$new_n62_ ), .f(\$abc$1949$new_n58_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n59_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n59_ ),
+    .S0(1'b\$abc$1949$new_n62_ ), .S1(1'b0), .f(\$abc$1949$new_n58_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1965 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n61_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n61_ ),
-    .S0(\$abc$1949$new_n60_ ), .S1(\$abc$1949$new_n60_ ), .f(\$abc$1949$new_n59_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n61_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n61_ ),
+    .S0(1'b\$abc$1949$new_n60_ ), .S1(1'b0), .f(\$abc$1949$new_n59_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1966 (
-    .A0(0), .A1(0), .SA(outReg[1]),
-    .B0(0), .B1(1), .SB(outReg[1]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n60_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[1]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n60_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1967 (
-    .A0(0), .A1(0), .SA(outReg[9]),
-    .B0(0), .B1(1), .SB(outReg[9]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n61_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[9]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[9]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n61_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1968 (
-    .A0(0), .A1(0), .SA(outReg[17]),
-    .B0(0), .B1(1), .SB(outReg[17]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[17]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[17]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n62_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1969 (
-    .A0(0), .A1(0), .SA(outReg[25]),
-    .B0(0), .B1(1), .SB(outReg[25]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n63_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[25]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[25]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n63_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1970 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n71_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n71_ ),
-    .S0(\$abc$1949$new_n65_ ), .S1(\$abc$1949$new_n65_ ), .f(out[2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n71_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n71_ ),
+    .S0(1'b\$abc$1949$new_n65_ ), .S1(1'b0), .f(out[2])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1971 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n66_ ), .S1(\$abc$1949$new_n66_ ), .f(\$abc$1949$new_n65_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n66_ ), .S1(1'b0), .f(\$abc$1949$new_n65_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1972 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n67_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n67_ ),
-    .S0(\$abc$1949$new_n70_ ), .S1(\$abc$1949$new_n70_ ), .f(\$abc$1949$new_n66_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n67_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n67_ ),
+    .S0(1'b\$abc$1949$new_n70_ ), .S1(1'b0), .f(\$abc$1949$new_n66_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1973 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n69_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n69_ ),
-    .S0(\$abc$1949$new_n68_ ), .S1(\$abc$1949$new_n68_ ), .f(\$abc$1949$new_n67_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n69_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n69_ ),
+    .S0(1'b\$abc$1949$new_n68_ ), .S1(1'b0), .f(\$abc$1949$new_n67_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1974 (
-    .A0(0), .A1(0), .SA(outReg[2]),
-    .B0(0), .B1(1), .SB(outReg[2]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n68_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[2]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n68_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1975 (
-    .A0(0), .A1(0), .SA(outReg[10]),
-    .B0(0), .B1(1), .SB(outReg[10]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n69_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[10]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[10]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n69_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1976 (
-    .A0(0), .A1(0), .SA(outReg[18]),
-    .B0(0), .B1(1), .SB(outReg[18]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n70_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[18]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[18]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n70_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1977 (
-    .A0(0), .A1(0), .SA(outReg[26]),
-    .B0(0), .B1(1), .SB(outReg[26]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n71_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[26]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[26]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n71_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1978 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n79_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n79_ ),
-    .S0(\$abc$1949$new_n73_ ), .S1(\$abc$1949$new_n73_ ), .f(out[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n79_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n79_ ),
+    .S0(1'b\$abc$1949$new_n73_ ), .S1(1'b0), .f(out[3])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1979 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n74_ ), .S1(\$abc$1949$new_n74_ ), .f(\$abc$1949$new_n73_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n74_ ), .S1(1'b0), .f(\$abc$1949$new_n73_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1980 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n75_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n75_ ),
-    .S0(\$abc$1949$new_n78_ ), .S1(\$abc$1949$new_n78_ ), .f(\$abc$1949$new_n74_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n75_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n75_ ),
+    .S0(1'b\$abc$1949$new_n78_ ), .S1(1'b0), .f(\$abc$1949$new_n74_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1981 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n77_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n77_ ),
-    .S0(\$abc$1949$new_n76_ ), .S1(\$abc$1949$new_n76_ ), .f(\$abc$1949$new_n75_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n77_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n77_ ),
+    .S0(1'b\$abc$1949$new_n76_ ), .S1(1'b0), .f(\$abc$1949$new_n75_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1982 (
-    .A0(0), .A1(0), .SA(outReg[3]),
-    .B0(0), .B1(1), .SB(outReg[3]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n76_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[3]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n76_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1983 (
-    .A0(0), .A1(0), .SA(outReg[11]),
-    .B0(0), .B1(1), .SB(outReg[11]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n77_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[11]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[11]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n77_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1984 (
-    .A0(0), .A1(0), .SA(outReg[19]),
-    .B0(0), .B1(1), .SB(outReg[19]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n78_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[19]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[19]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n78_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1985 (
-    .A0(0), .A1(0), .SA(outReg[27]),
-    .B0(0), .B1(1), .SB(outReg[27]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n79_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[27]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[27]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n79_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1986 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n87_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n87_ ),
-    .S0(\$abc$1949$new_n81_ ), .S1(\$abc$1949$new_n81_ ), .f(out[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n87_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n87_ ),
+    .S0(1'b\$abc$1949$new_n81_ ), .S1(1'b0), .f(out[4])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1987 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n82_ ), .S1(\$abc$1949$new_n82_ ), .f(\$abc$1949$new_n81_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n82_ ), .S1(1'b0), .f(\$abc$1949$new_n81_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1988 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n83_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n83_ ),
-    .S0(\$abc$1949$new_n86_ ), .S1(\$abc$1949$new_n86_ ), .f(\$abc$1949$new_n82_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n83_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n83_ ),
+    .S0(1'b\$abc$1949$new_n86_ ), .S1(1'b0), .f(\$abc$1949$new_n82_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1989 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n85_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n85_ ),
-    .S0(\$abc$1949$new_n84_ ), .S1(\$abc$1949$new_n84_ ), .f(\$abc$1949$new_n83_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n85_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n85_ ),
+    .S0(1'b\$abc$1949$new_n84_ ), .S1(1'b0), .f(\$abc$1949$new_n83_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1990 (
-    .A0(0), .A1(0), .SA(outReg[4]),
-    .B0(0), .B1(1), .SB(outReg[4]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n84_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[4]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n84_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1991 (
-    .A0(0), .A1(0), .SA(outReg[12]),
-    .B0(0), .B1(1), .SB(outReg[12]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n85_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[12]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[12]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n85_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1992 (
-    .A0(0), .A1(0), .SA(outReg[20]),
-    .B0(0), .B1(1), .SB(outReg[20]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n86_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[20]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[20]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n86_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1993 (
-    .A0(0), .A1(0), .SA(outReg[28]),
-    .B0(0), .B1(1), .SB(outReg[28]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n87_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[28]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[28]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n87_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1994 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n95_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n95_ ),
-    .S0(\$abc$1949$new_n89_ ), .S1(\$abc$1949$new_n89_ ), .f(out[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n95_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n95_ ),
+    .S0(1'b\$abc$1949$new_n89_ ), .S1(1'b0), .f(out[5])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1995 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n90_ ), .S1(\$abc$1949$new_n90_ ), .f(\$abc$1949$new_n89_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n90_ ), .S1(1'b0), .f(\$abc$1949$new_n89_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1996 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n91_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n91_ ),
-    .S0(\$abc$1949$new_n94_ ), .S1(\$abc$1949$new_n94_ ), .f(\$abc$1949$new_n90_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n91_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n91_ ),
+    .S0(1'b\$abc$1949$new_n94_ ), .S1(1'b0), .f(\$abc$1949$new_n90_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1997 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n93_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n93_ ),
-    .S0(\$abc$1949$new_n92_ ), .S1(\$abc$1949$new_n92_ ), .f(\$abc$1949$new_n91_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n93_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n93_ ),
+    .S0(1'b\$abc$1949$new_n92_ ), .S1(1'b0), .f(\$abc$1949$new_n91_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1998 (
-    .A0(0), .A1(0), .SA(outReg[5]),
-    .B0(0), .B1(1), .SB(outReg[5]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n92_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[5]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n92_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$1999 (
-    .A0(0), .A1(0), .SA(outReg[13]),
-    .B0(0), .B1(1), .SB(outReg[13]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n93_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[13]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[13]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n93_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2000 (
-    .A0(0), .A1(0), .SA(outReg[21]),
-    .B0(0), .B1(1), .SB(outReg[21]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n94_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[21]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[21]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n94_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2001 (
-    .A0(0), .A1(0), .SA(outReg[29]),
-    .B0(0), .B1(1), .SB(outReg[29]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n95_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[29]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[29]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n95_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2002 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n103_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n103_ ),
-    .S0(\$abc$1949$new_n97_ ), .S1(\$abc$1949$new_n97_ ), .f(out[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n103_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n103_ ),
+    .S0(1'b\$abc$1949$new_n97_ ), .S1(1'b0), .f(out[6])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2003 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n98_ ), .S1(\$abc$1949$new_n98_ ), .f(\$abc$1949$new_n97_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n98_ ), .S1(1'b0), .f(\$abc$1949$new_n97_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2004 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n99_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n99_ ),
-    .S0(\$abc$1949$new_n102_ ), .S1(\$abc$1949$new_n102_ ), .f(\$abc$1949$new_n98_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n99_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n99_ ),
+    .S0(1'b\$abc$1949$new_n102_ ), .S1(1'b0), .f(\$abc$1949$new_n98_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2005 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n101_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n101_ ),
-    .S0(\$abc$1949$new_n100_ ), .S1(\$abc$1949$new_n100_ ), .f(\$abc$1949$new_n99_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n101_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n101_ ),
+    .S0(1'b\$abc$1949$new_n100_ ), .S1(1'b0), .f(\$abc$1949$new_n99_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2006 (
-    .A0(0), .A1(0), .SA(outReg[6]),
-    .B0(0), .B1(1), .SB(outReg[6]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n100_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[6]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n100_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2007 (
-    .A0(0), .A1(0), .SA(outReg[14]),
-    .B0(0), .B1(1), .SB(outReg[14]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n101_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[14]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[14]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n101_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2008 (
-    .A0(0), .A1(0), .SA(outReg[22]),
-    .B0(0), .B1(1), .SB(outReg[22]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n102_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[22]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[22]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n102_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2009 (
-    .A0(0), .A1(0), .SA(outReg[30]),
-    .B0(0), .B1(1), .SB(outReg[30]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n103_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[30]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[30]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n103_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2010 (
-    .A0(0), .A1(1), .SA(\$abc$1949$new_n111_ ),
-    .B0(1), .B1(1), .SB(\$abc$1949$new_n111_ ),
-    .S0(\$abc$1949$new_n105_ ), .S1(\$abc$1949$new_n105_ ), .f(out[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$1949$new_n111_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$1949$new_n111_ ),
+    .S0(1'b\$abc$1949$new_n105_ ), .S1(1'b0), .f(out[7])
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2011 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n54_ ),
-    .S0(\$abc$1949$new_n106_ ), .S1(\$abc$1949$new_n106_ ), .f(\$abc$1949$new_n105_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n54_ ),
+    .S0(1'b\$abc$1949$new_n106_ ), .S1(1'b0), .f(\$abc$1949$new_n105_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2012 (
-    .A0(0), .A1(0), .SA(\$abc$1949$new_n107_ ),
-    .B0(1), .B1(0), .SB(\$abc$1949$new_n107_ ),
-    .S0(\$abc$1949$new_n110_ ), .S1(\$abc$1949$new_n110_ ), .f(\$abc$1949$new_n106_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$1949$new_n107_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$1949$new_n107_ ),
+    .S0(1'b\$abc$1949$new_n110_ ), .S1(1'b0), .f(\$abc$1949$new_n106_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2013 (
-    .A0(1), .A1(0), .SA(\$abc$1949$new_n109_ ),
-    .B0(0), .B1(0), .SB(\$abc$1949$new_n109_ ),
-    .S0(\$abc$1949$new_n108_ ), .S1(\$abc$1949$new_n108_ ), .f(\$abc$1949$new_n107_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$1949$new_n109_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$1949$new_n109_ ),
+    .S0(1'b\$abc$1949$new_n108_ ), .S1(1'b0), .f(\$abc$1949$new_n107_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2014 (
-    .A0(0), .A1(0), .SA(outReg[7]),
-    .B0(0), .B1(1), .SB(outReg[7]),
-    .S0(\$abc$1949$new_n49_ ), .S1(\$abc$1949$new_n49_ ), .f(\$abc$1949$new_n108_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[7]),
+    .S0(1'b\$abc$1949$new_n49_ ), .S1(1'b0), .f(\$abc$1949$new_n108_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2015 (
-    .A0(0), .A1(0), .SA(outReg[15]),
-    .B0(0), .B1(1), .SB(outReg[15]),
-    .S0(\$abc$1949$new_n51_ ), .S1(\$abc$1949$new_n51_ ), .f(\$abc$1949$new_n109_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[15]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[15]),
+    .S0(1'b\$abc$1949$new_n51_ ), .S1(1'b0), .f(\$abc$1949$new_n109_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2016 (
-    .A0(0), .A1(0), .SA(outReg[23]),
-    .B0(0), .B1(1), .SB(outReg[23]),
-    .S0(\$abc$1949$new_n53_ ), .S1(\$abc$1949$new_n53_ ), .f(\$abc$1949$new_n110_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[23]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[23]),
+    .S0(1'b\$abc$1949$new_n53_ ), .S1(1'b0), .f(\$abc$1949$new_n110_ )
 );
   c1 \$abc$1949$auto$blifparse.cc:525:parse_blif$2017 (
-    .A0(0), .A1(0), .SA(outReg[31]),
-    .B0(0), .B1(1), .SB(outReg[31]),
-    .S0(\$abc$1949$new_n54_ ), .S1(\$abc$1949$new_n54_ ), .f(\$abc$1949$new_n111_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'boutReg[31]),
+    .B0(1'b0), .B1(1'b1), .SB(1'boutReg[31]),
+    .S0(1'b\$abc$1949$new_n54_ ), .S1(1'b0), .f(\$abc$1949$new_n111_ )
 );
   \$paramod\Register\WIDTH=s32'00000000000000000000000000100000  reg1 (
     .clk(clk),
@@ -2884,124 +2884,124 @@ module \$paramod\Mux2\WIDTH=s32'00000000000000000000000000001000 (in0, in1, sel,
   input sel;
   wire sel;
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2019 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n29_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n29_ ),
-    .S0(\$abc$2018$new_n28_ ), .S1(\$abc$2018$new_n28_ ), .f(out[0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n29_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n29_ ),
+    .S0(1'b\$abc$2018$new_n28_ ), .S1(1'b0), .f(out[0])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2020 (
-    .A0(0), .A1(0), .SA(in0[0]),
-    .B0(1), .B1(0), .SB(in0[0]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n28_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[0]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n28_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2021 (
-    .A0(0), .A1(0), .SA(sel),
-    .B0(0), .B1(1), .SB(sel),
-    .S0(in1[0]), .S1(in1[0]), .f(\$abc$2018$new_n29_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bsel),
+    .B0(1'b0), .B1(1'b1), .SB(1'bsel),
+    .S0(1'bin1[0]), .S1(1'b0), .f(\$abc$2018$new_n29_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2022 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n32_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n32_ ),
-    .S0(\$abc$2018$new_n31_ ), .S1(\$abc$2018$new_n31_ ), .f(out[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n32_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n32_ ),
+    .S0(1'b\$abc$2018$new_n31_ ), .S1(1'b0), .f(out[1])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2023 (
-    .A0(0), .A1(0), .SA(in0[1]),
-    .B0(1), .B1(0), .SB(in0[1]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n31_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[1]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n31_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2024 (
-    .A0(0), .A1(0), .SA(in1[1]),
-    .B0(0), .B1(1), .SB(in1[1]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n32_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[1]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n32_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2025 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n35_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n35_ ),
-    .S0(\$abc$2018$new_n34_ ), .S1(\$abc$2018$new_n34_ ), .f(out[2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n35_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n35_ ),
+    .S0(1'b\$abc$2018$new_n34_ ), .S1(1'b0), .f(out[2])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2026 (
-    .A0(0), .A1(0), .SA(in0[2]),
-    .B0(1), .B1(0), .SB(in0[2]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n34_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[2]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n34_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2027 (
-    .A0(0), .A1(0), .SA(in1[2]),
-    .B0(0), .B1(1), .SB(in1[2]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n35_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[2]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n35_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2028 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n38_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n38_ ),
-    .S0(\$abc$2018$new_n37_ ), .S1(\$abc$2018$new_n37_ ), .f(out[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n38_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n38_ ),
+    .S0(1'b\$abc$2018$new_n37_ ), .S1(1'b0), .f(out[3])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2029 (
-    .A0(0), .A1(0), .SA(in0[3]),
-    .B0(1), .B1(0), .SB(in0[3]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n37_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[3]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n37_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2030 (
-    .A0(0), .A1(0), .SA(in1[3]),
-    .B0(0), .B1(1), .SB(in1[3]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n38_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[3]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n38_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2031 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n41_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n41_ ),
-    .S0(\$abc$2018$new_n40_ ), .S1(\$abc$2018$new_n40_ ), .f(out[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n41_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n41_ ),
+    .S0(1'b\$abc$2018$new_n40_ ), .S1(1'b0), .f(out[4])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2032 (
-    .A0(0), .A1(0), .SA(in0[4]),
-    .B0(1), .B1(0), .SB(in0[4]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n40_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[4]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n40_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2033 (
-    .A0(0), .A1(0), .SA(in1[4]),
-    .B0(0), .B1(1), .SB(in1[4]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n41_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[4]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n41_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2034 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n44_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n44_ ),
-    .S0(\$abc$2018$new_n43_ ), .S1(\$abc$2018$new_n43_ ), .f(out[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n44_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n44_ ),
+    .S0(1'b\$abc$2018$new_n43_ ), .S1(1'b0), .f(out[5])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2035 (
-    .A0(0), .A1(0), .SA(in0[5]),
-    .B0(1), .B1(0), .SB(in0[5]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n43_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[5]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n43_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2036 (
-    .A0(0), .A1(0), .SA(in1[5]),
-    .B0(0), .B1(1), .SB(in1[5]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n44_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[5]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n44_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2037 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n47_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n47_ ),
-    .S0(\$abc$2018$new_n46_ ), .S1(\$abc$2018$new_n46_ ), .f(out[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n47_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n47_ ),
+    .S0(1'b\$abc$2018$new_n46_ ), .S1(1'b0), .f(out[6])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2038 (
-    .A0(0), .A1(0), .SA(in0[6]),
-    .B0(1), .B1(0), .SB(in0[6]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[6]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n46_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2039 (
-    .A0(0), .A1(0), .SA(in1[6]),
-    .B0(0), .B1(1), .SB(in1[6]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n47_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[6]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n47_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2040 (
-    .A0(0), .A1(1), .SA(\$abc$2018$new_n50_ ),
-    .B0(1), .B1(1), .SB(\$abc$2018$new_n50_ ),
-    .S0(\$abc$2018$new_n49_ ), .S1(\$abc$2018$new_n49_ ), .f(out[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2018$new_n50_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2018$new_n50_ ),
+    .S0(1'b\$abc$2018$new_n49_ ), .S1(1'b0), .f(out[7])
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2041 (
-    .A0(0), .A1(0), .SA(in0[7]),
-    .B0(1), .B1(0), .SB(in0[7]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin0[7]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n49_ )
 );
   c1 \$abc$2018$auto$blifparse.cc:525:parse_blif$2042 (
-    .A0(0), .A1(0), .SA(in1[7]),
-    .B0(0), .B1(1), .SB(in1[7]),
-    .S0(sel), .S1(sel), .f(\$abc$2018$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[7]),
+    .S0(1'bsel), .S1(1'b0), .f(\$abc$2018$new_n50_ )
 );
 endmodule
 
@@ -3086,379 +3086,379 @@ module \$paramod\Mux4\WIDTH=s32'00000000000000000000000000001000 (in0, in1, in2,
   input [1:0] sel;
   wire [1:0] sel;
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2044 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n55_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n55_ ),
-    .S0(\$abc$2043$new_n45_ ), .S1(\$abc$2043$new_n45_ ), .f(out[0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n55_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n55_ ),
+    .S0(1'b\$abc$2043$new_n45_ ), .S1(1'b0), .f(out[0])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2045 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n46_ ), .S1(\$abc$2043$new_n46_ ), .f(\$abc$2043$new_n45_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n46_ ), .S1(1'b0), .f(\$abc$2043$new_n45_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2046 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n53_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n53_ ),
-    .S0(\$abc$2043$new_n47_ ), .S1(\$abc$2043$new_n47_ ), .f(\$abc$2043$new_n46_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n53_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n53_ ),
+    .S0(1'b\$abc$2043$new_n47_ ), .S1(1'b0), .f(\$abc$2043$new_n46_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2047 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n48_ ), .S1(\$abc$2043$new_n48_ ), .f(\$abc$2043$new_n47_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n48_ ), .S1(1'b0), .f(\$abc$2043$new_n47_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2048 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n51_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n51_ ),
-    .S0(\$abc$2043$new_n49_ ), .S1(\$abc$2043$new_n49_ ), .f(\$abc$2043$new_n48_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n51_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n51_ ),
+    .S0(1'b\$abc$2043$new_n49_ ), .S1(1'b0), .f(\$abc$2043$new_n48_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2049 (
-    .A0(0), .A1(0), .SA(in2[0]),
-    .B0(0), .B1(1), .SB(in2[0]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n49_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[0]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n49_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2050 (
-    .A0(0), .A1(0), .SA(sel[1]),
-    .B0(1), .B1(0), .SB(sel[1]),
-    .S0(sel[0]), .S1(sel[0]), .f(\$abc$2043$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bsel[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bsel[1]),
+    .S0(1'bsel[0]), .S1(1'b0), .f(\$abc$2043$new_n50_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2051 (
-    .A0(0), .A1(0), .SA(in3[0]),
-    .B0(1), .B1(0), .SB(in3[0]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[0]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n51_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2052 (
-    .A0(0), .A1(0), .SA(sel[0]),
-    .B0(1), .B1(0), .SB(sel[0]),
-    .S0(sel[1]), .S1(sel[1]), .f(\$abc$2043$new_n52_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bsel[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bsel[0]),
+    .S0(1'bsel[1]), .S1(1'b0), .f(\$abc$2043$new_n52_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2053 (
-    .A0(0), .A1(0), .SA(in1[0]),
-    .B0(0), .B1(1), .SB(in1[0]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n53_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[0]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n53_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2054 (
-    .A0(1), .A1(0), .SA(sel[0]),
-    .B0(0), .B1(0), .SB(sel[0]),
-    .S0(sel[1]), .S1(sel[1]), .f(\$abc$2043$new_n54_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bsel[0]),
+    .B0(1'b0), .B1(1'b0), .SB(1'bsel[0]),
+    .S0(1'bsel[1]), .S1(1'b0), .f(\$abc$2043$new_n54_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2055 (
-    .A0(0), .A1(0), .SA(in0[0]),
-    .B0(0), .B1(1), .SB(in0[0]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n55_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[0]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n55_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2056 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n64_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n64_ ),
-    .S0(\$abc$2043$new_n57_ ), .S1(\$abc$2043$new_n57_ ), .f(out[1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n64_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n64_ ),
+    .S0(1'b\$abc$2043$new_n57_ ), .S1(1'b0), .f(out[1])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2057 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n58_ ), .S1(\$abc$2043$new_n58_ ), .f(\$abc$2043$new_n57_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n58_ ), .S1(1'b0), .f(\$abc$2043$new_n57_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2058 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n63_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n63_ ),
-    .S0(\$abc$2043$new_n59_ ), .S1(\$abc$2043$new_n59_ ), .f(\$abc$2043$new_n58_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n63_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n63_ ),
+    .S0(1'b\$abc$2043$new_n59_ ), .S1(1'b0), .f(\$abc$2043$new_n58_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2059 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n60_ ), .S1(\$abc$2043$new_n60_ ), .f(\$abc$2043$new_n59_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n60_ ), .S1(1'b0), .f(\$abc$2043$new_n59_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2060 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n62_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n62_ ),
-    .S0(\$abc$2043$new_n61_ ), .S1(\$abc$2043$new_n61_ ), .f(\$abc$2043$new_n60_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n62_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n62_ ),
+    .S0(1'b\$abc$2043$new_n61_ ), .S1(1'b0), .f(\$abc$2043$new_n60_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2061 (
-    .A0(0), .A1(0), .SA(in2[1]),
-    .B0(0), .B1(1), .SB(in2[1]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n61_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[1]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n61_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2062 (
-    .A0(0), .A1(0), .SA(in3[1]),
-    .B0(1), .B1(0), .SB(in3[1]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n62_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[1]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n62_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2063 (
-    .A0(0), .A1(0), .SA(in1[1]),
-    .B0(0), .B1(1), .SB(in1[1]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n63_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[1]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n63_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2064 (
-    .A0(0), .A1(0), .SA(in0[1]),
-    .B0(0), .B1(1), .SB(in0[1]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n64_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[1]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n64_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2065 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n73_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n73_ ),
-    .S0(\$abc$2043$new_n66_ ), .S1(\$abc$2043$new_n66_ ), .f(out[2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n73_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n73_ ),
+    .S0(1'b\$abc$2043$new_n66_ ), .S1(1'b0), .f(out[2])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2066 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n67_ ), .S1(\$abc$2043$new_n67_ ), .f(\$abc$2043$new_n66_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n67_ ), .S1(1'b0), .f(\$abc$2043$new_n66_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2067 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n72_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n72_ ),
-    .S0(\$abc$2043$new_n68_ ), .S1(\$abc$2043$new_n68_ ), .f(\$abc$2043$new_n67_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n72_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n72_ ),
+    .S0(1'b\$abc$2043$new_n68_ ), .S1(1'b0), .f(\$abc$2043$new_n67_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2068 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n69_ ), .S1(\$abc$2043$new_n69_ ), .f(\$abc$2043$new_n68_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n69_ ), .S1(1'b0), .f(\$abc$2043$new_n68_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2069 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n71_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n71_ ),
-    .S0(\$abc$2043$new_n70_ ), .S1(\$abc$2043$new_n70_ ), .f(\$abc$2043$new_n69_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n71_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n71_ ),
+    .S0(1'b\$abc$2043$new_n70_ ), .S1(1'b0), .f(\$abc$2043$new_n69_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2070 (
-    .A0(0), .A1(0), .SA(in2[2]),
-    .B0(0), .B1(1), .SB(in2[2]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n70_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[2]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n70_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2071 (
-    .A0(0), .A1(0), .SA(in3[2]),
-    .B0(1), .B1(0), .SB(in3[2]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n71_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[2]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n71_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2072 (
-    .A0(0), .A1(0), .SA(in1[2]),
-    .B0(0), .B1(1), .SB(in1[2]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n72_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[2]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n72_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2073 (
-    .A0(0), .A1(0), .SA(in0[2]),
-    .B0(0), .B1(1), .SB(in0[2]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n73_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[2]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n73_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2074 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n82_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n82_ ),
-    .S0(\$abc$2043$new_n75_ ), .S1(\$abc$2043$new_n75_ ), .f(out[3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n82_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n82_ ),
+    .S0(1'b\$abc$2043$new_n75_ ), .S1(1'b0), .f(out[3])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2075 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n76_ ), .S1(\$abc$2043$new_n76_ ), .f(\$abc$2043$new_n75_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n76_ ), .S1(1'b0), .f(\$abc$2043$new_n75_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2076 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n81_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n81_ ),
-    .S0(\$abc$2043$new_n77_ ), .S1(\$abc$2043$new_n77_ ), .f(\$abc$2043$new_n76_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n81_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n81_ ),
+    .S0(1'b\$abc$2043$new_n77_ ), .S1(1'b0), .f(\$abc$2043$new_n76_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2077 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n78_ ), .S1(\$abc$2043$new_n78_ ), .f(\$abc$2043$new_n77_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n78_ ), .S1(1'b0), .f(\$abc$2043$new_n77_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2078 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n80_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n80_ ),
-    .S0(\$abc$2043$new_n79_ ), .S1(\$abc$2043$new_n79_ ), .f(\$abc$2043$new_n78_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n80_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n80_ ),
+    .S0(1'b\$abc$2043$new_n79_ ), .S1(1'b0), .f(\$abc$2043$new_n78_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2079 (
-    .A0(0), .A1(0), .SA(in2[3]),
-    .B0(0), .B1(1), .SB(in2[3]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n79_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[3]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n79_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2080 (
-    .A0(0), .A1(0), .SA(in3[3]),
-    .B0(1), .B1(0), .SB(in3[3]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n80_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[3]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n80_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2081 (
-    .A0(0), .A1(0), .SA(in1[3]),
-    .B0(0), .B1(1), .SB(in1[3]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n81_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[3]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n81_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2082 (
-    .A0(0), .A1(0), .SA(in0[3]),
-    .B0(0), .B1(1), .SB(in0[3]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n82_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[3]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n82_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2083 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n91_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n91_ ),
-    .S0(\$abc$2043$new_n84_ ), .S1(\$abc$2043$new_n84_ ), .f(out[4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n91_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n91_ ),
+    .S0(1'b\$abc$2043$new_n84_ ), .S1(1'b0), .f(out[4])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2084 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n85_ ), .S1(\$abc$2043$new_n85_ ), .f(\$abc$2043$new_n84_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n85_ ), .S1(1'b0), .f(\$abc$2043$new_n84_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2085 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n90_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n90_ ),
-    .S0(\$abc$2043$new_n86_ ), .S1(\$abc$2043$new_n86_ ), .f(\$abc$2043$new_n85_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n90_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n90_ ),
+    .S0(1'b\$abc$2043$new_n86_ ), .S1(1'b0), .f(\$abc$2043$new_n85_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2086 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n87_ ), .S1(\$abc$2043$new_n87_ ), .f(\$abc$2043$new_n86_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n87_ ), .S1(1'b0), .f(\$abc$2043$new_n86_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2087 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n89_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n89_ ),
-    .S0(\$abc$2043$new_n88_ ), .S1(\$abc$2043$new_n88_ ), .f(\$abc$2043$new_n87_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n89_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n89_ ),
+    .S0(1'b\$abc$2043$new_n88_ ), .S1(1'b0), .f(\$abc$2043$new_n87_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2088 (
-    .A0(0), .A1(0), .SA(in2[4]),
-    .B0(0), .B1(1), .SB(in2[4]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n88_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[4]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n88_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2089 (
-    .A0(0), .A1(0), .SA(in3[4]),
-    .B0(1), .B1(0), .SB(in3[4]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n89_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[4]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n89_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2090 (
-    .A0(0), .A1(0), .SA(in1[4]),
-    .B0(0), .B1(1), .SB(in1[4]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n90_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[4]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n90_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2091 (
-    .A0(0), .A1(0), .SA(in0[4]),
-    .B0(0), .B1(1), .SB(in0[4]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n91_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[4]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n91_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2092 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n100_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n100_ ),
-    .S0(\$abc$2043$new_n93_ ), .S1(\$abc$2043$new_n93_ ), .f(out[5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n100_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n100_ ),
+    .S0(1'b\$abc$2043$new_n93_ ), .S1(1'b0), .f(out[5])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2093 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n94_ ), .S1(\$abc$2043$new_n94_ ), .f(\$abc$2043$new_n93_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n94_ ), .S1(1'b0), .f(\$abc$2043$new_n93_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2094 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n99_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n99_ ),
-    .S0(\$abc$2043$new_n95_ ), .S1(\$abc$2043$new_n95_ ), .f(\$abc$2043$new_n94_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n99_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n99_ ),
+    .S0(1'b\$abc$2043$new_n95_ ), .S1(1'b0), .f(\$abc$2043$new_n94_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2095 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n96_ ), .S1(\$abc$2043$new_n96_ ), .f(\$abc$2043$new_n95_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n96_ ), .S1(1'b0), .f(\$abc$2043$new_n95_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2096 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n98_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n98_ ),
-    .S0(\$abc$2043$new_n97_ ), .S1(\$abc$2043$new_n97_ ), .f(\$abc$2043$new_n96_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n98_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n98_ ),
+    .S0(1'b\$abc$2043$new_n97_ ), .S1(1'b0), .f(\$abc$2043$new_n96_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2097 (
-    .A0(0), .A1(0), .SA(in2[5]),
-    .B0(0), .B1(1), .SB(in2[5]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n97_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[5]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n97_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2098 (
-    .A0(0), .A1(0), .SA(in3[5]),
-    .B0(1), .B1(0), .SB(in3[5]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n98_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[5]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[5]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n98_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2099 (
-    .A0(0), .A1(0), .SA(in1[5]),
-    .B0(0), .B1(1), .SB(in1[5]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n99_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[5]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n99_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2100 (
-    .A0(0), .A1(0), .SA(in0[5]),
-    .B0(0), .B1(1), .SB(in0[5]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n100_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[5]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n100_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2101 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n109_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n109_ ),
-    .S0(\$abc$2043$new_n102_ ), .S1(\$abc$2043$new_n102_ ), .f(out[6])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n109_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n109_ ),
+    .S0(1'b\$abc$2043$new_n102_ ), .S1(1'b0), .f(out[6])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2102 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n103_ ), .S1(\$abc$2043$new_n103_ ), .f(\$abc$2043$new_n102_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n103_ ), .S1(1'b0), .f(\$abc$2043$new_n102_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2103 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n108_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n108_ ),
-    .S0(\$abc$2043$new_n104_ ), .S1(\$abc$2043$new_n104_ ), .f(\$abc$2043$new_n103_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n108_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n108_ ),
+    .S0(1'b\$abc$2043$new_n104_ ), .S1(1'b0), .f(\$abc$2043$new_n103_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2104 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n105_ ), .S1(\$abc$2043$new_n105_ ), .f(\$abc$2043$new_n104_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n105_ ), .S1(1'b0), .f(\$abc$2043$new_n104_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2105 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n107_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n107_ ),
-    .S0(\$abc$2043$new_n106_ ), .S1(\$abc$2043$new_n106_ ), .f(\$abc$2043$new_n105_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n107_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n107_ ),
+    .S0(1'b\$abc$2043$new_n106_ ), .S1(1'b0), .f(\$abc$2043$new_n105_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2106 (
-    .A0(0), .A1(0), .SA(in2[6]),
-    .B0(0), .B1(1), .SB(in2[6]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n106_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[6]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n106_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2107 (
-    .A0(0), .A1(0), .SA(in3[6]),
-    .B0(1), .B1(0), .SB(in3[6]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n107_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[6]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[6]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n107_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2108 (
-    .A0(0), .A1(0), .SA(in1[6]),
-    .B0(0), .B1(1), .SB(in1[6]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n108_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[6]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n108_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2109 (
-    .A0(0), .A1(0), .SA(in0[6]),
-    .B0(0), .B1(1), .SB(in0[6]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n109_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[6]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[6]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n109_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2110 (
-    .A0(0), .A1(1), .SA(\$abc$2043$new_n118_ ),
-    .B0(1), .B1(1), .SB(\$abc$2043$new_n118_ ),
-    .S0(\$abc$2043$new_n111_ ), .S1(\$abc$2043$new_n111_ ), .f(out[7])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2043$new_n118_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2043$new_n118_ ),
+    .S0(1'b\$abc$2043$new_n111_ ), .S1(1'b0), .f(out[7])
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2111 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n54_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n54_ ),
-    .S0(\$abc$2043$new_n112_ ), .S1(\$abc$2043$new_n112_ ), .f(\$abc$2043$new_n111_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n54_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n54_ ),
+    .S0(1'b\$abc$2043$new_n112_ ), .S1(1'b0), .f(\$abc$2043$new_n111_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2112 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n117_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n117_ ),
-    .S0(\$abc$2043$new_n113_ ), .S1(\$abc$2043$new_n113_ ), .f(\$abc$2043$new_n112_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n117_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n117_ ),
+    .S0(1'b\$abc$2043$new_n113_ ), .S1(1'b0), .f(\$abc$2043$new_n112_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2113 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n52_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n52_ ),
-    .S0(\$abc$2043$new_n114_ ), .S1(\$abc$2043$new_n114_ ), .f(\$abc$2043$new_n113_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n52_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n52_ ),
+    .S0(1'b\$abc$2043$new_n114_ ), .S1(1'b0), .f(\$abc$2043$new_n113_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2114 (
-    .A0(1), .A1(0), .SA(\$abc$2043$new_n116_ ),
-    .B0(0), .B1(0), .SB(\$abc$2043$new_n116_ ),
-    .S0(\$abc$2043$new_n115_ ), .S1(\$abc$2043$new_n115_ ), .f(\$abc$2043$new_n114_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2043$new_n116_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2043$new_n116_ ),
+    .S0(1'b\$abc$2043$new_n115_ ), .S1(1'b0), .f(\$abc$2043$new_n114_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2115 (
-    .A0(0), .A1(0), .SA(in2[7]),
-    .B0(0), .B1(1), .SB(in2[7]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n115_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin2[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin2[7]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n115_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2116 (
-    .A0(0), .A1(0), .SA(in3[7]),
-    .B0(1), .B1(0), .SB(in3[7]),
-    .S0(\$abc$2043$new_n50_ ), .S1(\$abc$2043$new_n50_ ), .f(\$abc$2043$new_n116_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin3[7]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bin3[7]),
+    .S0(1'b\$abc$2043$new_n50_ ), .S1(1'b0), .f(\$abc$2043$new_n116_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2117 (
-    .A0(0), .A1(0), .SA(in1[7]),
-    .B0(0), .B1(1), .SB(in1[7]),
-    .S0(\$abc$2043$new_n52_ ), .S1(\$abc$2043$new_n52_ ), .f(\$abc$2043$new_n117_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin1[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin1[7]),
+    .S0(1'b\$abc$2043$new_n52_ ), .S1(1'b0), .f(\$abc$2043$new_n117_ )
 );
   c1 \$abc$2043$auto$blifparse.cc:525:parse_blif$2118 (
-    .A0(0), .A1(0), .SA(in0[7]),
-    .B0(0), .B1(1), .SB(in0[7]),
-    .S0(\$abc$2043$new_n54_ ), .S1(\$abc$2043$new_n54_ ), .f(\$abc$2043$new_n118_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bin0[7]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bin0[7]),
+    .S0(1'b\$abc$2043$new_n54_ ), .S1(1'b0), .f(\$abc$2043$new_n118_ )
 );
 endmodule
 
@@ -3474,43 +3474,43 @@ module \$paramod\Register\WIDTH=s32'00000000000000000000000000001000 (clk, rst, 
   input rst;
   wire rst;
   s2 \$auto$ff.cc:266:slice$608 (
-    .D00(register[0]), .D01(register[0]), .D10(data[0]), .D11(data[0]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[0]), .D01(register[0]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[0])
 );
   s2 \$auto$ff.cc:266:slice$609 (
-    .D00(register[1]), .D01(register[1]), .D10(data[1]), .D11(data[1]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[1]), .D01(register[1]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[1])
 );
   s2 \$auto$ff.cc:266:slice$610 (
-    .D00(register[2]), .D01(register[2]), .D10(data[2]), .D11(data[2]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[2]), .D01(register[2]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[2])
 );
   s2 \$auto$ff.cc:266:slice$611 (
-    .D00(register[3]), .D01(register[3]), .D10(data[3]), .D11(data[3]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[3]), .D01(register[3]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[3])
 );
   s2 \$auto$ff.cc:266:slice$612 (
-    .D00(register[4]), .D01(register[4]), .D10(data[4]), .D11(data[4]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[4]), .D01(register[4]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[4])
 );
   s2 \$auto$ff.cc:266:slice$613 (
-    .D00(register[5]), .D01(register[5]), .D10(data[5]), .D11(data[5]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[5]), .D01(register[5]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[5])
 );
   s2 \$auto$ff.cc:266:slice$614 (
-    .D00(register[6]), .D01(register[6]), .D10(data[6]), .D11(data[6]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[6]), .D01(register[6]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[6])
 );
   s2 \$auto$ff.cc:266:slice$615 (
-    .D00(register[7]), .D01(register[7]), .D10(data[7]), .D11(data[7]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[7]), .D01(register[7]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[7])
 );
 endmodule
@@ -3527,163 +3527,163 @@ module \$paramod\Register\WIDTH=s32'00000000000000000000000000100000 (clk, rst, 
   input rst;
   wire rst;
   s2 \$auto$ff.cc:266:slice$576 (
-    .D00(register[0]), .D01(register[0]), .D10(data[0]), .D11(data[0]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[0]), .D01(register[0]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[0])
 );
   s2 \$auto$ff.cc:266:slice$577 (
-    .D00(register[1]), .D01(register[1]), .D10(data[1]), .D11(data[1]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[1]), .D01(register[1]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[1])
 );
   s2 \$auto$ff.cc:266:slice$578 (
-    .D00(register[2]), .D01(register[2]), .D10(data[2]), .D11(data[2]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[2]), .D01(register[2]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[2])
 );
   s2 \$auto$ff.cc:266:slice$579 (
-    .D00(register[3]), .D01(register[3]), .D10(data[3]), .D11(data[3]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[3]), .D01(register[3]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[3])
 );
   s2 \$auto$ff.cc:266:slice$580 (
-    .D00(register[4]), .D01(register[4]), .D10(data[4]), .D11(data[4]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[4]), .D01(register[4]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[4])
 );
   s2 \$auto$ff.cc:266:slice$581 (
-    .D00(register[5]), .D01(register[5]), .D10(data[5]), .D11(data[5]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[5]), .D01(register[5]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[5])
 );
   s2 \$auto$ff.cc:266:slice$582 (
-    .D00(register[6]), .D01(register[6]), .D10(data[6]), .D11(data[6]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[6]), .D01(register[6]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[6])
 );
   s2 \$auto$ff.cc:266:slice$583 (
-    .D00(register[7]), .D01(register[7]), .D10(data[7]), .D11(data[7]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[7]), .D01(register[7]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[7])
 );
   s2 \$auto$ff.cc:266:slice$584 (
-    .D00(register[8]), .D01(register[8]), .D10(data[8]), .D11(data[8]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[8]), .D01(register[8]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[8])
 );
   s2 \$auto$ff.cc:266:slice$585 (
-    .D00(register[9]), .D01(register[9]), .D10(data[9]), .D11(data[9]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[9]), .D01(register[9]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[9])
 );
   s2 \$auto$ff.cc:266:slice$586 (
-    .D00(register[10]), .D01(register[10]), .D10(data[10]), .D11(data[10]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[10]), .D01(register[10]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[10])
 );
   s2 \$auto$ff.cc:266:slice$587 (
-    .D00(register[11]), .D01(register[11]), .D10(data[11]), .D11(data[11]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[11]), .D01(register[11]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[11])
 );
   s2 \$auto$ff.cc:266:slice$588 (
-    .D00(register[12]), .D01(register[12]), .D10(data[12]), .D11(data[12]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[12]), .D01(register[12]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[12])
 );
   s2 \$auto$ff.cc:266:slice$589 (
-    .D00(register[13]), .D01(register[13]), .D10(data[13]), .D11(data[13]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[13]), .D01(register[13]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[13])
 );
   s2 \$auto$ff.cc:266:slice$590 (
-    .D00(register[14]), .D01(register[14]), .D10(data[14]), .D11(data[14]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[14]), .D01(register[14]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[14])
 );
   s2 \$auto$ff.cc:266:slice$591 (
-    .D00(register[15]), .D01(register[15]), .D10(data[15]), .D11(data[15]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[15]), .D01(register[15]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[15])
 );
   s2 \$auto$ff.cc:266:slice$592 (
-    .D00(register[16]), .D01(register[16]), .D10(data[16]), .D11(data[16]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[16]), .D01(register[16]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[16])
 );
   s2 \$auto$ff.cc:266:slice$593 (
-    .D00(register[17]), .D01(register[17]), .D10(data[17]), .D11(data[17]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[17]), .D01(register[17]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[17])
 );
   s2 \$auto$ff.cc:266:slice$594 (
-    .D00(register[18]), .D01(register[18]), .D10(data[18]), .D11(data[18]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[18]), .D01(register[18]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[18])
 );
   s2 \$auto$ff.cc:266:slice$595 (
-    .D00(register[19]), .D01(register[19]), .D10(data[19]), .D11(data[19]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[19]), .D01(register[19]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[19])
 );
   s2 \$auto$ff.cc:266:slice$596 (
-    .D00(register[20]), .D01(register[20]), .D10(data[20]), .D11(data[20]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[20]), .D01(register[20]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[20])
 );
   s2 \$auto$ff.cc:266:slice$597 (
-    .D00(register[21]), .D01(register[21]), .D10(data[21]), .D11(data[21]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[21]), .D01(register[21]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[21])
 );
   s2 \$auto$ff.cc:266:slice$598 (
-    .D00(register[22]), .D01(register[22]), .D10(data[22]), .D11(data[22]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[22]), .D01(register[22]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[22])
 );
   s2 \$auto$ff.cc:266:slice$599 (
-    .D00(register[23]), .D01(register[23]), .D10(data[23]), .D11(data[23]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[23]), .D01(register[23]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[23])
 );
   s2 \$auto$ff.cc:266:slice$600 (
-    .D00(register[24]), .D01(register[24]), .D10(data[24]), .D11(data[24]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[24]), .D01(register[24]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[24])
 );
   s2 \$auto$ff.cc:266:slice$601 (
-    .D00(register[25]), .D01(register[25]), .D10(data[25]), .D11(data[25]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[25]), .D01(register[25]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[25])
 );
   s2 \$auto$ff.cc:266:slice$602 (
-    .D00(register[26]), .D01(register[26]), .D10(data[26]), .D11(data[26]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[26]), .D01(register[26]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[26])
 );
   s2 \$auto$ff.cc:266:slice$603 (
-    .D00(register[27]), .D01(register[27]), .D10(data[27]), .D11(data[27]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[27]), .D01(register[27]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[27])
 );
   s2 \$auto$ff.cc:266:slice$604 (
-    .D00(register[28]), .D01(register[28]), .D10(data[28]), .D11(data[28]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[28]), .D01(register[28]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[28])
 );
   s2 \$auto$ff.cc:266:slice$605 (
-    .D00(register[29]), .D01(register[29]), .D10(data[29]), .D11(data[29]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[29]), .D01(register[29]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[29])
 );
   s2 \$auto$ff.cc:266:slice$606 (
-    .D00(register[30]), .D01(register[30]), .D10(data[30]), .D11(data[30]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[30]), .D01(register[30]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[30])
 );
   s2 \$auto$ff.cc:266:slice$607 (
-    .D00(register[31]), .D01(register[31]), .D10(data[31]), .D11(data[31]),
-    .A1(load), .B1(load), .A0(0), .B0(0),
+    .D00(register[31]), .D01(register[31]), .D10(1'b0), .D11(1'b0),
+    .A1(load), .B1(load), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(register[31])
 );
 endmodule
@@ -3719,138 +3719,138 @@ module \$paramod\ShiftRegister\WIDTH=s32'00000000000000000000000000000110 (clk, 
   output [1:0] twoMSB;
   wire [1:0] twoMSB;
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2122 (
-    .A0(0), .A1(1), .SA(load),
-    .B0(1), .B1(1), .SB(load),
-    .S0(shiftEn), .S1(shiftEn), .f(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 )
+    .A0(1'b0), .A1(1'b1), .SA(1'bload),
+    .B0(1'b1), .B1(1'b1), .SB(1'bload),
+    .S0(1'bshiftEn), .S1(1'b0), .f(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2123 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n28_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n28_ ),
-    .S0(\$abc$2121$new_n25_ ), .S1(\$abc$2121$new_n25_ ), .f(\$0\shiftReg[5:0] [0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n28_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n28_ ),
+    .S0(1'b\$abc$2121$new_n25_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [0])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2124 (
-    .A0(1), .A1(0), .SA(load),
-    .B0(0), .B1(0), .SB(load),
-    .S0(\$abc$2121$new_n26_ ), .S1(\$abc$2121$new_n26_ ), .f(\$abc$2121$new_n25_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bload),
+    .B0(1'b0), .B1(1'b0), .SB(1'bload),
+    .S0(1'b\$abc$2121$new_n26_ ), .S1(1'b0), .f(\$abc$2121$new_n25_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2125 (
-    .A0(0), .A1(1), .SA(shiftReg[1]),
-    .B0(1), .B1(0), .SB(shiftReg[1]),
-    .S0(\$abc$2121$new_n27_ ), .S1(\$abc$2121$new_n27_ ), .f(\$abc$2121$new_n26_ )
+    .A0(1'b0), .A1(1'b1), .SA(1'bshiftReg[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[1]),
+    .S0(1'b\$abc$2121$new_n27_ ), .S1(1'b0), .f(\$abc$2121$new_n26_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2126 (
-    .A0(1), .A1(0), .SA(shiftReg[5]),
-    .B0(0), .B1(1), .SB(shiftReg[5]),
-    .S0(shiftReg[3]), .S1(shiftReg[3]), .f(\$abc$2121$new_n27_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bshiftReg[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bshiftReg[5]),
+    .S0(1'bshiftReg[3]), .S1(1'b0), .f(\$abc$2121$new_n27_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2127 (
-    .A0(0), .A1(0), .SA(PI[0]),
-    .B0(0), .B1(1), .SB(PI[0]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n28_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[0]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[0]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n28_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2128 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n31_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n31_ ),
-    .S0(\$abc$2121$new_n30_ ), .S1(\$abc$2121$new_n30_ ), .f(\$0\shiftReg[5:0] [1])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n31_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n31_ ),
+    .S0(1'b\$abc$2121$new_n30_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [1])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2129 (
-    .A0(0), .A1(0), .SA(shiftReg[0]),
-    .B0(1), .B1(0), .SB(shiftReg[0]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n30_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bshiftReg[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[0]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n30_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2130 (
-    .A0(0), .A1(0), .SA(PI[1]),
-    .B0(0), .B1(1), .SB(PI[1]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n31_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[1]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n31_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2131 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n34_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n34_ ),
-    .S0(\$abc$2121$new_n33_ ), .S1(\$abc$2121$new_n33_ ), .f(\$0\shiftReg[5:0] [2])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n34_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n34_ ),
+    .S0(1'b\$abc$2121$new_n33_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [2])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2132 (
-    .A0(0), .A1(0), .SA(shiftReg[1]),
-    .B0(1), .B1(0), .SB(shiftReg[1]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n33_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bshiftReg[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[1]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n33_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2133 (
-    .A0(0), .A1(0), .SA(PI[2]),
-    .B0(0), .B1(1), .SB(PI[2]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n34_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[2]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n34_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2134 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n37_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n37_ ),
-    .S0(\$abc$2121$new_n36_ ), .S1(\$abc$2121$new_n36_ ), .f(\$0\shiftReg[5:0] [3])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n37_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n37_ ),
+    .S0(1'b\$abc$2121$new_n36_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [3])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2135 (
-    .A0(0), .A1(0), .SA(shiftReg[2]),
-    .B0(1), .B1(0), .SB(shiftReg[2]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n36_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bshiftReg[2]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[2]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n36_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2136 (
-    .A0(0), .A1(0), .SA(PI[3]),
-    .B0(0), .B1(1), .SB(PI[3]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n37_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[3]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[3]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n37_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2137 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n40_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n40_ ),
-    .S0(\$abc$2121$new_n39_ ), .S1(\$abc$2121$new_n39_ ), .f(\$0\shiftReg[5:0] [4])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n40_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n40_ ),
+    .S0(1'b\$abc$2121$new_n39_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [4])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2138 (
-    .A0(0), .A1(0), .SA(shiftReg[3]),
-    .B0(1), .B1(0), .SB(shiftReg[3]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n39_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bshiftReg[3]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[3]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n39_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2139 (
-    .A0(0), .A1(0), .SA(PI[4]),
-    .B0(0), .B1(1), .SB(PI[4]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n40_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[4]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[4]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n40_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2140 (
-    .A0(0), .A1(1), .SA(\$abc$2121$new_n43_ ),
-    .B0(1), .B1(1), .SB(\$abc$2121$new_n43_ ),
-    .S0(\$abc$2121$new_n42_ ), .S1(\$abc$2121$new_n42_ ), .f(\$0\shiftReg[5:0] [5])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2121$new_n43_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2121$new_n43_ ),
+    .S0(1'b\$abc$2121$new_n42_ ), .S1(1'b0), .f(\$0\shiftReg[5:0] [5])
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2141 (
-    .A0(0), .A1(0), .SA(shiftReg[4]),
-    .B0(1), .B1(0), .SB(shiftReg[4]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n42_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bshiftReg[4]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bshiftReg[4]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n42_ )
 );
   c1 \$abc$2121$auto$blifparse.cc:525:parse_blif$2142 (
-    .A0(0), .A1(0), .SA(PI[5]),
-    .B0(0), .B1(1), .SB(PI[5]),
-    .S0(load), .S1(load), .f(\$abc$2121$new_n43_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bPI[5]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bPI[5]),
+    .S0(1'bload), .S1(1'b0), .f(\$abc$2121$new_n43_ )
 );
   s2 \$auto$ff.cc:266:slice$570 (
-    .D00(shiftReg[0]), .D01(shiftReg[0]), .D10(\$0\shiftReg[5:0] [0]), .D11(\$0\shiftReg[5:0] [0]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[0]), .D01(shiftReg[0]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[0])
 );
   s2 \$auto$ff.cc:266:slice$571 (
-    .D00(shiftReg[1]), .D01(shiftReg[1]), .D10(\$0\shiftReg[5:0] [1]), .D11(\$0\shiftReg[5:0] [1]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[1]), .D01(shiftReg[1]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[1])
 );
   s2 \$auto$ff.cc:266:slice$572 (
-    .D00(shiftReg[2]), .D01(shiftReg[2]), .D10(\$0\shiftReg[5:0] [2]), .D11(\$0\shiftReg[5:0] [2]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[2]), .D01(shiftReg[2]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[2])
 );
   s2 \$auto$ff.cc:266:slice$573 (
-    .D00(shiftReg[3]), .D01(shiftReg[3]), .D10(\$0\shiftReg[5:0] [3]), .D11(\$0\shiftReg[5:0] [3]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[3]), .D01(shiftReg[3]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[3])
 );
   s2 \$auto$ff.cc:266:slice$574 (
-    .D00(shiftReg[4]), .D01(shiftReg[4]), .D10(\$0\shiftReg[5:0] [4]), .D11(\$0\shiftReg[5:0] [4]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[4]), .D01(shiftReg[4]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[4])
 );
   s2 \$auto$ff.cc:266:slice$575 (
-    .D00(shiftReg[5]), .D01(shiftReg[5]), .D10(\$0\shiftReg[5:0] [5]), .D11(\$0\shiftReg[5:0] [5]),
-    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(0), .B0(0),
+    .D00(shiftReg[5]), .D01(shiftReg[5]), .D10(1'b0), .D11(1'b0),
+    .A1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .B1(\$abc$2121$auto$opt_dff.cc:194:make_patterns_logic$245 ), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(shiftReg[5])
 );
   assign twoMSB = shiftReg[5:4];
@@ -3924,193 +3924,193 @@ module HashGenController(clk, rst, start, done_rnd, co, start_rnd, countEn, load
   output start_rnd;
   wire start_rnd;
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2144 (
-    .A0(0), .A1(0), .SA(ps[2]),
-    .B0(0), .B1(1), .SB(ps[2]),
-    .S0(\$abc$2143$new_n18_ ), .S1(\$abc$2143$new_n18_ ), .f(countEn)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[2]),
+    .S0(1'b\$abc$2143$new_n18_ ), .S1(1'b0), .f(countEn)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2145 (
-    .A0(0), .A1(0), .SA(ps[0]),
-    .B0(1), .B1(0), .SB(ps[0]),
-    .S0(ps[1]), .S1(ps[1]), .f(\$abc$2143$new_n18_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bps[0]),
+    .S0(1'bps[1]), .S1(1'b0), .f(\$abc$2143$new_n18_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2146 (
-    .A0(0), .A1(1), .SA(ps[2]),
-    .B0(0), .B1(1), .SB(ps[2]),
-    .S0(\$abc$2143$new_n18_ ), .S1(\$abc$2143$new_n18_ ), .f(loadA)
+    .A0(1'b0), .A1(1'b1), .SA(1'bps[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[2]),
+    .S0(1'b\$abc$2143$new_n18_ ), .S1(1'b0), .f(loadA)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2147 (
-    .A0(0), .A1(0), .SA(ps[2]),
-    .B0(0), .B1(1), .SB(ps[2]),
-    .S0(\$abc$2143$new_n21_ ), .S1(\$abc$2143$new_n21_ ), .f(selF)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[2]),
+    .S0(1'b\$abc$2143$new_n21_ ), .S1(1'b0), .f(selF)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2148 (
-    .A0(1), .A1(0), .SA(ps[1]),
-    .B0(0), .B1(0), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(\$abc$2143$new_n21_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b0), .B1(1'b0), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(\$abc$2143$new_n21_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2149 (
-    .A0(0), .A1(1), .SA(\$abc$2143$new_n23_ ),
-    .B0(1), .B1(1), .SB(\$abc$2143$new_n23_ ),
-    .S0(selF), .S1(selF), .f(loadF)
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2143$new_n23_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2143$new_n23_ ),
+    .S0(1'bselF), .S1(1'b0), .f(loadF)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2150 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n24_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n24_ ),
-    .S0(ps[2]), .S1(ps[2]), .f(\$abc$2143$new_n23_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n24_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n24_ ),
+    .S0(1'bps[2]), .S1(1'b0), .f(\$abc$2143$new_n23_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2151 (
-    .A0(0), .A1(0), .SA(ps[1]),
-    .B0(0), .B1(1), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(\$abc$2143$new_n24_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(\$abc$2143$new_n24_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2152 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n26_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n26_ ),
-    .S0(ps[2]), .S1(ps[2]), .f(loadM)
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n26_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n26_ ),
+    .S0(1'bps[2]), .S1(1'b0), .f(loadM)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2153 (
-    .A0(0), .A1(0), .SA(ps[1]),
-    .B0(1), .B1(0), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(\$abc$2143$new_n26_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(\$abc$2143$new_n26_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2154 (
-    .A0(0), .A1(0), .SA(ps[2]),
-    .B0(0), .B1(1), .SB(ps[2]),
-    .S0(\$abc$2143$new_n26_ ), .S1(\$abc$2143$new_n26_ ), .f(done)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[2]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[2]),
+    .S0(1'b\$abc$2143$new_n26_ ), .S1(1'b0), .f(done)
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2155 (
-    .A0(1), .A1(0), .SA(\$abc$2143$new_n38_ ),
-    .B0(0), .B1(0), .SB(\$abc$2143$new_n38_ ),
-    .S0(\$abc$2143$new_n29_ ), .S1(\$abc$2143$new_n29_ ), .f(ns[0])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2143$new_n38_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2143$new_n38_ ),
+    .S0(1'b\$abc$2143$new_n29_ ), .S1(1'b0), .f(ns[0])
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2156 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n33_ ),
-    .B0(0), .B1(1), .SB(\$abc$2143$new_n33_ ),
-    .S0(\$abc$2143$new_n30_ ), .S1(\$abc$2143$new_n30_ ), .f(\$abc$2143$new_n29_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n33_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$2143$new_n33_ ),
+    .S0(1'b\$abc$2143$new_n30_ ), .S1(1'b0), .f(\$abc$2143$new_n29_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2157 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n31_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n31_ ),
-    .S0(selF), .S1(selF), .f(\$abc$2143$new_n30_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n31_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n31_ ),
+    .S0(1'bselF), .S1(1'b0), .f(\$abc$2143$new_n30_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2158 (
-    .A0(1), .A1(0), .SA(loadM),
-    .B0(0), .B1(0), .SB(loadM),
-    .S0(\$abc$2143$new_n32_ ), .S1(\$abc$2143$new_n32_ ), .f(\$abc$2143$new_n31_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bloadM),
+    .B0(1'b0), .B1(1'b0), .SB(1'bloadM),
+    .S0(1'b\$abc$2143$new_n32_ ), .S1(1'b0), .f(\$abc$2143$new_n31_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2159 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n23_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n23_ ),
-    .S0(done_rnd), .S1(done_rnd), .f(\$abc$2143$new_n32_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n23_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n23_ ),
+    .S0(1'bdone_rnd), .S1(1'b0), .f(\$abc$2143$new_n32_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2160 (
-    .A0(1), .A1(0), .SA(\$abc$2143$new_n36_ ),
-    .B0(0), .B1(0), .SB(\$abc$2143$new_n36_ ),
-    .S0(\$abc$2143$new_n34_ ), .S1(\$abc$2143$new_n34_ ), .f(\$abc$2143$new_n33_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2143$new_n36_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2143$new_n36_ ),
+    .S0(1'b\$abc$2143$new_n34_ ), .S1(1'b0), .f(\$abc$2143$new_n33_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2161 (
-    .A0(0), .A1(0), .SA(start),
-    .B0(0), .B1(1), .SB(start),
-    .S0(\$abc$2143$new_n35_ ), .S1(\$abc$2143$new_n35_ ), .f(\$abc$2143$new_n34_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bstart),
+    .B0(1'b0), .B1(1'b1), .SB(1'bstart),
+    .S0(1'b\$abc$2143$new_n35_ ), .S1(1'b0), .f(\$abc$2143$new_n34_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2162 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n18_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n18_ ),
-    .S0(ps[2]), .S1(ps[2]), .f(\$abc$2143$new_n35_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n18_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n18_ ),
+    .S0(1'bps[2]), .S1(1'b0), .f(\$abc$2143$new_n35_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2163 (
-    .A0(0), .A1(0), .SA(start),
-    .B0(0), .B1(1), .SB(start),
-    .S0(\$abc$2143$new_n37_ ), .S1(\$abc$2143$new_n37_ ), .f(\$abc$2143$new_n36_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bstart),
+    .B0(1'b0), .B1(1'b1), .SB(1'bstart),
+    .S0(1'b\$abc$2143$new_n37_ ), .S1(1'b0), .f(\$abc$2143$new_n36_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2164 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n21_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n21_ ),
-    .S0(ps[2]), .S1(ps[2]), .f(\$abc$2143$new_n37_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n21_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n21_ ),
+    .S0(1'bps[2]), .S1(1'b0), .f(\$abc$2143$new_n37_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2165 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n42_ ),
-    .B0(0), .B1(1), .SB(\$abc$2143$new_n42_ ),
-    .S0(\$abc$2143$new_n39_ ), .S1(\$abc$2143$new_n39_ ), .f(\$abc$2143$new_n38_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n42_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$2143$new_n42_ ),
+    .S0(1'b\$abc$2143$new_n39_ ), .S1(1'b0), .f(\$abc$2143$new_n38_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2166 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n41_ ),
-    .B0(0), .B1(1), .SB(\$abc$2143$new_n41_ ),
-    .S0(\$abc$2143$new_n40_ ), .S1(\$abc$2143$new_n40_ ), .f(\$abc$2143$new_n39_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n41_ ),
+    .B0(1'b0), .B1(1'b1), .SB(1'b\$abc$2143$new_n41_ ),
+    .S0(1'b\$abc$2143$new_n40_ ), .S1(1'b0), .f(\$abc$2143$new_n39_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2167 (
-    .A0(1), .A1(0), .SA(selF),
-    .B0(0), .B1(0), .SB(selF),
-    .S0(countEn), .S1(countEn), .f(\$abc$2143$new_n40_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bselF),
+    .B0(1'b0), .B1(1'b0), .SB(1'bselF),
+    .S0(1'bcountEn), .S1(1'b0), .f(\$abc$2143$new_n40_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2168 (
-    .A0(1), .A1(0), .SA(loadM),
-    .B0(0), .B1(0), .SB(loadM),
-    .S0(\$abc$2143$new_n23_ ), .S1(\$abc$2143$new_n23_ ), .f(\$abc$2143$new_n41_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bloadM),
+    .B0(1'b0), .B1(1'b0), .SB(1'bloadM),
+    .S0(1'b\$abc$2143$new_n23_ ), .S1(1'b0), .f(\$abc$2143$new_n41_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2169 (
-    .A0(1), .A1(0), .SA(\$abc$2143$new_n37_ ),
-    .B0(0), .B1(0), .SB(\$abc$2143$new_n37_ ),
-    .S0(\$abc$2143$new_n35_ ), .S1(\$abc$2143$new_n35_ ), .f(\$abc$2143$new_n42_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2143$new_n37_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2143$new_n37_ ),
+    .S0(1'b\$abc$2143$new_n35_ ), .S1(1'b0), .f(\$abc$2143$new_n42_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2170 (
-    .A0(1), .A1(0), .SA(\$abc$2143$new_n38_ ),
-    .B0(0), .B1(0), .SB(\$abc$2143$new_n38_ ),
-    .S0(\$abc$2143$new_n44_ ), .S1(\$abc$2143$new_n44_ ), .f(ns[1])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2143$new_n38_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2143$new_n38_ ),
+    .S0(1'b\$abc$2143$new_n44_ ), .S1(1'b0), .f(ns[1])
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2171 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n45_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n45_ ),
-    .S0(\$abc$2143$new_n46_ ), .S1(\$abc$2143$new_n46_ ), .f(\$abc$2143$new_n44_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n45_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n45_ ),
+    .S0(1'b\$abc$2143$new_n46_ ), .S1(1'b0), .f(\$abc$2143$new_n44_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2172 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n31_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n31_ ),
-    .S0(countEn), .S1(countEn), .f(\$abc$2143$new_n45_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n31_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n31_ ),
+    .S0(1'bcountEn), .S1(1'b0), .f(\$abc$2143$new_n45_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2173 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n35_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n35_ ),
-    .S0(start), .S1(start), .f(\$abc$2143$new_n46_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n35_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n35_ ),
+    .S0(1'bstart), .S1(1'b0), .f(\$abc$2143$new_n46_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2174 (
-    .A0(1), .A1(0), .SA(\$abc$2143$new_n48_ ),
-    .B0(0), .B1(0), .SB(\$abc$2143$new_n48_ ),
-    .S0(\$abc$2143$new_n38_ ), .S1(\$abc$2143$new_n38_ ), .f(ns[2])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2143$new_n48_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2143$new_n48_ ),
+    .S0(1'b\$abc$2143$new_n38_ ), .S1(1'b0), .f(ns[2])
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2175 (
-    .A0(0), .A1(0), .SA(\$abc$2143$new_n49_ ),
-    .B0(1), .B1(0), .SB(\$abc$2143$new_n49_ ),
-    .S0(\$abc$2143$new_n51_ ), .S1(\$abc$2143$new_n51_ ), .f(\$abc$2143$new_n48_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'b\$abc$2143$new_n49_ ),
+    .B0(1'b1), .B1(1'b0), .SB(1'b\$abc$2143$new_n49_ ),
+    .S0(1'b\$abc$2143$new_n51_ ), .S1(1'b0), .f(\$abc$2143$new_n48_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2176 (
-    .A0(1), .A1(0), .SA(selF),
-    .B0(0), .B1(0), .SB(selF),
-    .S0(\$abc$2143$new_n50_ ), .S1(\$abc$2143$new_n50_ ), .f(\$abc$2143$new_n49_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bselF),
+    .B0(1'b0), .B1(1'b0), .SB(1'bselF),
+    .S0(1'b\$abc$2143$new_n50_ ), .S1(1'b0), .f(\$abc$2143$new_n49_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2177 (
-    .A0(0), .A1(0), .SA(co),
-    .B0(0), .B1(1), .SB(co),
-    .S0(countEn), .S1(countEn), .f(\$abc$2143$new_n50_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bco),
+    .B0(1'b0), .B1(1'b1), .SB(1'bco),
+    .S0(1'bcountEn), .S1(1'b0), .f(\$abc$2143$new_n50_ )
 );
   c1 \$abc$2143$auto$blifparse.cc:525:parse_blif$2178 (
-    .A0(0), .A1(0), .SA(done_rnd),
-    .B0(0), .B1(1), .SB(done_rnd),
-    .S0(\$abc$2143$new_n23_ ), .S1(\$abc$2143$new_n23_ ), .f(\$abc$2143$new_n51_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bdone_rnd),
+    .B0(1'b0), .B1(1'b1), .SB(1'bdone_rnd),
+    .S0(1'b\$abc$2143$new_n23_ ), .S1(1'b0), .f(\$abc$2143$new_n51_ )
 );
   s2 \$auto$ff.cc:266:slice$504 (
-    .D00(ps[0]), .D01(ps[0]), .D10(ns[0]), .D11(ns[0]),
-    .A1(1'b1), .B1(1'b1), .A0(0), .B0(0),
+    .D00(ps[0]), .D01(ps[0]), .D10(1'b0), .D11(1'b0),
+    .A1(1'b1), .B1(1'b1), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(ps[0])
 );
   s2 \$auto$ff.cc:266:slice$505 (
-    .D00(ps[1]), .D01(ps[1]), .D10(ns[1]), .D11(ns[1]),
-    .A1(1'b1), .B1(1'b1), .A0(0), .B0(0),
+    .D00(ps[1]), .D01(ps[1]), .D10(1'b0), .D11(1'b0),
+    .A1(1'b1), .B1(1'b1), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(ps[1])
 );
   s2 \$auto$ff.cc:266:slice$506 (
-    .D00(ps[2]), .D01(ps[2]), .D10(ns[2]), .D11(ns[2]),
-    .A1(1'b1), .B1(1'b1), .A0(0), .B0(0),
+    .D00(ps[2]), .D01(ps[2]), .D10(1'b0), .D11(1'b0),
+    .A1(1'b1), .B1(1'b1), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(ps[2])
 );
   assign loadB = loadA;
@@ -4235,78 +4235,78 @@ module RandGenController(clk, rst, start_rnd, co, done_rnd, loadC, loadR, countE
   input start_rnd;
   wire start_rnd;
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2181 (
-    .A0(0), .A1(0), .SA(ps[1]),
-    .B0(1), .B1(0), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(countEn)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(countEn)
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2182 (
-    .A0(0), .A1(0), .SA(ps[1]),
-    .B0(0), .B1(1), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(done_rnd)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b0), .B1(1'b1), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(done_rnd)
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2183 (
-    .A0(0), .A1(0), .SA(ps[0]),
-    .B0(1), .B1(0), .SB(ps[0]),
-    .S0(ps[1]), .S1(ps[1]), .f(loadC)
+    .A0(1'b0), .A1(1'b0), .SA(1'bps[0]),
+    .B0(1'b1), .B1(1'b0), .SB(1'bps[0]),
+    .S0(1'bps[1]), .S1(1'b0), .f(loadC)
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2184 (
-    .A0(0), .A1(1), .SA(\$abc$2180$new_n20_ ),
-    .B0(1), .B1(1), .SB(\$abc$2180$new_n20_ ),
-    .S0(\$abc$2180$new_n15_ ), .S1(\$abc$2180$new_n15_ ), .f(ns[0])
+    .A0(1'b0), .A1(1'b1), .SA(1'b\$abc$2180$new_n20_ ),
+    .B0(1'b1), .B1(1'b1), .SB(1'b\$abc$2180$new_n20_ ),
+    .S0(1'b\$abc$2180$new_n15_ ), .S1(1'b0), .f(ns[0])
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2185 (
-    .A0(1), .A1(0), .SA(\$abc$2180$new_n19_ ),
-    .B0(0), .B1(0), .SB(\$abc$2180$new_n19_ ),
-    .S0(\$abc$2180$new_n16_ ), .S1(\$abc$2180$new_n16_ ), .f(\$abc$2180$new_n15_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2180$new_n19_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2180$new_n19_ ),
+    .S0(1'b\$abc$2180$new_n16_ ), .S1(1'b0), .f(\$abc$2180$new_n15_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2186 (
-    .A0(1), .A1(0), .SA(\$abc$2180$new_n18_ ),
-    .B0(0), .B1(0), .SB(\$abc$2180$new_n18_ ),
-    .S0(\$abc$2180$new_n17_ ), .S1(\$abc$2180$new_n17_ ), .f(\$abc$2180$new_n16_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2180$new_n18_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2180$new_n18_ ),
+    .S0(1'b\$abc$2180$new_n17_ ), .S1(1'b0), .f(\$abc$2180$new_n16_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2187 (
-    .A0(0), .A1(0), .SA(co),
-    .B0(0), .B1(1), .SB(co),
-    .S0(countEn), .S1(countEn), .f(\$abc$2180$new_n17_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bco),
+    .B0(1'b0), .B1(1'b1), .SB(1'bco),
+    .S0(1'bcountEn), .S1(1'b0), .f(\$abc$2180$new_n17_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2188 (
-    .A0(0), .A1(0), .SA(start_rnd),
-    .B0(0), .B1(1), .SB(start_rnd),
-    .S0(loadC), .S1(loadC), .f(\$abc$2180$new_n18_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bstart_rnd),
+    .B0(1'b0), .B1(1'b1), .SB(1'bstart_rnd),
+    .S0(1'bloadC), .S1(1'b0), .f(\$abc$2180$new_n18_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2189 (
-    .A0(1), .A1(0), .SA(ps[1]),
-    .B0(0), .B1(0), .SB(ps[1]),
-    .S0(ps[0]), .S1(ps[0]), .f(\$abc$2180$new_n19_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bps[1]),
+    .B0(1'b0), .B1(1'b0), .SB(1'bps[1]),
+    .S0(1'bps[0]), .S1(1'b0), .f(\$abc$2180$new_n19_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2190 (
-    .A0(0), .A1(0), .SA(start_rnd),
-    .B0(0), .B1(1), .SB(start_rnd),
-    .S0(\$abc$2180$new_n19_ ), .S1(\$abc$2180$new_n19_ ), .f(\$abc$2180$new_n20_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bstart_rnd),
+    .B0(1'b0), .B1(1'b1), .SB(1'bstart_rnd),
+    .S0(1'b\$abc$2180$new_n19_ ), .S1(1'b0), .f(\$abc$2180$new_n20_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2191 (
-    .A0(1), .A1(0), .SA(\$abc$2180$new_n19_ ),
-    .B0(0), .B1(0), .SB(\$abc$2180$new_n19_ ),
-    .S0(\$abc$2180$new_n22_ ), .S1(\$abc$2180$new_n22_ ), .f(ns[1])
+    .A0(1'b1), .A1(1'b0), .SA(1'b\$abc$2180$new_n19_ ),
+    .B0(1'b0), .B1(1'b0), .SB(1'b\$abc$2180$new_n19_ ),
+    .S0(1'b\$abc$2180$new_n22_ ), .S1(1'b0), .f(ns[1])
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2192 (
-    .A0(1), .A1(0), .SA(countEn),
-    .B0(0), .B1(0), .SB(countEn),
-    .S0(\$abc$2180$new_n23_ ), .S1(\$abc$2180$new_n23_ ), .f(\$abc$2180$new_n22_ )
+    .A0(1'b1), .A1(1'b0), .SA(1'bcountEn),
+    .B0(1'b0), .B1(1'b0), .SB(1'bcountEn),
+    .S0(1'b\$abc$2180$new_n23_ ), .S1(1'b0), .f(\$abc$2180$new_n22_ )
 );
   c1 \$abc$2180$auto$blifparse.cc:525:parse_blif$2193 (
-    .A0(0), .A1(0), .SA(loadC),
-    .B0(1), .B1(0), .SB(loadC),
-    .S0(start_rnd), .S1(start_rnd), .f(\$abc$2180$new_n23_ )
+    .A0(1'b0), .A1(1'b0), .SA(1'bloadC),
+    .B0(1'b1), .B1(1'b0), .SB(1'bloadC),
+    .S0(1'bstart_rnd), .S1(1'b0), .f(\$abc$2180$new_n23_ )
 );
   s2 \$auto$ff.cc:266:slice$380 (
-    .D00(ps[0]), .D01(ps[0]), .D10(ns[0]), .D11(ns[0]),
-    .A1(1'b1), .B1(1'b1), .A0(0), .B0(0),
+    .D00(ps[0]), .D01(ps[0]), .D10(1'b0), .D11(1'b0),
+    .A1(1'b1), .B1(1'b1), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(ps[0])
 );
   s2 \$auto$ff.cc:266:slice$381 (
-    .D00(ps[1]), .D01(ps[1]), .D10(ns[1]), .D11(ns[1]),
-    .A1(1'b1), .B1(1'b1), .A0(0), .B0(0),
+    .D00(ps[1]), .D01(ps[1]), .D10(1'b0), .D11(1'b0),
+    .A1(1'b1), .B1(1'b1), .A0(1'b), .B0(1'b0),
     .clr(rst), .clk(clk), .out(ps[1])
 );
   assign loadR = loadC;
