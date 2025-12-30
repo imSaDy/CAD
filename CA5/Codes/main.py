@@ -53,6 +53,8 @@ def generate_verilog(folder_path : str, schedule_info : list[ScheduledNodeInfo])
     
     datapath_code = generator.generate_datapath()
     controller_code = generator.generate_controller()
+    # NEW: Generate top module
+    top_module_code = generator.generate_top_module()
     
     # Ensure directory exists
     os.makedirs(folder_path + "/codes", exist_ok=True)
@@ -62,6 +64,10 @@ def generate_verilog(folder_path : str, schedule_info : list[ScheduledNodeInfo])
         
     with open(folder_path + "/codes/controller.v", "w") as f:
         f.write(controller_code)
+
+    # NEW: Save top module
+    with open(folder_path + "/codes/top_module.v", "w") as f:
+        f.write(top_module_code)
 
 def save_result(folder_path : str, schedule_info : list[ScheduledNodeInfo]):
     json_output = {}

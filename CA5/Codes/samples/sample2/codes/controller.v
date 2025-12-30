@@ -17,7 +17,7 @@ module controller(
   output reg reg_log9_en,
   output reg reg_alu10_en,
   output reg reg_alu11_en,
-  output reg reg_alu12_en,
+  output reg reg_alu12_en
 );
   reg [3:0] state, next_state;
   localparam S_IDLE = 0;

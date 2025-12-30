@@ -1,0 +1,214 @@
+# Compile of controller.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of testbench.v was successful.
+# Compile of top.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.top_module
+# vsim -gui work.top_module 
+# Start time: 16:55:28 on Dec 30,2025
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+quit -sim
+# End time: 16:55:36 on Dec 30,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 6
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:55:42 on Dec 30,2025
+# Loading work.testbench
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/rst \
+sim:/testbench/start \
+sim:/testbench/i1 \
+sim:/testbench/i2 \
+sim:/testbench/i3 \
+sim:/testbench/result \
+sim:/testbench/done
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+quit -sim
+# End time: 16:56:22 on Dec 30,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:56:26 on Dec 30,2025
+# Loading work.testbench
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+# Break key hit
+# Break key hit
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/rst \
+sim:/testbench/start \
+sim:/testbench/i1 \
+sim:/testbench/i2 \
+sim:/testbench/i3 \
+sim:/testbench/result \
+sim:/testbench/done
+run -all
+# Break key hit
+# Simulation stop requested.
+restart
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+quit -sim
+# End time: 18:23:26 on Dec 30,2025, Elapsed time: 1:27:00
+# Errors: 0, Warnings: 1
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of top_module.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:23:54 on Dec 30,2025
+# Loading work.testbench
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/rst \
+sim:/testbench/start \
+sim:/testbench/i1 \
+sim:/testbench/i2 \
+sim:/testbench/i3 \
+sim:/testbench/result \
+sim:/testbench/done
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        10, i2=        20, i3=         5
+# Expected Result: 100
+# Actual Result:          100
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v(71)
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample1/codes/testbench.v line 71
+quit -sim
+# End time: 18:24:38 on Dec 30,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 3
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of top_module.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.top_module
+# vsim -gui work.top_module 
+# Start time: 18:25:04 on Dec 30,2025
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+quit -sim
+# End time: 18:25:12 on Dec 30,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 5
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:25:35 on Dec 30,2025
+# Loading work.testbench
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+quit -sim
+# End time: 18:28:19 on Dec 30,2025, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 1
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of top_module.v was successful.
+# Compile of testbench2.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of testbench2.v was successful.
+vsim -gui work.testbench2
+# vsim -gui work.testbench2 
+# Start time: 18:28:57 on Dec 30,2025
+# Loading work.testbench2
+# Loading work.top_module
+# Loading work.controller
+# Loading work.datapath
+add wave -position insertpoint  \
+sim:/testbench2/clk \
+sim:/testbench2/rst \
+sim:/testbench2/start \
+sim:/testbench2/i1 \
+sim:/testbench2/i2 \
+sim:/testbench2/i3 \
+sim:/testbench2/result \
+sim:/testbench2/done
+run -all
+# --------------------------------------------------
+# Simulation Finished
+# Inputs: i1=        20, i2=         5, i3=        30
+# Expected Result: 25
+# Actual Result:           25
+# TEST PASSED
+# --------------------------------------------------
+# ** Note: $stop    : C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample2/codes/testbench2.v(78)
+#    Time: 115 ns  Iteration: 0  Instance: /testbench2
+# Break in Module testbench2 at C:/Users/ASUS/Desktop/CAD/CAD/CA5/Codes/samples/sample2/codes/testbench2.v line 78
+# End time: 18:29:16 on Dec 30,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 5

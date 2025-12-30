@@ -10,7 +10,7 @@ class VerilogGenerator:
         self.resources = {} 
         self.node_map = {info.node.id: info for info in schedule_info}
         
-        # 1. Deduce Root Node (The node that is not an operand of any other node)
+        # 1. Deduce Root Node
         producer_ids = {info.node.id for info in schedule_info}
         consumer_ids = set()
         for info in schedule_info:
@@ -23,10 +23,9 @@ class VerilogGenerator:
             root_id = max(possible_roots)
             self.root = self.node_map[root_id].node
         else:
-            # Fallback: use the last scheduled node
             self.root = schedule_info[-1].node
 
-        # 2. Find all Inputs (Identifiers) by scanning operands
+        # 2. Find all Inputs (Identifiers)
         self.identifiers = set()
         for info in schedule_info:
             for op in info.node.operands:
@@ -41,7 +40,6 @@ class VerilogGenerator:
             self.resources[key].append((info.scheduled_time, info.node))
 
     def get_operand_wire(self, operand):
-        """Returns the Verilog wire name for a given operand node."""
         if isinstance(operand, IdentifierNode):
             return operand.name
         elif isinstance(operand, OperatorNode):
@@ -51,30 +49,35 @@ class VerilogGenerator:
     def generate_datapath(self):
         lines = []
         lines.append(f"module datapath(")
-        lines.append(f"  input clk, rst,")
+        
+        ports = []
+        ports.append("input clk, rst")
         
         # Inputs
         for ident in sorted(list(self.identifiers)):
-            lines.append(f"  input [31:0] {ident},")
+            ports.append(f"input [31:0] {ident}")
             
         # Control Signals
         for (rtype, rnum) in self.resources.keys():
             res_name = f"{rtype.lower()}{rnum}"
-            lines.append(f"  input [3:0] {res_name}_sel1,")
-            lines.append(f"  input [3:0] {res_name}_sel2,")
+            ports.append(f"input [3:0] {res_name}_sel1")
+            ports.append(f"input [3:0] {res_name}_sel2")
             if rtype in ["ALU", "MUL"]:
-                lines.append(f"  input {res_name}_op,")
+                ports.append(f"input {res_name}_op")
             elif rtype == "LOG":
-                lines.append(f"  input [1:0] {res_name}_op,")
+                ports.append(f"input [1:0] {res_name}_op")
                 
-        lines.append(f"  input done_next,")
-        lines.append(f"  input result_en,")
+        ports.append("input done_next")
+        ports.append("input result_en")
+        
         for info in self.schedule_info:
-            lines.append(f"  input reg_{info.node.op_type.lower()}{info.node.id}_en,")
+            ports.append(f"input reg_{info.node.op_type.lower()}{info.node.id}_en")
             
-        lines.append(f"  output reg [31:0] result,")
-        lines.append(f"  output reg done")
-        lines.append(f");")
+        ports.append("output reg [31:0] result")
+        ports.append("output reg done")
+        
+        lines.append("  " + ",\n  ".join(ports))
+        lines.append(");")
         
         # Wires & Registers
         lines.append("\n  // Wires for FU outputs")
@@ -117,8 +120,7 @@ class VerilogGenerator:
 
         # Functional Units
         lines.append("\n  // Functional Units")
-        # FIXED LOOP HERE: Iterate over keys, or unpack correctly
-        for (rtype, rnum) in self.resources: 
+        for (rtype, rnum) in self.resources.keys(): 
             res_name_str = f"{rtype.lower()}{rnum}"
             lines.append(f"  // {rtype} Unit {rnum}")
             lines.append(f"  reg [31:0] {res_name_str}_out_reg;")
@@ -165,20 +167,25 @@ class VerilogGenerator:
     def generate_controller(self):
         lines = []
         lines.append(f"module controller(")
-        lines.append(f"  input clk, rst, start,")
-        lines.append(f"  output reg op_ready,")
+        
+        ports = []
+        ports.append("input clk, rst, start")
+        ports.append("output reg op_ready")
         
         for (rtype, rnum) in self.resources.keys():
             res_name = f"{rtype.lower()}{rnum}"
-            lines.append(f"  output reg [3:0] {res_name}_sel1, {res_name}_sel2,")
+            ports.append(f"output reg [3:0] {res_name}_sel1, {res_name}_sel2")
             if rtype in ["ALU", "MUL"]:
-                lines.append(f"  output reg {res_name}_op,")
+                ports.append(f"output reg {res_name}_op")
             elif rtype == "LOG":
-                lines.append(f"  output reg [1:0] {res_name}_op,")
+                ports.append(f"output reg [1:0] {res_name}_op")
                 
-        lines.append(f"  output reg done_next, result_en,")
+        ports.append("output reg done_next, result_en")
+        
         for info in self.schedule_info:
-            lines.append(f"  output reg reg_{info.node.op_type.lower()}{info.node.id}_en,")
+            ports.append(f"output reg reg_{info.node.op_type.lower()}{info.node.id}_en")
+            
+        lines.append("  " + ",\n  ".join(ports))
         lines.append(");")
 
         lines.append("  reg [3:0] state, next_state;")
@@ -240,5 +247,82 @@ class VerilogGenerator:
         lines.append("      end")
         lines.append("    endcase")
         lines.append("  end")
+        lines.append("endmodule")
+        return "\n".join(lines)
+
+    def generate_top_module(self):
+        lines = []
+        
+        # 1. Define Ports for Top Module
+        ports = ["input clk, rst, start"]
+        for ident in sorted(list(self.identifiers)):
+            ports.append(f"input [31:0] {ident}")
+        ports.append("output [31:0] result")
+        ports.append("output done")
+        
+        lines.append("module top_module(")
+        lines.append("  " + ",\n  ".join(ports))
+        lines.append(");")
+
+        # 2. Define Interconnect Wires
+        lines.append("\n  // Interconnect Wires")
+        lines.append("  wire op_ready;")
+        lines.append("  wire done_next, result_en;")
+        
+        for (rtype, rnum) in self.resources.keys():
+            res_name = f"{rtype.lower()}{rnum}"
+            lines.append(f"  wire [3:0] {res_name}_sel1, {res_name}_sel2;")
+            if rtype in ["ALU", "MUL"]:
+                lines.append(f"  wire {res_name}_op;")
+            elif rtype == "LOG":
+                lines.append(f"  wire [1:0] {res_name}_op;")
+        
+        for info in self.schedule_info:
+            lines.append(f"  wire reg_{info.node.op_type.lower()}{info.node.id}_en;")
+
+        # 3. Instantiate Controller
+        lines.append("\n  controller ctrl_inst (")
+        ctrl_ports = [
+            ".clk(clk)", ".rst(rst)", ".start(start)", ".op_ready(op_ready)",
+            ".done_next(done_next)", ".result_en(result_en)"
+        ]
+        # Connect Resource ports
+        for (rtype, rnum) in self.resources.keys():
+            res_name = f"{rtype.lower()}{rnum}"
+            ctrl_ports.append(f".{res_name}_sel1({res_name}_sel1)")
+            ctrl_ports.append(f".{res_name}_sel2({res_name}_sel2)")
+            ctrl_ports.append(f".{res_name}_op({res_name}_op)")
+        # Connect Reg enables
+        for info in self.schedule_info:
+            reg_name = f"reg_{info.node.op_type.lower()}{info.node.id}_en"
+            ctrl_ports.append(f".{reg_name}({reg_name})")
+            
+        lines.append("    " + ",\n    ".join(ctrl_ports))
+        lines.append("  );")
+
+        # 4. Instantiate Datapath
+        lines.append("\n  datapath dp_inst (")
+        dp_ports = [
+            ".clk(clk)", ".rst(rst)", 
+            ".done_next(done_next)", ".result_en(result_en)",
+            ".result(result)", ".done(done)"
+        ]
+        # Connect Identifiers
+        for ident in sorted(list(self.identifiers)):
+            dp_ports.append(f".{ident}({ident})")
+        # Connect Resource ports (same wires as controller)
+        for (rtype, rnum) in self.resources.keys():
+            res_name = f"{rtype.lower()}{rnum}"
+            dp_ports.append(f".{res_name}_sel1({res_name}_sel1)")
+            dp_ports.append(f".{res_name}_sel2({res_name}_sel2)")
+            dp_ports.append(f".{res_name}_op({res_name}_op)")
+        # Connect Reg enables
+        for info in self.schedule_info:
+            reg_name = f"reg_{info.node.op_type.lower()}{info.node.id}_en"
+            dp_ports.append(f".{reg_name}({reg_name})")
+
+        lines.append("    " + ",\n    ".join(dp_ports))
+        lines.append("  );")
+
         lines.append("endmodule")
         return "\n".join(lines)
