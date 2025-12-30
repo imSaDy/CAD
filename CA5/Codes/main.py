@@ -1,10 +1,12 @@
 import ast
 import sys
 import json
+import os
 from pathlib import Path
 from src.dfg_creator import GraphBuilder
 from src.graph_visualizer import expression_to_graph, visualize_graph, visualize_scheduled_graph
 from src.scheduler import MinLatencyScheduler, MinResourceScheduler, ScheduledNodeInfo
+from src.verilog_generator import VerilogGenerator
 
 MinResourceAlgorithm = "MinResourceLatencyConstrained"
 MinlatencyAlgorithm = "MinLatencyResourceContrained"
@@ -46,7 +48,20 @@ def schedule_dfg(dfg_root, algorithm : str, config : dict, folder_path : str) ->
 '''
 # TODO
 def generate_verilog(folder_path : str, schedule_info : list[ScheduledNodeInfo]):
-    pass
+    # Pass ONLY schedule_info. The generator class now deduces the root internally.
+    generator = VerilogGenerator(schedule_info)
+    
+    datapath_code = generator.generate_datapath()
+    controller_code = generator.generate_controller()
+    
+    # Ensure directory exists
+    os.makedirs(folder_path + "/codes", exist_ok=True)
+    
+    with open(folder_path + "/codes/datapath.v", "w") as f:
+        f.write(datapath_code)
+        
+    with open(folder_path + "/codes/controller.v", "w") as f:
+        f.write(controller_code)
 
 def save_result(folder_path : str, schedule_info : list[ScheduledNodeInfo]):
     json_output = {}
