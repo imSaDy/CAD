@@ -48,15 +48,12 @@ def schedule_dfg(dfg_root, algorithm : str, config : dict, folder_path : str) ->
 '''
 # TODO
 def generate_verilog(folder_path : str, schedule_info : list[ScheduledNodeInfo]):
-    # Pass ONLY schedule_info. The generator class now deduces the root internally.
     generator = VerilogGenerator(schedule_info)
     
     datapath_code = generator.generate_datapath()
     controller_code = generator.generate_controller()
-    # NEW: Generate top module
     top_module_code = generator.generate_top_module()
     
-    # Ensure directory exists
     os.makedirs(folder_path + "/codes", exist_ok=True)
     
     with open(folder_path + "/codes/datapath.v", "w") as f:
@@ -65,7 +62,6 @@ def generate_verilog(folder_path : str, schedule_info : list[ScheduledNodeInfo])
     with open(folder_path + "/codes/controller.v", "w") as f:
         f.write(controller_code)
 
-    # NEW: Save top module
     with open(folder_path + "/codes/top_module.v", "w") as f:
         f.write(top_module_code)
 

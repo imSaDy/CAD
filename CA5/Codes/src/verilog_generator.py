@@ -10,7 +10,6 @@ class VerilogGenerator:
         self.resources = {} 
         self.node_map = {info.node.id: info for info in schedule_info}
         
-        # 1. Deduce Root Node
         producer_ids = {info.node.id for info in schedule_info}
         consumer_ids = set()
         for info in schedule_info:
@@ -25,14 +24,12 @@ class VerilogGenerator:
         else:
             self.root = schedule_info[-1].node
 
-        # 2. Find all Inputs (Identifiers)
         self.identifiers = set()
         for info in schedule_info:
             for op in info.node.operands:
                 if isinstance(op, IdentifierNode):
                     self.identifiers.add(op.name)
         
-        # 3. Populate resource usage map
         for info in schedule_info:
             key = (info.node.op_type, info.resource_num)
             if key not in self.resources:
@@ -53,11 +50,9 @@ class VerilogGenerator:
         ports = []
         ports.append("input clk, rst")
         
-        # Inputs
         for ident in sorted(list(self.identifiers)):
             ports.append(f"input [31:0] {ident}")
             
-        # Control Signals
         for (rtype, rnum) in self.resources.keys():
             res_name = f"{rtype.lower()}{rnum}"
             ports.append(f"input [3:0] {res_name}_sel1")
@@ -79,7 +74,6 @@ class VerilogGenerator:
         lines.append("  " + ",\n  ".join(ports))
         lines.append(");")
         
-        # Wires & Registers
         lines.append("\n  // Wires for FU outputs")
         for (rtype, rnum) in self.resources:
              lines.append(f"  wire [31:0] {rtype.lower()}{rnum}_out;")
@@ -89,12 +83,10 @@ class VerilogGenerator:
         for info in self.schedule_info:
             lines.append(f"  reg [31:0] reg_{info.node.op_type.lower()}{info.node.id};")
             
-        # Mux Logic
         lines.append("\n  // Muxing logic for FU inputs")
         for (rtype, rnum), ops in self.resources.items():
             res_name = f"{rtype.lower()}{rnum}"
             
-            # Op1 Mux
             lines.append(f"  reg [31:0] {res_name}_op1_reg;")
             lines.append(f"  always @(*) begin")
             lines.append(f"    case ({res_name}_sel1)")
@@ -106,7 +98,6 @@ class VerilogGenerator:
             lines.append(f"  end")
             lines.append(f"  assign {res_name}_op1 = {res_name}_op1_reg;")
 
-            # Op2 Mux
             lines.append(f"  reg [31:0] {res_name}_op2_reg;")
             lines.append(f"  always @(*) begin")
             lines.append(f"    case ({res_name}_sel2)")
@@ -118,7 +109,6 @@ class VerilogGenerator:
             lines.append(f"  end")
             lines.append(f"  assign {res_name}_op2 = {res_name}_op2_reg;")
 
-        # Functional Units
         lines.append("\n  // Functional Units")
         for (rtype, rnum) in self.resources.keys(): 
             res_name_str = f"{rtype.lower()}{rnum}"
@@ -143,7 +133,6 @@ class VerilogGenerator:
             lines.append(f"  end")
             lines.append(f"  assign {res_name_str}_out = {res_name_str}_out_reg;")
 
-        # Register Updates
         lines.append("\n  // Register update logic")
         lines.append("  always @(posedge clk or posedge rst) begin")
         lines.append("    if (rst) begin")
@@ -226,7 +215,6 @@ class VerilogGenerator:
             for info in nodes_at_t:
                 res_name = f"{info.node.op_type.lower()}{info.resource_num}"
                 
-                # Mux Selects
                 lines.append(f"        {res_name}_sel1 = 4'd{info.node.id};")
                 lines.append(f"        {res_name}_sel2 = 4'd{info.node.id};")
                 
@@ -253,7 +241,6 @@ class VerilogGenerator:
     def generate_top_module(self):
         lines = []
         
-        # 1. Define Ports for Top Module
         ports = ["input clk, rst, start"]
         for ident in sorted(list(self.identifiers)):
             ports.append(f"input [31:0] {ident}")
@@ -264,7 +251,6 @@ class VerilogGenerator:
         lines.append("  " + ",\n  ".join(ports))
         lines.append(");")
 
-        # 2. Define Interconnect Wires
         lines.append("\n  // Interconnect Wires")
         lines.append("  wire op_ready;")
         lines.append("  wire done_next, result_en;")
@@ -280,19 +266,18 @@ class VerilogGenerator:
         for info in self.schedule_info:
             lines.append(f"  wire reg_{info.node.op_type.lower()}{info.node.id}_en;")
 
-        # 3. Instantiate Controller
         lines.append("\n  controller ctrl_inst (")
         ctrl_ports = [
             ".clk(clk)", ".rst(rst)", ".start(start)", ".op_ready(op_ready)",
             ".done_next(done_next)", ".result_en(result_en)"
         ]
-        # Connect Resource ports
+
         for (rtype, rnum) in self.resources.keys():
             res_name = f"{rtype.lower()}{rnum}"
             ctrl_ports.append(f".{res_name}_sel1({res_name}_sel1)")
             ctrl_ports.append(f".{res_name}_sel2({res_name}_sel2)")
             ctrl_ports.append(f".{res_name}_op({res_name}_op)")
-        # Connect Reg enables
+
         for info in self.schedule_info:
             reg_name = f"reg_{info.node.op_type.lower()}{info.node.id}_en"
             ctrl_ports.append(f".{reg_name}({reg_name})")
@@ -300,23 +285,22 @@ class VerilogGenerator:
         lines.append("    " + ",\n    ".join(ctrl_ports))
         lines.append("  );")
 
-        # 4. Instantiate Datapath
         lines.append("\n  datapath dp_inst (")
         dp_ports = [
             ".clk(clk)", ".rst(rst)", 
             ".done_next(done_next)", ".result_en(result_en)",
             ".result(result)", ".done(done)"
         ]
-        # Connect Identifiers
+
         for ident in sorted(list(self.identifiers)):
             dp_ports.append(f".{ident}({ident})")
-        # Connect Resource ports (same wires as controller)
+
         for (rtype, rnum) in self.resources.keys():
             res_name = f"{rtype.lower()}{rnum}"
             dp_ports.append(f".{res_name}_sel1({res_name}_sel1)")
             dp_ports.append(f".{res_name}_sel2({res_name}_sel2)")
             dp_ports.append(f".{res_name}_op({res_name}_op)")
-        # Connect Reg enables
+
         for info in self.schedule_info:
             reg_name = f"reg_{info.node.op_type.lower()}{info.node.id}_en"
             dp_ports.append(f".{reg_name}({reg_name})")
