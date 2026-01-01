@@ -97,7 +97,7 @@ class MinLatencyScheduler(ListScheduler):
         selected = []
         resources_avail = self.numof_resources.copy()
         
-        sorted_frontier = sorted(frontier, key=lambda x: x.depth) 
+        sorted_frontier = sorted(frontier, key=lambda x: -x.depth)
         
         for node in sorted_frontier:
             op_type = node.op_type
