@@ -1,0 +1,69 @@
+{
+    "2": {
+        "clk": 1,
+        "resource_type": "MUL",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "4": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 1,
+        "dependency": [
+            "2"
+        ]
+    },
+    "7": {
+        "clk": 1,
+        "resource_type": "MUL",
+        "resource_num": 2,
+        "dependency": []
+    },
+    "9": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 2,
+        "dependency": [
+            "7"
+        ]
+    },
+    "10": {
+        "clk": 3,
+        "resource_type": "LOG",
+        "resource_num": 1,
+        "dependency": [
+            "4",
+            "9"
+        ]
+    },
+    "13": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 3,
+        "dependency": []
+    },
+    "16": {
+        "clk": 2,
+        "resource_type": "MUL",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "17": {
+        "clk": 3,
+        "resource_type": "LOG",
+        "resource_num": 2,
+        "dependency": [
+            "13",
+            "16"
+        ]
+    },
+    "18": {
+        "clk": 4,
+        "resource_type": "MUL",
+        "resource_num": 1,
+        "dependency": [
+            "10",
+            "17"
+        ]
+    }
+}

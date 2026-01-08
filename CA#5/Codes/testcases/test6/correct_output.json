@@ -1,0 +1,76 @@
+{
+    "2": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "4": {
+        "clk": 1,
+        "resource_type": "ALU",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "5": {
+        "clk": 1,
+        "resource_type": "LOG",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "6": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 2,
+        "dependency": [
+            "4",
+            "5"
+        ]
+    },
+    "7": {
+        "clk": 3,
+        "resource_type": "MUL",
+        "resource_num": 1,
+        "dependency": [
+            "2",
+            "6"
+        ]
+    },
+    "8": {
+        "clk": 2,
+        "resource_type": "MUL",
+        "resource_num": 1,
+        "dependency": []
+    },
+    "9": {
+        "clk": 1,
+        "resource_type": "LOG",
+        "resource_num": 2,
+        "dependency": []
+    },
+    "10": {
+        "clk": 2,
+        "resource_type": "ALU",
+        "resource_num": 3,
+        "dependency": [
+            "9"
+        ]
+    },
+    "11": {
+        "clk": 3,
+        "resource_type": "ALU",
+        "resource_num": 1,
+        "dependency": [
+            "8",
+            "10"
+        ]
+    },
+    "12": {
+        "clk": 4,
+        "resource_type": "ALU",
+        "resource_num": 1,
+        "dependency": [
+            "7",
+            "11"
+        ]
+    }
+}

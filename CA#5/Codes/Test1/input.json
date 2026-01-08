@@ -1,0 +1,8 @@
+{
+  "Expression": "((i1 + i3) * ((i1 + i2) * (i2 + i3)))",
+  "Algorithm": "MinLatencyResourceConstrained",
+  "Config": {
+    "MaxTime": 5,
+    "Resources": { "ALU": 2, "MUL": 1, "LOG": 1 }
+  }
+}
