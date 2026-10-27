@@ -1,39 +1,20 @@
-# Computer-Aided Design (CAD) of Digital Systems - Fall 1404
+# Computer-Aided Design of Digital Systems
 
-This repository contains the complete set of projects and laboratory assignments for the **Computer-Aided Design of Digital Systems** course at the **University of Tehran**, Department of Electrical and Computer Engineering.
-  
-**Term:** Fall 1404 (Autumn 2025)
+Assignments for the Computer-Aided Design of Digital Systems course at the University of Tehran, Fall 2025, done with [Erfan Falahati](https://github.com/erfan-f). The work goes from RTL design in Verilog down to gate-level mapping, then to automated synthesis and scheduling. Each folder has the assignment statement (in Persian), our code and design diagrams, and from CA2 on, a report.
 
-## 📂 Project Overview
+| Folder | Assignment | What we did |
+| --- | --- | --- |
+| [CA#1](CA%231) | Hash generator RTL | A 128-bit hash generator in Verilog, built as a datapath and controller. A message of four 32-bit words goes through 64 rounds. Part 1 is the shift-register random number generator it uses; the two modules synchronize through a start/done handshake. |
+| [CA#2](CA%232) | Bit-serial arithmetic | A bit-serial unit for the dot product of two vectors, based on the Stripes accelerator, then reused to build a matrix-vector multiplier. Test inputs and expected outputs are included. |
+| [CA#3](CA%233) | Manual synthesis | A simplified version of the CA1 hash generator built only from the four basic cells the course provides (C1, C2, S1 and S2), without Verilog operators. The goal was to stay under 3,800 gates in total. |
+| [CA#4](CA%234) | Synthesis with Yosys | The same simplified design synthesized with Yosys. A Python script (`lut2mapper_fixed.py`) maps the generic LUTs that Yosys produces onto the course's basic cells, so the result can be compared with the hand-made design from CA3. |
+| [CA#5](CA%235) | Scheduling and code generation | A Python tool that reads an arithmetic expression, builds its data-flow graph, schedules it with either resource-constrained minimum-latency or latency-constrained minimum-resource list scheduling, and generates the matching Verilog datapath and controller. |
 
-### 1. Hash Generator RTL Design
-* **Focus:** Datapath & Controller design using the Huffman model.
-* **Key Features:** Implemented a 128-bit Hash Generator in Verilog with modular PRNG and Hash cores.
-* **Concepts:** Moore State Machines, Handshaking protocols (`start_rnd`, `done_rnd`), and RTL verification.
+## Running
 
-### 2. Bit-Serial Arithmetic & Stripes Accelerator
-* **Focus:** Hardware resource optimization and serial processing.
-* **Key Features:** Designed a **Bit-Serial Dot Product** module and scaled it into a **Matrix-Vector Multiplier**.
-* **Concepts:** Bit-serial architectures, sign-extension, and memory integration for hardware accelerators.
+The Verilog designs were simulated in ModelSim; each folder has a testbench. CA4 needs [Yosys](https://github.com/YosysHQ/yosys) (the script is `CA#4/Code/lut2synthesis.ys`). CA5 needs Python 3 and the `graphviz` package, and runs on one of the sample folders:
 
-### 3. Structural Synthesis on FPGA Logic Cells
-* **Focus:** Manual synthesis and mapping to Actel basic cells.
-* **Key Features:** Re-implemented the Hash Generator using structural Verilog, mapping logic to specific FPGA primitives (`C1`, `C2`, `S1`, `S2`).
-* **Constraints:** Optimized the design to stay under a strict gate-count limit (< 3800 gates).
-
-### 4. Automated Synthesis Flow with Yosys
-* **Focus:** Logic mapping automation and CAD tool chains.
-* **Key Features:** Integrated **Yosys** to synthesize RTL into netlists and developed a Python mapper (`lut2mapper.py`) to convert generic LUTs to Actel cells.
-* **Analysis:** Comparison between manual structural design and automated synthesis results.
-
-### 5. HLS & Automated Scheduling Algorithms
-* **Focus:** High-Level Synthesis (HLS) and DFG scheduling.
-* **Key Features:** Developed Python tools to implement:
-    1.  **Resource-Constrained Scheduling** (Minimum Latency)
-    2.  **Latency-Constrained Scheduling** (Minimum Resource)
-* **Automation:** Generated full RTL Verilog (Datapath + Controller) directly from mathematical expressions and scheduled Data Flow Graphs (DFG).
-
-
-## 👥 Contributors
-* **[Sadegh Samadi](https://github.com/imSaDy)**
-* **[Erfan Falahati](https://github.com/erfan-f)**
+```sh
+cd "CA#5/Codes"
+python main.py ./samples/sample1/
+```
